@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Train-Test Split on Agus Fahmi Aji Pramana</title>
+    <link>http://localhost:1313/tags/train-test-split/</link>
+    <description>Recent content in Train-Test Split on Agus Fahmi Aji Pramana</description>
+    <image>
+      <title>Agus Fahmi Aji Pramana</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 07 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/train-test-split/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cara Preprocessing Data dengan Baik</title>
+      <link>http://localhost:1313/blogs/cara-preprocessing-data-dengan-baik/</link>
+      <pubDate>Fri, 07 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/cara-preprocessing-data-dengan-baik/</guid>
+      <description>Cara Preprocessing Data dengan Baik</description>
+      <content:encoded><![CDATA[<h1 id="panduan-preprocessing-data-yang-baik-dalam-machine-learning">Panduan Preprocessing Data yang Baik dalam Machine Learning</h1>
+<p>Preprocessing adalah langkah penting dalam alur kerja data science dan machine learning. Data yang baik adalah kunci untuk model yang akurat dan dapat diandalkan. Artikel ini akan membahas pentingnya preprocessing data dan beberapa teknik yang umum digunakan untuk mempersiapkan data sebelum digunakan dalam pelatihan model machine learning.</p>
+<h2 id="apa-itu-preprocessing-data">Apa itu Preprocessing Data?</h2>
+<p>Preprocessing data adalah serangkaian langkah yang dilakukan untuk membersihkan, memformat, dan mengubah data mentah agar siap digunakan dalam analisis atau pembuatan model machine learning. Langkah-langkah ini bertujuan untuk meningkatkan kualitas data dan memastikan model yang dibangun dapat memberikan hasil yang optimal.</p>
+<h2 id="mengapa-preprocessing-data-itu-penting">Mengapa Preprocessing Data Itu Penting?</h2>
+<p>Data yang tidak diproses dengan baik dapat mengarah pada model yang buruk atau bahkan tidak dapat digunakan sama sekali. Berikut beberapa alasan mengapa preprocessing sangat penting:</p>
+<ul>
+<li><strong>Membersihkan Data</strong>: Menghapus noise, menangani nilai yang hilang, atau memperbaiki kesalahan data.</li>
+<li><strong>Meningkatkan Akurasi Model</strong>: Dengan data yang bersih dan relevan, model machine learning dapat belajar dengan lebih baik.</li>
+<li><strong>Menghindari Bias</strong>: Preprocessing membantu menghindari bias dalam data yang dapat memengaruhi prediksi model.</li>
+<li><strong>Meningkatkan Kecepatan Pelatihan</strong>: Beberapa teknik preprocessing dapat mempercepat waktu pelatihan model.</li>
+</ul>
+<h2 id="langkah-langkah-preprocessing-yang-umum">Langkah-langkah Preprocessing yang Umum</h2>
+<h3 id="1-menangani-nilai-yang-hilang">1. Menangani Nilai yang Hilang</h3>
+<p>Data yang hilang adalah masalah umum dalam dataset dunia nyata. Ada beberapa cara untuk menangani nilai yang hilang:</p>
+<ul>
+<li><strong>Menghapus Baris atau Kolom</strong>: Jika proporsi data yang hilang terlalu besar, bisa saja lebih baik untuk menghapusnya.</li>
+<li><strong>Imputasi</strong>: Mengisi nilai yang hilang dengan statistik seperti rata-rata, median, atau modus.</li>
+<li><strong>Interpolasi</strong>: Menggunakan nilai terdekat untuk mengisi data yang hilang, sering digunakan dalam data time series.</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Imputasi menggunakan rata-rata</span>
+</span></span><span class="line"><span class="cl"><span class="n">df</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">mean</span><span class="p">(),</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="2-normalisasi-dan-standarisasi">2. Normalisasi dan Standarisasi</h3>
+<p>Proses ini penting ketika fitur dalam dataset memiliki skala yang sangat berbeda. Model machine learning seperti K-Nearest Neighbors (KNN) atau SVM sangat dipengaruhi oleh skala fitur.</p>
+<ul>
+<li><strong>Normalisasi</strong>: Menyelaraskan data ke dalam rentang [0, 1] atau [-1, 1].</li>
+<li><strong>Standarisasi</strong>: Mengubah data sehingga memiliki rata-rata 0 dan deviasi standar 1.</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">sklearn.preprocessing</span> <span class="kn">import</span> <span class="n">StandardScaler</span><span class="p">,</span> <span class="n">MinMaxScaler</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Standarisasi</span>
+</span></span><span class="line"><span class="cl"><span class="n">scaler</span> <span class="o">=</span> <span class="n">StandardScaler</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="n">df_scaled</span> <span class="o">=</span> <span class="n">scaler</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Normalisasi</span>
+</span></span><span class="line"><span class="cl"><span class="n">min_max_scaler</span> <span class="o">=</span> <span class="n">MinMaxScaler</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="n">df_normalized</span> <span class="o">=</span> <span class="n">min_max_scaler</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">df</span><span class="p">)</span> 
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="3-pengkodean-kategorikal">3. Pengkodean Kategorikal</h3>
+<p>Data kategorikal harus dikonversi ke format numerik agar dapat digunakan dalam model machine learning. Ada beberapa cara untuk melakukan ini:</p>
+<ul>
+<li><strong>Label Encoding</strong>: Mengonversi kategori menjadi angka.</li>
+<li><strong>One-Hot Encoding</strong>: Membuat kolom biner untuk setiap kategori.</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">sklearn.preprocessing</span> <span class="kn">import</span> <span class="n">LabelEncoder</span><span class="p">,</span> <span class="n">OneHotEncoder</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Label Encoding</span>
+</span></span><span class="line"><span class="cl"><span class="n">encoder</span> <span class="o">=</span> <span class="n">LabelEncoder</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="n">df</span><span class="p">[</span><span class="s1">&#39;encoded_column&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">encoder</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;category_column&#39;</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># One-Hot Encoding</span>
+</span></span><span class="line"><span class="cl"><span class="n">df_encoded</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">get_dummies</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;category_column&#39;</span><span class="p">])</span> 
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="4-deteksi-dan-penanganan-outlier">4. Deteksi dan Penanganan Outlier</h3>
+<p>Outlier adalah nilai ekstrem yang bisa mempengaruhi model dan analisis. Ada beberapa cara untuk menangani outlier:</p>
+<ul>
+<li><strong>Menghapus Outlier</strong>: Menghapus nilai yang terlalu jauh dari rata-rata.</li>
+<li><strong>Transformasi</strong>: Menggunakan transformasi matematis seperti log atau kuadrat untuk meredam efek outlier.</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># Deteksi outlier menggunakan IQR</span>
+</span></span><span class="line"><span class="cl"><span class="n">Q1</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;column&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">quantile</span><span class="p">(</span><span class="mf">0.25</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">Q3</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;column&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">quantile</span><span class="p">(</span><span class="mf">0.75</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">IQR</span> <span class="o">=</span> <span class="n">Q3</span> <span class="o">-</span> <span class="n">Q1</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Menghapus outlier</span>
+</span></span><span class="line"><span class="cl"><span class="n">df_no_outliers</span> <span class="o">=</span> <span class="n">df</span><span class="p">[(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;column&#39;</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="p">(</span><span class="n">Q1</span> <span class="o">-</span> <span class="mf">1.5</span> <span class="o">*</span> <span class="n">IQR</span><span class="p">))</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;column&#39;</span><span class="p">]</span> <span class="o">&lt;=</span> <span class="p">(</span><span class="n">Q3</span> <span class="o">+</span> <span class="mf">1.5</span> <span class="o">*</span> <span class="n">IQR</span><span class="p">))]</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="5-pembagian-data-untuk-pelatihan-dan-pengujian">5. Pembagian Data untuk Pelatihan dan Pengujian</h3>
+<p>Sebelum melatih model, penting untuk membagi data menjadi dua set: data pelatihan dan data pengujian. Pembagian yang umum adalah 80% untuk pelatihan dan 20% untuk pengujian.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="kn">import</span> <span class="n">train_test_split</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Membagi data</span>
+</span></span><span class="line"><span class="cl"><span class="n">X_train</span><span class="p">,</span> <span class="n">X_test</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">y_test</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="s1">&#39;target&#39;</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">),</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;target&#39;</span><span class="p">],</span> <span class="n">test_size</span><span class="o">=</span><span class="mf">0.2</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">42</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="kesimpulan">Kesimpulan</h3>
+<p>Preprocessing data adalah langkah krusial dalam pipeline machine learning. Dengan menangani nilai yang hilang, normalisasi, pengkodean kategorikal, dan deteksi outlier, kita dapat memastikan bahwa model machine learning kita dilatih dengan data yang berkualitas tinggi. Meskipun preprocessing bisa memakan waktu, langkah ini sangat berpengaruh terhadap kinerja dan akurasi model yang dihasilkan. Pastikan untuk selalu memeriksa dataset Anda dan menerapkan teknik preprocessing yang tepat untuk mencapai hasil yang terbaik.</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>
