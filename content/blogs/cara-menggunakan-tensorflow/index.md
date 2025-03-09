@@ -11,5 +11,16 @@ cover:
   hidden: false
 draft: false
 ---
-## Demo
-# Demo
+# Cara Menggunakan TensorFlow untuk Machine Learning
+
+TensorFlow adalah pustaka sumber terbuka yang banyak digunakan dalam pengembangan aplikasi machine learning (ML) dan deep learning (DL). Dikembangkan oleh Google, TensorFlow menawarkan fleksibilitas tinggi untuk berbagai jenis model pembelajaran mesin, mulai dari model sederhana hingga model yang sangat kompleks.
+
+Artikel ini akan membahas langkah-langkah dasar untuk menggunakan TensorFlow dalam proyek machine learning Anda.
+
+## 1. Persiapan Lingkungan
+
+### 1.1 Instalasi TensorFlow
+Untuk mulai menggunakan TensorFlow, pertama-tama Anda harus menginstalnya. Anda dapat melakukannya menggunakan pip (Python Package Index).
+
+```python
+pip install tensorflow
