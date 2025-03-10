@@ -136,18 +136,26 @@ menu:
       name: about me
       url: /aboutme/
       weight: 10
-    - identifier: blogs
-      name: blogs
-      url: /blogs/
-      weight: 20
     - identifier: projects
       name: projects
       url: /projects/
+      weight: 20
+    - identifier: blogs
+      name: blogs
+      url: /blogs/
       weight: 30
+    - identifier: archives
+      name: archives
+      url: /archives/
+      weight: 40
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 50
     - identifier: search
       name: search
       url: /search/
-      weight: 40
+      weight: 60
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
