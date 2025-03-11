@@ -145,18 +145,14 @@ menu:
       name: blogs
       url: /blogs/
       weight: 30
-    - identifier: archives
-      name: archives
-      url: /archives/
-      weight: 40
     - identifier: tags
       name: tags
       url: /tags/
-      weight: 50
+      weight: 40
     - identifier: search
       name: 🔍
       url: /search/
-      weight: 60
+      weight: 50
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
