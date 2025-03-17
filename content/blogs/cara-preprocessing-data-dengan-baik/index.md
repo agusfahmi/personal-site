@@ -9,7 +9,7 @@ tags: [Python, Data Visualization, Data Analysis]
 summary: Exploratory Data Analysis of Amazon's top 50 bestselling books 2009 - 2019
 draft : false
 cover:
-    image: cidr-16.webp
+    image: data.avif
     hidden: false
     alt: image of an multiple books, most closed and some open
 ---
