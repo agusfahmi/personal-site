@@ -93,11 +93,11 @@ params:
 
   socialIcons:
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/agusfahmi"
     - name: linkedin
       url: "https://www.linkedin.com/in/agusfahmiajipramana/"
     - name: cv
-      url: ""
+      url: "document/CV.pdf"
 
   analytics:
     google:
