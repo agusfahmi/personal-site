@@ -6,7 +6,7 @@ date: '2025-03-09'
 tags: []
 cover:
   relative: true
-  image: 'img/cover.webp'
+  image: 'tensorflow.svg'
   alt: 'Cover'
   hidden: false
 draft: false
