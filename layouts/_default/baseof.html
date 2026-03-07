@@ -18,6 +18,9 @@
         {{- block "main" . }}{{ end }}
     </main>
     {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}
+{{ $js := resources.Get "js/main.js" | minify | fingerprint }}
+
+<script src="{{ $js.RelPermalink }}"></script>
 </body>
 
 </html>

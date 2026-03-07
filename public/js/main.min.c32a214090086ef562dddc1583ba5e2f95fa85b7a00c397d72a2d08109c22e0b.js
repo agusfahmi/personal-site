@@ -1,0 +1,1 @@
+function filterPosts(e){const t=document.querySelectorAll(".portfolio-item");t.forEach(t=>{if(e==="all"){t.style.display="block";return}t.classList.contains("tag-"+e)?t.style.display="block":t.style.display="none"})}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Logo on Agus Fahmi Aji Pramana</title>
+    <link>http://localhost:1313/tags/logo/</link>
+    <description>Recent content in Logo on Agus Fahmi Aji Pramana</description>
+    <image>
+      <title>Agus Fahmi Aji Pramana</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 07 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/logo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Brand Identity Coffee Shop</title>
+      <link>http://localhost:1313/portfolio/project1/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/project1/</guid>
+      <description>Branding design for local coffee shop.</description>
+      <content:encoded><![CDATA[<p>Detail project bisa ditulis di sini.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Brand Identity Coffee Shop</title>
+      <link>http://localhost:1313/portfolio/project2/</link>
+      <pubDate>Sat, 07 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/project2/</guid>
+      <description>Branding design for local coffee shop.</description>
+      <content:encoded><![CDATA[<p>Detail project bisa ditulis di sini.</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

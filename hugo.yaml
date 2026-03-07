@@ -10,6 +10,10 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 
+taxonomies:
+  tag: tags
+  category: categories
+
 minify:
   disableXML: true
   minifyOutput: true
@@ -22,11 +26,12 @@ outputs:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  mainSections:
+    - blogs
   title: Agus Fahmi Aji Pramana
   description: "ExampleSite description"
   keywords: [Blog, Portfolio, Data Science]
   author: Agus Fahmi Aji Pramana
-  # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
@@ -34,7 +39,7 @@ params:
   showDate: true
   showDateUpdate: true
   ShowReadingTime: true
-  showTaxonomies: false
+  showTaxonomies: true
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
@@ -64,7 +69,7 @@ params:
     safari_pinned_tab: 'safari-pinned-tab.svg'
     android_chrome192x192: 'img/android-chrome-192x192.png'
     android_chrome512x512: 'img/android-chrome-512x512.png'
-
+  
   label:
     text: "agfmi"
     icon: /apple-touch-icon.png
@@ -140,22 +145,26 @@ menu:
       name: projects
       url: /projects/
       weight: 20
+    - identifier: portfolio
+      name: portfolio
+      url: /portfolio/
+      weight: 30
     - identifier: blogs
       name: blogs
       url: /blogs/
-      weight: 30
+      weight: 40
     - identifier: tags
       name: tags
       url: /tags/
-      weight: 40
+      weight: 50
     - identifier: archives
       name: archives
       url: /archives/
-      weight: 50
+      weight: 60
     - identifier: search
       name: 🔍
       url: /search/
-      weight: 60
+      weight: 70
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true

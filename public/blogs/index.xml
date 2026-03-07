@@ -19,8 +19,173 @@
       <pubDate>Sun, 09 Mar 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blogs/cara-menggunakan-tensorflow/</guid>
       <description>Cara Menggunakan Tensorflow</description>
-      <content:encoded><![CDATA[<h2 id="demo">Demo</h2>
-<h1 id="demo-1">Demo</h1>
+      <content:encoded><![CDATA[<h1 id="cara-menggunakan-tensorflow-untuk-machine-learning">Cara Menggunakan TensorFlow untuk Machine Learning</h1>
+<p>TensorFlow adalah pustaka sumber terbuka yang banyak digunakan dalam pengembangan aplikasi machine learning (ML) dan deep learning (DL). Dikembangkan oleh Google, TensorFlow menawarkan fleksibilitas tinggi untuk berbagai jenis model pembelajaran mesin, mulai dari model sederhana hingga model yang sangat kompleks.</p>
+<p>Artikel ini akan membahas langkah-langkah dasar untuk menggunakan TensorFlow dalam proyek machine learning Anda.</p>
+<h2 id="1-persiapan-lingkungan">1. Persiapan Lingkungan</h2>
+<h3 id="11-instalasi-tensorflow">1.1 Instalasi TensorFlow</h3>
+<p>Untuk mulai menggunakan TensorFlow, pertama-tama Anda harus menginstalnya. Anda dapat melakukannya menggunakan pip (Python Package Index).</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">pip</span> <span class="n">install</span> <span class="n">tensorflow</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Untuk versi khusus, misalnya versi GPU, Anda dapat menggunakan perintah berikut:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">pip</span> <span class="n">install</span> <span class="n">tensorflow</span><span class="o">-</span><span class="n">gpu</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="12-memverifikasi-instalasi">1.2 Memverifikasi Instalasi</h3>
+<p>Setelah instalasi selesai, Anda dapat memverifikasi apakah TensorFlow berhasil diinstal dengan menjalankan kode berikut di Python:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">tensorflow</span> <span class="k">as</span> <span class="nn">tf</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">__version__</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Jika TensorFlow terinstal dengan benar, Anda akan melihat versi TensorFlow yang terpasang.</p>
+<h2 id="2-membangun-model-sederhana-dengan-tensorflow">2. Membangun Model Sederhana dengan TensorFlow</h2>
+<h3 id="21-mengimpor-library-yang-diperlukan">2.1 Mengimpor Library yang Diperlukan</h3>
+<p>Untuk memulai, Anda perlu mengimpor beberapa library dari TensorFlow.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">tensorflow</span> <span class="k">as</span> <span class="nn">tf</span>
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">tensorflow.keras.models</span> <span class="kn">import</span> <span class="n">Sequential</span>
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">tensorflow.keras.layers</span> <span class="kn">import</span> <span class="n">Dense</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="22-menyiapkan-dataset">2.2 Menyiapkan Dataset</h3>
+<p>Di sini kita akan menggunakan dataset MNIST yang terkenal untuk klasifikasi gambar angka tulisan tangan. Anda dapat memuat dataset ini langsung dari TensorFlow.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># Memuat dataset MNIST</span>
+</span></span><span class="line"><span class="cl"><span class="p">(</span><span class="n">x_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">),</span> <span class="p">(</span><span class="n">x_test</span><span class="p">,</span> <span class="n">y_test</span><span class="p">)</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">keras</span><span class="o">.</span><span class="n">datasets</span><span class="o">.</span><span class="n">mnist</span><span class="o">.</span><span class="n">load_data</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Normalisasi data agar berada dalam rentang 0 hingga 1</span>
+</span></span><span class="line"><span class="cl"><span class="n">x_train</span><span class="p">,</span> <span class="n">x_test</span> <span class="o">=</span> <span class="n">x_train</span> <span class="o">/</span> <span class="mf">255.0</span><span class="p">,</span> <span class="n">x_test</span> <span class="o">/</span> <span class="mf">255.0</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="23-membangun-model">2.3 Membangun Model</h3>
+<p>Model TensorFlow dapat dibangun menggunakan API Keras yang lebih tinggi, yang memungkinkan pembuatan model dengan lebih mudah.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># Membuat model Sequential</span>
+</span></span><span class="line"><span class="cl"><span class="n">model</span> <span class="o">=</span> <span class="n">Sequential</span><span class="p">([</span>
+</span></span><span class="line"><span class="cl">    <span class="n">tf</span><span class="o">.</span><span class="n">keras</span><span class="o">.</span><span class="n">layers</span><span class="o">.</span><span class="n">Flatten</span><span class="p">(</span><span class="n">input_shape</span><span class="o">=</span><span class="p">(</span><span class="mi">28</span><span class="p">,</span> <span class="mi">28</span><span class="p">)),</span>   <span class="c1"># Meratakan gambar 28x28 menjadi satu dimensi</span>
+</span></span><span class="line"><span class="cl">    <span class="n">tf</span><span class="o">.</span><span class="n">keras</span><span class="o">.</span><span class="n">layers</span><span class="o">.</span><span class="n">Dense</span><span class="p">(</span><span class="mi">128</span><span class="p">,</span> <span class="n">activation</span><span class="o">=</span><span class="s1">&#39;relu&#39;</span><span class="p">),</span>   <span class="c1"># Layer tersembunyi dengan 128 neuron dan ReLU</span>
+</span></span><span class="line"><span class="cl">    <span class="n">tf</span><span class="o">.</span><span class="n">keras</span><span class="o">.</span><span class="n">layers</span><span class="o">.</span><span class="n">Dropout</span><span class="p">(</span><span class="mf">0.2</span><span class="p">),</span>                    <span class="c1"># Dropout untuk regularisasi</span>
+</span></span><span class="line"><span class="cl">    <span class="n">tf</span><span class="o">.</span><span class="n">keras</span><span class="o">.</span><span class="n">layers</span><span class="o">.</span><span class="n">Dense</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>                        <span class="c1"># Layer output untuk 10 kelas (angka 0-9)</span>
+</span></span><span class="line"><span class="cl"><span class="p">])</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Menyusun model dengan optimizer, loss function, dan metric</span>
+</span></span><span class="line"><span class="cl"><span class="n">model</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="n">optimizer</span><span class="o">=</span><span class="s1">&#39;adam&#39;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">              <span class="n">loss</span><span class="o">=</span><span class="n">tf</span><span class="o">.</span><span class="n">keras</span><span class="o">.</span><span class="n">losses</span><span class="o">.</span><span class="n">SparseCategoricalCrossentropy</span><span class="p">(</span><span class="n">from_logits</span><span class="o">=</span><span class="kc">True</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl">              <span class="n">metrics</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;accuracy&#39;</span><span class="p">])</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="24-melatih-model">2.4 Melatih Model</h3>
+<p>Setelah model selesai dibangun, langkah berikutnya adalah melatihnya menggunakan data pelatihan.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">model</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">x_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">epochs</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Di sini, epochs=5 menunjukkan bahwa model akan dilatih selama 5 iterasi terhadap dataset.</p>
+<h3 id="25-mengevaluasi-model">2.5 Mengevaluasi Model</h3>
+<p>Setelah pelatihan selesai, evaluasi model menggunakan data uji.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">test_loss</span><span class="p">,</span> <span class="n">test_acc</span> <span class="o">=</span> <span class="n">model</span><span class="o">.</span><span class="n">evaluate</span><span class="p">(</span><span class="n">x_test</span><span class="p">,</span> <span class="n">y_test</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;Test accuracy: </span><span class="si">{</span><span class="n">test_acc</span><span class="si">}</span><span class="s2">&#34;</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Ini akan memberikan akurasi model pada dataset uji yang belum pernah dilihat sebelumnya.</p>
+<h2 id="3-menggunakan-model-untuk-prediksi">3. Menggunakan Model untuk Prediksi</h2>
+<p>Setelah model dilatih, Anda dapat menggunakannya untuk melakukan prediksi pada gambar baru.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">predictions</span> <span class="o">=</span> <span class="n">model</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">x_test</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Menampilkan prediksi untuk gambar pertama</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;Prediksi kelas: </span><span class="si">{</span><span class="n">predictions</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="si">}</span><span class="s2">&#34;</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Output ini akan menunjukkan probabilitas untuk setiap kelas, dan Anda dapat menentukan kelas dengan nilai tertinggi.</p>
+<h2 id="4-menyimpan-dan-memuat-model">4. Menyimpan dan Memuat Model</h2>
+<p>Untuk penggunaan lebih lanjut, Anda bisa menyimpan model yang sudah dilatih dan memuatnya kembali.</p>
+<h3 id="41-menyimpan-model">4.1 Menyimpan Model</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">model</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="s1">&#39;model_mnist.h5&#39;</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="42-memuat-model">4.2 Memuat Model</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">new_model</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">keras</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">load_model</span><span class="p">(</span><span class="s1">&#39;model_mnist.h5&#39;</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="5-kesimpulan">5. Kesimpulan</h2>
+<p>TensorFlow adalah pustaka yang sangat kuat dan fleksibel untuk machine learning dan deep learning. Dengan menggunakan TensorFlow, Anda dapat dengan mudah membangun, melatih, dan menyimpan model machine learning.</p>
+<h3 id="referensi">Referensi:</h3>
+<p>TensorFlow Documentation: <a href="https://www.tensorflow.org">https://www.tensorflow.org</a>
+Keras API: <a href="https://keras.io/">https://keras.io/</a></p>
 ]]></content:encoded>
     </item>
     <item>
@@ -165,83 +330,6 @@
 </div>
 </div><h3 id="kesimpulan">Kesimpulan</h3>
 <p>Preprocessing data adalah langkah krusial dalam pipeline machine learning. Dengan menangani nilai yang hilang, normalisasi, pengkodean kategorikal, dan deteksi outlier, kita dapat memastikan bahwa model machine learning kita dilatih dengan data yang berkualitas tinggi. Meskipun preprocessing bisa memakan waktu, langkah ini sangat berpengaruh terhadap kinerja dan akurasi model yang dihasilkan. Pastikan untuk selalu memeriksa dataset Anda dan menerapkan teknik preprocessing yang tepat untuk mencapai hasil yang terbaik.</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>[BTS] Nota Fiscal Goiana</title>
-      <link>http://localhost:1313/blogs/bts-nota-fiscal-goiana/</link>
-      <pubDate>Sun, 24 Mar 2024 11:31:00 -0300</pubDate>
-      <guid>http://localhost:1313/blogs/bts-nota-fiscal-goiana/</guid>
-      <description>A behind-the-scenes decision on the decision-making process of the project Nota Fiscal Goiana.</description>
-      <content:encoded><![CDATA[<h2 id="introduction">Introduction</h2>
-<p>The Nota Fiscal Goiana is an economic program implemented by the state of Goiás, Brazil. This program is designed to boost the collection of the Tax on Circulation of Goods and Services (ICMS) by encouraging people to ask for receipts when they buy goods and services within the state. Additionally, the program includes monthly raffles that distribute cash prizes to participating citizens.</p>
-<p>As I regularly checked the Nota Fiscal Goiana portal and realized the website&rsquo;s simplicity, I decided to write a scraper to collect the raffle results. Initially, I aimed to simplify the process of checking if I had won, but as I delved deeper, I realized the potential to analyze the dataset more comprehensively.</p>
-<h2 id="early-design-and-idea-phase">Early Design and Idea Phase</h2>
-<p>The original idea was to scrape raffle results, store them in a database, and give people the option to access the data directly from the database or just view it through a good-looking Power BI dashboard.</p>
-<p>This led me to start writing the code for scraping the website and parsing the tables. However, since there were approximately 50 published results not available on the website, I had to resort to checking the Diário Oficial do Estado de Goiás, where the official government documents of Goiás are published in Brazil.</p>
-<h3 id="challenges-encountered">Challenges Encountered</h3>
-<ul>
-<li>
-<p>Not all results were completely published on the Diário Oficial, leading to some results being unavailable.</p>
-</li>
-<li>
-<p>The project doesn&rsquo;t have a budget, so automation can&rsquo;t require VM and online databases. Which Power BI requires both.</p>
-</li>
-</ul>
-<h3 id="solutions">Solutions</h3>
-<p>The results that I could find published on the Diário Oficial were saved in the database along with results available on the website.</p>
-<p>Initially, I was using free options of online databases, and the backup of the old data was on an SQLite available on the project repository. However, I realized that when running the scraper I could save the data on the SQLite and commit the changes, when I did the information persisted on the SQLite file and I could just read it.</p>
-<p>To help automate the dashboard I resorted to using Streamlit instead of Power BI. Because Streamlit allows me to read the SQLite file directly from the GitHub repository and every time someone opens the Streamlit dashboard it reads the current data, so I don&rsquo;t need to set up refreshes.</p>
-<h2 id="current-state-of-the-project">Current State of the Project</h2>
-<p>Currently, the project extracts monthly the raffle results from the Nota Fiscal Goiana and the state ICMS collection and saves the results in the SQLite file, using GitHub Actions. The Streamlit dashboard reads the SQLite file and displays the information on the Streamlit Community Cloud.</p>
-<h3 id="lessons-learned">Lessons Learned</h3>
-<p>While the Power BI dashboard was useful, I faced challenges with refreshing it easily. Initially using an SQLite database, I couldn&rsquo;t connect to the file on the repository, necessitating manual updates on my local machine. To overcome this, I explored alternatives like MySQL and PostgreSQL, enabling automated monthly scraping with GitHub Actions and updating the dashboard through the Power BI website.</p>
-<p>The SQLite database is really helpful and depending on the size and scope of your project, you should look at it as a possible option to store your data.</p>
-<h3 id="going-forward">Going forward</h3>
-<p>I intend to maintain the project, making future patches to the scraping script if the website changes. And improving the code as my knowledge matures.</p>
-<hr>
-<h2 id="explore-further">Explore Further</h2>
-<ul>
-<li>
-<p><strong>GitHub Repository:</strong> Access the project&rsquo;s source files and codes on our <a href="https://github.com/devmedeiros/nota-fiscal-goiana/tree/main">GitHub Repository</a>. Currently, everything is in Portuguese, but I plan to translate it in the future.</p>
-</li>
-<li>
-<p><strong>Streamlit Dashboard:</strong> Explore the live Streamlit dashboard <a href="https://nota-fiscal-goiana.streamlit.app/">here</a> to interact with the project&rsquo;s data visualization directly.</p>
-</li>
-<li>
-<p><strong>Academic Article:</strong> If you&rsquo;re interested in a detailed academic analysis of this project, check out our article <a href="http://periodicos.unifacef.com.br/resiget/article/view/2700/1876">here</a>. Please note that the article is in Portuguese.</p>
-</li>
-</ul>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>What is Anomaly Detection?</title>
-      <link>http://localhost:1313/blogs/anomaly-detection/</link>
-      <pubDate>Sun, 09 Jul 2023 16:32:00 -0300</pubDate>
-      <guid>http://localhost:1313/blogs/anomaly-detection/</guid>
-      <description>How can your credit card issuer know if a purchase is made by you or a cloned version of your credit card?</description>
-      <content:encoded><![CDATA[<p>Have you ever had a purchase blocked by your credit card issuer without you taking any action? If this happened to you, your credit card issuer probably had detected that your purchase didn&rsquo;t match your <em>normal spending habit</em>, maybe you were at a different location or spend a lot of money suddenly. Anyway, the credit card company was using <strong>anomaly detection</strong> techniques to prevent fraudulent activities.</p>
-<h2 id="what-is-anomaly-detection">What is Anomaly Detection?</h2>
-<blockquote>
-<p><em>Anomaly detection</em> refers to the problem of finding patterns in data that do not conform to expected behavior. <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p></blockquote>
-<p>In statistics there is a famous distribution that is called &ldquo;The Normal Distribution&rdquo;, this name is not in vain. A lot of random things are normally distributed, for instance, if you select 100 random people and measure their height, and made a distribution plot, you&rsquo;d end up with something looking like a symmetrical bell curve.</p>
-<p>Even though abnormal results are possible, it is expected that most people or things will fall within a normal distribution. When something is divergent from this normality it is said to be an outlier or an anomaly.</p>
-<p>When dealing with something like credit card fraud you can create an expectation of a person expanding habits, so if your daily routine consists of waking up and driving to your workplace and buying a coffee, then lunch in New York. Your credit card company would find it weird if you suddenly made a physical purchase in Rio de Janeiro.</p>
-<p>In simple terms, that is what anomaly detection is trying to do, understand how something works so it can identify if it starts acting weird.</p>
-<h2 id="anomaly-detection-x-class-imbalance-in-datasets">Anomaly Detection x Class Imbalance in Datasets</h2>
-<p>If you are aware of what class imbalance is, you may be wondering <em>&ldquo;can&rsquo;t I use anomaly detection to solve this class imbalance problem?&rdquo;</em> - sometimes you can, but it&rsquo;s not appropriate.</p>
-<p>Class imbalance occurs when one class has significantly more samples than the other class(es). This can lead to biased models that favor the majority class and perform poorly on minority classes. While anomaly detection focuses on identifying rare or abnormal data points that deviate significantly from the normal patterns in the dataset.</p>
-<p>Even though it has some overlap on what is trying to do, unless you have a class imbalance problem that the minority class can be considered an abnormal behavior, you won&rsquo;t be able to use anomaly detection.</p>
-<hr>
-<p>I talked about class imbalance before on a churn rate problem in a fictitious telecommunication company, if you are interested you can check it <a href="/post/2022-05-30-churn-rate-challenge/">here</a>.</p>
-<div class="footnotes" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn:1">
-<p>Chandola, V., Banerjee, A., and Kumar, V. 2009. Anomaly detection: A survey. ACM Comput. Surv. 41, 3, Article 15 (July 2009), 58 pages. DOI = <a href="http://doi.acm.org/10.1145/1541880.1541882">10.1145/1541880.1541882</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-</ol>
-</div>
 ]]></content:encoded>
     </item>
   </channel>

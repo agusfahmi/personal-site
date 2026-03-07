@@ -1,0 +1,54 @@
+{{ define "main" }}
+
+<h1>{{ .Title }}</h1>
+
+{{ if .Description }}
+<p class="page-description">
+  {{ .Description }}
+</p>
+{{ end }}
+
+<!-- TAG FILTER -->
+<div class="portfolio-filter">
+
+<button class="filter-btn active" onclick="filterPosts('all')">
+All
+</button>
+
+{{ range $name, $_ := .Site.Taxonomies.tags }}
+<button class="filter-btn" onclick="filterPosts('{{ $name | urlize }}')">
+{{ $name | upper }}
+</button>
+{{ end }}
+
+</div>
+
+<div class="portfolio-grid">
+  {{ range .Pages }}
+  <div class="portfolio-item {{ range .Params.tags }} tag-{{ . | urlize }} {{ end }}">
+    <a href="{{ .RelPermalink }}">
+      <img src="{{ .Params.cover.image }}" alt="{{ .Title }}">
+      <h3>{{ .Title }}</h3>
+
+      {{ if .Description }}
+      <p class="portfolio-desc">
+        {{ .Description }}
+      </p>
+      {{ end }}
+
+      {{ if .Params.tags }}
+      <div class="tag-container">
+        {{ range .Params.tags }}
+        <span class="tag-badge">
+          {{ . }}
+        </span>
+        {{ end }}
+      </div>
+      {{ end }}
+
+    </a>
+  </div>
+  {{ end }}
+</div>
+  
+{{ end }}
