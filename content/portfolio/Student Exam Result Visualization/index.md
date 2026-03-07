@@ -4,9 +4,9 @@ summary: 'Student Exam Result Visualization'
 description: 'Berikut merupakan visualisasi data dari data Hasil Nilai Sekolah menggunakan Looker Studio, simak penjelasannya'
 date: 2024-12-28 14:55:00 -0300
 categories: [Portfolio]
-keywords: [Data Analyst]
-tags: [Machine Learning]
-summary: Exploratory Data Analysis of Amazon's top 50 bestselling books 2009 - 2019
+keywords: [Data Analyst, Exam, Data Science]
+tags: [Data Analyst]
+summary: 'Berikut merupakan visualisasi data dari data Hasil Nilai Sekolah menggunakan Looker Studio, simak penjelasannya'
 draft : false
 cover:
     image: 'data.jpg'
