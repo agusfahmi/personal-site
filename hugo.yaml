@@ -154,9 +154,9 @@ menu:
       name: blogs
       url: /blogs/
       weight: 40
-    - identifier: tags
-      name: tags
-      url: /tags/
+    - identifier: categories
+      name: categories
+      url: /categories/
       weight: 50
     - identifier: archives
       name: archives
