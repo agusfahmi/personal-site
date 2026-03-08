@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Agus Fahmi Aji Pramana</title>
-    <link>http://localhost:52176/</link>
+    <link>http://localhost:52292/</link>
     <description>Recent content on Agus Fahmi Aji Pramana</description>
     <image>
       <title>Agus Fahmi Aji Pramana</title>
-      <url>http://localhost:52176/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:52176/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:52292/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:52292/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Mar 2026 12:17:13 +0700</lastBuildDate>
-    <atom:link href="http://localhost:52176/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Mar 2026 13:00:45 +0700</lastBuildDate>
+    <atom:link href="http://localhost:52292/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Doctor Assistance With LLM</title>
-      <link>http://localhost:52176/portfolio/doctor-assistance-with-llm/</link>
+      <link>http://localhost:52292/portfolio/doctor-assistance-with-llm/</link>
       <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52176/portfolio/doctor-assistance-with-llm/</guid>
+      <guid>http://localhost:52292/portfolio/doctor-assistance-with-llm/</guid>
       <description>Berikut merupakan project chatbot berbasis AI menggunakan model PALM dari google</description>
     </item>
     <item>
       <title>Pegadaian Data Visualization</title>
-      <link>http://localhost:52176/portfolio/pegadaian-data-visualization/</link>
+      <link>http://localhost:52292/portfolio/pegadaian-data-visualization/</link>
       <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52176/portfolio/pegadaian-data-visualization/</guid>
+      <guid>http://localhost:52292/portfolio/pegadaian-data-visualization/</guid>
       <description>Berikut merupakan visualisasi data dari data Pegadian menggunakan Looker Studio, simak penjelasannya</description>
       <content:encoded><![CDATA[<h1 id="analisis-dashboard-transaksi-pegadaian">Analisis Dashboard Transaksi Pegadaian</h1>
 <h2 id="1-ringkasan-kpi">1. Ringkasan KPI</h2>
@@ -131,9 +131,9 @@ Dashboard memberikan snapshot instan performa dan coverage Pegadaian. Tingginya 
     </item>
     <item>
       <title>Cara Menggunakan Tensorflow</title>
-      <link>http://localhost:52176/blogs/cara-menggunakan-tensorflow/</link>
+      <link>http://localhost:52292/blogs/cara-menggunakan-tensorflow/</link>
       <pubDate>Sun, 09 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52176/blogs/cara-menggunakan-tensorflow/</guid>
+      <guid>http://localhost:52292/blogs/cara-menggunakan-tensorflow/</guid>
       <description>Cara Menggunakan Tensorflow</description>
       <content:encoded><![CDATA[<h1 id="cara-menggunakan-tensorflow-untuk-machine-learning">Cara Menggunakan TensorFlow untuk Machine Learning</h1>
 <p>TensorFlow adalah pustaka sumber terbuka yang banyak digunakan dalam pengembangan aplikasi machine learning (ML) dan deep learning (DL). Dikembangkan oleh Google, TensorFlow menawarkan fleksibilitas tinggi untuk berbagai jenis model pembelajaran mesin, mulai dari model sederhana hingga model yang sangat kompleks.</p>
@@ -306,9 +306,9 @@ Keras API: <a href="https://keras.io/">https://keras.io/</a></p>
     </item>
     <item>
       <title>Cara Preprocessing Data dengan Baik</title>
-      <link>http://localhost:52176/blogs/cara-preprocessing-data-dengan-baik/</link>
+      <link>http://localhost:52292/blogs/cara-preprocessing-data-dengan-baik/</link>
       <pubDate>Sat, 28 Dec 2024 14:55:00 -0300</pubDate>
-      <guid>http://localhost:52176/blogs/cara-preprocessing-data-dengan-baik/</guid>
+      <guid>http://localhost:52292/blogs/cara-preprocessing-data-dengan-baik/</guid>
       <description>Cara Preprocessing Data dengan Baik</description>
       <content:encoded><![CDATA[<h1 id="panduan-preprocessing-data-yang-baik-dalam-machine-learning">Panduan Preprocessing Data yang Baik dalam Machine Learning</h1>
 <p>Preprocessing adalah langkah penting dalam alur kerja data science dan machine learning. Data yang baik adalah kunci untuk model yang akurat dan dapat diandalkan. Artikel ini akan membahas pentingnya preprocessing data dan beberapa teknik yang umum digunakan untuk mempersiapkan data sebelum digunakan dalam pelatihan model machine learning.</p>
@@ -450,9 +450,9 @@ Keras API: <a href="https://keras.io/">https://keras.io/</a></p>
     </item>
     <item>
       <title>Student Exam Result Visualization</title>
-      <link>http://localhost:52176/portfolio/student-exam-result-visualization/</link>
+      <link>http://localhost:52292/portfolio/student-exam-result-visualization/</link>
       <pubDate>Sat, 28 Dec 2024 14:55:00 -0300</pubDate>
-      <guid>http://localhost:52176/portfolio/student-exam-result-visualization/</guid>
+      <guid>http://localhost:52292/portfolio/student-exam-result-visualization/</guid>
       <description>Berikut merupakan visualisasi data dari data Hasil Nilai Sekolah menggunakan Looker Studio, simak penjelasannya</description>
       <content:encoded><![CDATA[<h1 id="-analisis-dashboard-nilai-siswa">📊 Analisis Dashboard Nilai Siswa</h1>
 <h2 id="1-ringkasan-data">1. Ringkasan Data</h2>
@@ -570,9 +570,9 @@ Kelas <strong>B memiliki performa akademik terbaik</strong>, sedangkan <strong>k
     </item>
     <item>
       <title>About Me</title>
-      <link>http://localhost:52176/aboutme/</link>
+      <link>http://localhost:52292/aboutme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52176/aboutme/</guid>
+      <guid>http://localhost:52292/aboutme/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/agusfahmi&#34;&gt;
   &lt;img
     loading=&#34;lazy&#34;
@@ -1202,9 +1202,9 @@ Kelas <strong>B memiliki performa akademik terbaik</strong>, sedangkan <strong>k
     </item>
     <item>
       <title>Hospital Data Visualization</title>
-      <link>http://localhost:52176/portfolio/hospital-data-visualization/</link>
+      <link>http://localhost:52292/portfolio/hospital-data-visualization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52176/portfolio/hospital-data-visualization/</guid>
+      <guid>http://localhost:52292/portfolio/hospital-data-visualization/</guid>
       <description>Berikut merupakan visualisasi data dari data Rumah Sakit menggunakan Looker Studio, simak penjelasannya</description>
       <content:encoded><![CDATA[<h1 id="-analisis-dashboard-rumah-sakit">🏥 Analisis Dashboard Rumah Sakit</h1>
 <h2 id="1-ringkasan-data">1. Ringkasan Data</h2>
@@ -1299,9 +1299,9 @@ Beban kerja dokter relatif tersebar, tetapi beberapa dokter menangani lebih bany
     </item>
     <item>
       <title>HR IBM Data Visualization</title>
-      <link>http://localhost:52176/portfolio/hr-data-visualization/</link>
+      <link>http://localhost:52292/portfolio/hr-data-visualization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52176/portfolio/hr-data-visualization/</guid>
+      <guid>http://localhost:52292/portfolio/hr-data-visualization/</guid>
       <description>Berikut merupakan visualisasi data dari data IBM menggunakan Looker Studio, simak penjelasannya</description>
       <content:encoded><![CDATA[<h1 id="-analisis-sederhana-dashboard-hr-ibm">📊 Analisis Sederhana Dashboard HR IBM</h1>
 <h2 id="1-ringkasan-data-utama">1. Ringkasan Data Utama</h2>
@@ -1383,9 +1383,9 @@ Ada perbedaan gaji yang cukup besar antara posisi senior dan junior.</p>
     </item>
     <item>
       <title>Projects</title>
-      <link>http://localhost:52176/projects/</link>
+      <link>http://localhost:52292/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52176/projects/</guid>
+      <guid>http://localhost:52292/projects/</guid>
       <description>Explore my personal projects on GitHub, including a credit score classification app, Nota Fiscal Goiana, and Alura&amp;rsquo;s Business Intelligence challenge.</description>
       <content:encoded><![CDATA[<p>The following are a few projects that I have worked on in my free time. They are in no particular order.</p>
 <h2 id="pasar-kita-app">Pasar Kita App</h2>
@@ -1444,9 +1444,9 @@ Ada perbedaan gaji yang cukup besar antara posisi senior dan junior.</p>
     </item>
     <item>
       <title>Student Perfoamance Data Visualization</title>
-      <link>http://localhost:52176/portfolio/student-performance-data-visualization/</link>
+      <link>http://localhost:52292/portfolio/student-performance-data-visualization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52176/portfolio/student-performance-data-visualization/</guid>
+      <guid>http://localhost:52292/portfolio/student-performance-data-visualization/</guid>
       <description>Berikut merupakan visualisasi data dari data Hasil Nilai Sekolah menggunakan Looker Studio, simak penjelasannya</description>
       <content:encoded><![CDATA[<h1 id="analisis-dashboard-student-performance">Analisis Dashboard Student Performance</h1>
 <h2 id="ringkasan-utama">Ringkasan Utama</h2>
@@ -1505,9 +1505,9 @@ Ada perbedaan gaji yang cukup besar antara posisi senior dan junior.</p>
     </item>
     <item>
       <title>Terms and Conditions</title>
-      <link>http://localhost:52176/terms/</link>
+      <link>http://localhost:52292/terms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52176/terms/</guid>
+      <guid>http://localhost:52292/terms/</guid>
       <description>&lt;p&gt;Welcome to agusfahmiajipramana&amp;rsquo;s blog!&lt;/p&gt;
 &lt;p&gt;These terms and conditions outline the rules and regulations for the use of agusfahmiajipramana&amp;rsquo;s blog&amp;rsquo;s Website, located at &lt;a href=&#34;https://agusfahmiajipramana.com&#34;&gt;https://agusfahmiajipramana.com&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;By accessing this website we assume you accept these terms and conditions. Do not continue to use agusfahmiajipramana&amp;rsquo;s blog if you do not agree to take all of the terms and conditions stated on this page.&lt;/p&gt;
@@ -1592,9 +1592,9 @@ Ada perbedaan gaji yang cukup besar antara posisi senior dan junior.</p>
     </item>
     <item>
       <title>Toserba Data Visualization</title>
-      <link>http://localhost:52176/portfolio/toserba-data-visualization/</link>
+      <link>http://localhost:52292/portfolio/toserba-data-visualization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52176/portfolio/toserba-data-visualization/</guid>
+      <guid>http://localhost:52292/portfolio/toserba-data-visualization/</guid>
       <description>Berikut merupakan visualisasi data dari data Hasil Nilai Sekolah menggunakan Looker Studio, simak penjelasannya</description>
       <content:encoded><![CDATA[<h1 id="analisis-dashboard-penjualan-toko-grosir">Analisis Dashboard Penjualan Toko Grosir</h1>
 <h2 id="ringkasan-utama">Ringkasan Utama</h2>

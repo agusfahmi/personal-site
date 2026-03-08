@@ -2,43 +2,43 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Agus Fahmi Aji Pramana</title>
-    <link>http://localhost:52176/tags/</link>
+    <link>http://localhost:52292/tags/</link>
     <description>Recent content in Tags on Agus Fahmi Aji Pramana</description>
     <image>
       <title>Agus Fahmi Aji Pramana</title>
-      <url>http://localhost:52176/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:52176/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:52292/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:52292/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Mar 2026 12:17:13 +0700</lastBuildDate>
-    <atom:link href="http://localhost:52176/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Mar 2026 13:00:45 +0700</lastBuildDate>
+    <atom:link href="http://localhost:52292/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Data Analyst</title>
-      <link>http://localhost:52176/tags/data-analyst/</link>
+      <link>http://localhost:52292/tags/data-analyst/</link>
       <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52176/tags/data-analyst/</guid>
+      <guid>http://localhost:52292/tags/data-analyst/</guid>
       <description></description>
     </item>
     <item>
       <title>LLM</title>
-      <link>http://localhost:52176/tags/llm/</link>
+      <link>http://localhost:52292/tags/llm/</link>
       <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52176/tags/llm/</guid>
+      <guid>http://localhost:52292/tags/llm/</guid>
       <description></description>
     </item>
     <item>
       <title>Data Science</title>
-      <link>http://localhost:52176/tags/data-science/</link>
+      <link>http://localhost:52292/tags/data-science/</link>
       <pubDate>Sat, 28 Dec 2024 14:55:00 -0300</pubDate>
-      <guid>http://localhost:52176/tags/data-science/</guid>
+      <guid>http://localhost:52292/tags/data-science/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
-      <link>http://localhost:52176/tags/python/</link>
+      <link>http://localhost:52292/tags/python/</link>
       <pubDate>Sat, 28 Dec 2024 14:55:00 -0300</pubDate>
-      <guid>http://localhost:52176/tags/python/</guid>
+      <guid>http://localhost:52292/tags/python/</guid>
       <description></description>
     </item>
   </channel>

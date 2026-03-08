@@ -27,7 +27,7 @@ All
   {{ range .Pages }}
   <div class="portfolio-item {{ range .Params.tags }} tag-{{ . | urlize }} {{ end }}">
     <a href="{{ .RelPermalink }}">
-      {{- $isHidden := (site.Params.cover.hidden | default site.Params.cover.hiddenInList) }}
+        {{- $isHidden := (site.Params.cover.hidden | default site.Params.cover.hiddenInList) }}
       {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
       <h3>{{ .Title }}</h3>
       {{ if .Description }}
@@ -36,10 +36,9 @@ All
       </p>
       {{ end }}
       {{ if .Params.tags }}
-
       <div class="tag-container">
         {{ range .Params.tags }}
-        <span class="tag-badge" >
+        <span class="tag-badge">
           {{ . }}
         </span>
         {{ end }}
