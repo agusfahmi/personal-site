@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Data Science on Agus Fahmi Aji Pramana</title>
-    <link>http://localhost:52292/tags/data-science/</link>
+    <link>http://localhost:61398/tags/data-science/</link>
     <description>Recent content in Data Science on Agus Fahmi Aji Pramana</description>
     <image>
       <title>Agus Fahmi Aji Pramana</title>
-      <url>http://localhost:52292/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:52292/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:61398/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:61398/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
     <lastBuildDate>Sun, 08 Mar 2026 11:42:46 +0700</lastBuildDate>
-    <atom:link href="http://localhost:52292/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:61398/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cara Preprocessing Data dengan Baik</title>
-      <link>http://localhost:52292/blogs/cara-preprocessing-data-dengan-baik/</link>
+      <link>http://localhost:61398/blogs/cara-preprocessing-data-dengan-baik/</link>
       <pubDate>Sat, 28 Dec 2024 14:55:00 -0300</pubDate>
-      <guid>http://localhost:52292/blogs/cara-preprocessing-data-dengan-baik/</guid>
+      <guid>http://localhost:61398/blogs/cara-preprocessing-data-dengan-baik/</guid>
       <description>Cara Preprocessing Data dengan Baik</description>
       <content:encoded><![CDATA[<h1 id="panduan-preprocessing-data-yang-baik-dalam-machine-learning">Panduan Preprocessing Data yang Baik dalam Machine Learning</h1>
 <p>Preprocessing adalah langkah penting dalam alur kerja data science dan machine learning. Data yang baik adalah kunci untuk model yang akurat dan dapat diandalkan. Artikel ini akan membahas pentingnya preprocessing data dan beberapa teknik yang umum digunakan untuk mempersiapkan data sebelum digunakan dalam pelatihan model machine learning.</p>

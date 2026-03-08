@@ -2,79 +2,79 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:52292/</loc>
+    <loc>http://localhost:61398/</loc>
+    <lastmod>2026-03-08T20:37:45+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:61398/categories/</loc>
+    <lastmod>2026-03-08T20:37:45+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:61398/tags/data-analyst/</loc>
     <lastmod>2026-03-08T13:00:45+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:52292/categories/</loc>
-    <lastmod>2026-03-08T13:00:45+07:00</lastmod>
+    <loc>http://localhost:61398/portfolio/doctor-assistance-with-llm/</loc>
+    <lastmod>2026-03-08T13:06:26+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:52292/tags/data-analyst/</loc>
-    <lastmod>2026-03-08T13:00:45+07:00</lastmod>
+    <loc>http://localhost:61398/tags/llm/</loc>
+    <lastmod>2026-03-08T13:06:26+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:52292/portfolio/doctor-assistance-with-llm/</loc>
-    <lastmod>2026-03-08T13:00:45+07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:52292/tags/llm/</loc>
-    <lastmod>2026-03-08T13:00:45+07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:52292/portfolio/pegadaian-data-visualization/</loc>
+    <loc>http://localhost:61398/portfolio/pegadaian-data-visualization/</loc>
     <lastmod>2026-03-08T12:17:13+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:52292/categories/portfolio/</loc>
-    <lastmod>2026-03-08T13:00:45+07:00</lastmod>
+    <loc>http://localhost:61398/categories/portfolio/</loc>
+    <lastmod>2026-03-08T13:06:26+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:52292/tags/</loc>
-    <lastmod>2026-03-08T13:00:45+07:00</lastmod>
+    <loc>http://localhost:61398/tags/</loc>
+    <lastmod>2026-03-08T13:06:26+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:52292/blogs/</loc>
+    <loc>http://localhost:61398/categories/blog/</loc>
+    <lastmod>2026-03-08T20:37:45+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:61398/blogs/</loc>
+    <lastmod>2026-03-08T20:37:45+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:61398/blogs/cara-menggunakan-tensorflow/</loc>
+    <lastmod>2026-03-08T20:37:45+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:61398/blogs/cara-preprocessing-data-dengan-baik/</loc>
     <lastmod>2026-03-08T11:42:46+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:52292/blogs/cara-menggunakan-tensorflow/</loc>
-    <lastmod>2026-03-04T13:32:35+07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:52292/categories/blog/</loc>
+    <loc>http://localhost:61398/tags/data-science/</loc>
     <lastmod>2026-03-08T11:42:46+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:52292/blogs/cara-preprocessing-data-dengan-baik/</loc>
+    <loc>http://localhost:61398/tags/python/</loc>
     <lastmod>2026-03-08T11:42:46+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:52292/tags/data-science/</loc>
-    <lastmod>2026-03-08T11:42:46+07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:52292/tags/python/</loc>
-    <lastmod>2026-03-08T11:42:46+07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:52292/portfolio/student-exam-result-visualization/</loc>
+    <loc>http://localhost:61398/portfolio/student-exam-result-visualization/</loc>
     <lastmod>2026-03-07T21:38:41+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:52292/aboutme/</loc>
+    <loc>http://localhost:61398/aboutme/</loc>
     <lastmod>2025-03-09T15:08:59+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:52292/archives/</loc>
+    <loc>http://localhost:61398/archives/</loc>
     <lastmod>2025-03-10T21:13:43+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:52292/portfolio/hospital-data-visualization/</loc>
+    <loc>http://localhost:61398/portfolio/hospital-data-visualization/</loc>
     <lastmod>2026-03-08T13:00:45+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:52292/portfolio/hr-data-visualization/</loc>
+    <loc>http://localhost:61398/portfolio/hr-data-visualization/</loc>
     <lastmod>2026-03-08T10:57:56+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:52292/portfolio/</loc>
+    <loc>http://localhost:61398/portfolio/</loc>
     <lastmod>2026-03-07T20:51:58+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:52292/projects/</loc>
+    <loc>http://localhost:61398/projects/</loc>
     <lastmod>2025-03-09T15:08:59+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:52292/search/</loc>
+    <loc>http://localhost:61398/search/</loc>
     <lastmod>2025-03-09T15:08:59+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:52292/portfolio/student-performance-data-visualization/</loc>
+    <loc>http://localhost:61398/portfolio/student-performance-data-visualization/</loc>
     <lastmod>2026-03-08T10:57:56+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:52292/terms/</loc>
+    <loc>http://localhost:61398/terms/</loc>
     <lastmod>2025-03-10T21:26:32+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:52292/portfolio/toserba-data-visualization/</loc>
+    <loc>http://localhost:61398/portfolio/toserba-data-visualization/</loc>
     <lastmod>2026-03-08T10:57:56+07:00</lastmod>
   </url>
 </urlset>
