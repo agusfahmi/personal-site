@@ -2,11 +2,11 @@
 title: 'Toserba Data Visualization'
 summary: 'Toserba Data Visualization'
 description: 'Berikut merupakan visualisasi data dari data Hasil Nilai Sekolah menggunakan Looker Studio, simak penjelasannya'
-date: 2024-12-28 14:55:00 -0300
+date: ""
 categories: [Portfolio]
 keywords: [python, data visualization, data analysis, eda]
 tags: [Data Analyst]
-summary: Berikut merupakan visualisasi data dari data Hasil Nilai Sekolah menggunakan Looker Studio, simak penjelasannya
+summary: Berikut merupakan visualisasi data dari data Toserba menggunakan Looker Studio, simak penjelasannya
 draft : false
 cover:
     image: 'data.jpg'

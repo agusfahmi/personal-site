@@ -2,7 +2,7 @@
 title: 'HR IBM Data Visualization'
 summary: 'HR IBM Data Visualization'
 description: 'Berikut merupakan visualisasi data dari data IBM menggunakan Looker Studio, simak penjelasannya'
-date: 2024-12-28 14:55:00 -0300
+date: ""
 categories: [Portfolio]
 keywords: [python, data visualization, data analysis, eda]
 tags: [Data Analyst]

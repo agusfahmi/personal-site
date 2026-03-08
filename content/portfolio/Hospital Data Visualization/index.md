@@ -2,7 +2,7 @@
 title: 'Hospital Data Visualization'
 summary: 'Hospital Data Visualization'
 description: 'Berikut merupakan visualisasi data dari data Rumah Sakit menggunakan Looker Studio, simak penjelasannya'
-date: 2024-12-28 14:55:00 -0300
+date: ""
 categories: [Blog]
 keywords: [python, data visualization, data analysis, eda]
 tags: [Data Analyst]
