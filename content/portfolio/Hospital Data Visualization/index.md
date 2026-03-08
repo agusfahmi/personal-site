@@ -5,7 +5,7 @@ description: 'Berikut merupakan visualisasi data dari data Rumah Sakit menggunak
 date: 2024-12-28 14:55:00 -0300
 categories: [Blog]
 keywords: [python, data visualization, data analysis, eda]
-tags: [LLM]
+tags: [Data Analyst]
 summary: Berikut merupakan visualisasi data dari data Rumah Sakit menggunakan Looker Studio, simak penjelasannya
 draft : false
 cover:
