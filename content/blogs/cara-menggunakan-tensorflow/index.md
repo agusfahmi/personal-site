@@ -4,6 +4,7 @@ summary: 'Cara Menggunakan Tensorflow'
 description: 'Cara Menggunakan Tensorflow'
 date: '2025-03-09'
 tags: []
+categories: [Blog]
 cover:
   relative: true
   image: 'Tensorflow.png'
