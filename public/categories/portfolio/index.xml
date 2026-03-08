@@ -2,23 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Portfolio on Agus Fahmi Aji Pramana</title>
-    <link>http://localhost:1313/categories/portfolio/</link>
+    <link>http://localhost:52176/categories/portfolio/</link>
     <description>Recent content in Portfolio on Agus Fahmi Aji Pramana</description>
     <image>
       <title>Agus Fahmi Aji Pramana</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:52176/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:52176/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Mar 2026 11:47:11 +0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Mar 2026 12:17:13 +0700</lastBuildDate>
+    <atom:link href="http://localhost:52176/categories/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Doctor Assistance With LLM</title>
+      <link>http://localhost:52176/portfolio/doctor-assistance-with-llm/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:52176/portfolio/doctor-assistance-with-llm/</guid>
+      <description>Berikut merupakan project chatbot berbasis AI menggunakan model PALM dari google</description>
+    </item>
     <item>
       <title>Pegadaian Data Visualization</title>
-      <link>http://localhost:1313/portfolio/pegadaian-data-visualization/</link>
+      <link>http://localhost:52176/portfolio/pegadaian-data-visualization/</link>
       <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/portfolio/pegadaian-data-visualization/</guid>
-      <description>Pegadaian Data Visualization</description>
+      <guid>http://localhost:52176/portfolio/pegadaian-data-visualization/</guid>
+      <description>Berikut merupakan visualisasi data dari data Pegadian menggunakan Looker Studio, simak penjelasannya</description>
       <content:encoded><![CDATA[<h1 id="analisis-dashboard-transaksi-pegadaian">Analisis Dashboard Transaksi Pegadaian</h1>
 <h2 id="1-ringkasan-kpi">1. Ringkasan KPI</h2>
 <ul>
@@ -124,9 +131,9 @@ Dashboard memberikan snapshot instan performa dan coverage Pegadaian. Tingginya 
     </item>
     <item>
       <title>Student Exam Result Visualization</title>
-      <link>http://localhost:1313/portfolio/student-exam-result-visualization/</link>
+      <link>http://localhost:52176/portfolio/student-exam-result-visualization/</link>
       <pubDate>Sat, 28 Dec 2024 14:55:00 -0300</pubDate>
-      <guid>http://localhost:1313/portfolio/student-exam-result-visualization/</guid>
+      <guid>http://localhost:52176/portfolio/student-exam-result-visualization/</guid>
       <description>Berikut merupakan visualisasi data dari data Hasil Nilai Sekolah menggunakan Looker Studio, simak penjelasannya</description>
       <content:encoded><![CDATA[<h1 id="-analisis-dashboard-nilai-siswa">📊 Analisis Dashboard Nilai Siswa</h1>
 <h2 id="1-ringkasan-data">1. Ringkasan Data</h2>
@@ -243,10 +250,107 @@ Kelas <strong>B memiliki performa akademik terbaik</strong>, sedangkan <strong>k
 ]]></content:encoded>
     </item>
     <item>
-      <title>HR IBM Data Visualization</title>
-      <link>http://localhost:1313/portfolio/hr-data-visualization/</link>
+      <title>Hospital Data Visualization</title>
+      <link>http://localhost:52176/portfolio/hospital-data-visualization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/portfolio/hr-data-visualization/</guid>
+      <guid>http://localhost:52176/portfolio/hospital-data-visualization/</guid>
+      <description>Berikut merupakan visualisasi data dari data Rumah Sakit menggunakan Looker Studio, simak penjelasannya</description>
+      <content:encoded><![CDATA[<h1 id="-analisis-dashboard-rumah-sakit">🏥 Analisis Dashboard Rumah Sakit</h1>
+<h2 id="1-ringkasan-data">1. Ringkasan Data</h2>
+<ul>
+<li><strong>Total Pasien:</strong> 348</li>
+<li><strong>Pavilion:</strong> 36</li>
+<li><strong>Alamanda:</strong> 88</li>
+<li><strong>Rosalia:</strong> 195</li>
+</ul>
+<p><strong>Interpretasi:</strong><br>
+Sebagian besar pasien dirawat di <strong>Rosalia</strong>, menunjukkan bahwa ruang atau unit ini memiliki kapasitas atau tingkat penggunaan tertinggi.</p>
+<hr>
+<h2 id="2-distribusi-penyakit">2. Distribusi Penyakit</h2>
+<p>Penyakit yang paling banyak ditangani:</p>
+<ul>
+<li>Diabetes</li>
+<li>Stroke</li>
+<li>Tifus</li>
+<li>Asma</li>
+<li>Kanker</li>
+<li>Pneumonia</li>
+<li>Jantung</li>
+<li>Diare</li>
+<li>THT</li>
+</ul>
+<p><strong>Kesimpulan:</strong><br>
+Kasus penyakit kronis seperti <strong>Diabetes dan Stroke</strong> cukup dominan dibandingkan penyakit lainnya.</p>
+<hr>
+<h2 id="3-status-pasien">3. Status Pasien</h2>
+<p>Distribusi status pasien:</p>
+<ul>
+<li><strong>Sembuh:</strong> 64,4%</li>
+<li><strong>Meninggal:</strong> 27,1%</li>
+<li><strong>Masih Dirawat (Active):</strong> sekitar 8%</li>
+</ul>
+<p><strong>Kesimpulan:</strong><br>
+Mayoritas pasien berhasil sembuh, namun tingkat kematian masih cukup signifikan sehingga perlu perhatian pada penanganan penyakit berat.</p>
+<hr>
+<h2 id="4-tren-pasien-masuk-dan-keluar">4. Tren Pasien Masuk dan Keluar</h2>
+<p>Grafik menunjukkan jumlah:</p>
+<ul>
+<li><strong>Tanggal Masuk</strong></li>
+<li><strong>Tanggal Keluar</strong></li>
+</ul>
+<p>Setiap bulan.</p>
+<p><strong>Kesimpulan:</strong></p>
+<ul>
+<li>Jumlah pasien masuk dan keluar relatif stabil.</li>
+<li>Tidak terlihat lonjakan pasien yang sangat tinggi pada bulan tertentu.</li>
+</ul>
+<hr>
+<h2 id="5-distribusi-kasus-penyakit-per-bulan">5. Distribusi Kasus Penyakit per Bulan</h2>
+<p>Beberapa penyakit muncul secara konsisten setiap bulan, seperti:</p>
+<ul>
+<li>Diabetes</li>
+<li>Asma</li>
+<li>Tifus</li>
+<li>Pneumonia</li>
+</ul>
+<p><strong>Kesimpulan:</strong><br>
+Penyakit-penyakit tersebut kemungkinan merupakan <strong>penyakit yang paling sering ditangani oleh rumah sakit</strong>.</p>
+<hr>
+<h2 id="6-data-dokter">6. Data Dokter</h2>
+<p>Panel sebelah kiri menunjukkan jumlah pasien yang ditangani oleh setiap dokter.</p>
+<p>Contoh:</p>
+<ul>
+<li>dr. Martina → 27 pasien</li>
+<li>dr. Bambang → 24 pasien</li>
+<li>dr. Bernadeta → 24 pasien</li>
+</ul>
+<p><strong>Kesimpulan:</strong><br>
+Beban kerja dokter relatif tersebar, tetapi beberapa dokter menangani lebih banyak pasien dibanding yang lain.</p>
+<hr>
+<h2 id="7-insight-utama">7. Insight Utama</h2>
+<p>Beberapa poin penting dari dashboard:</p>
+<ul>
+<li>Unit <strong>Rosalia</strong> memiliki jumlah pasien terbanyak.</li>
+<li>Penyakit kronis seperti <strong>Diabetes dan Stroke</strong> cukup dominan.</li>
+<li>Mayoritas pasien <strong>sembuh</strong>, tetapi tingkat kematian masih perlu diperhatikan.</li>
+<li>Jumlah pasien masuk dan keluar <strong>relatif stabil setiap bulan</strong>.</li>
+</ul>
+<hr>
+<h2 id="8-rekomendasi">8. Rekomendasi</h2>
+<p>Beberapa langkah yang dapat dilakukan:</p>
+<ul>
+<li>meningkatkan <strong>penanganan penyakit kronis</strong> seperti diabetes dan stroke</li>
+<li>mengevaluasi <strong>beban kerja dokter</strong></li>
+<li>meningkatkan <strong>kapasitas unit dengan pasien terbanyak</strong></li>
+<li>melakukan <strong>analisis tren penyakit secara berkala</strong> untuk perencanaan layanan kesehatan</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>HR IBM Data Visualization</title>
+      <link>http://localhost:52176/portfolio/hr-data-visualization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:52176/portfolio/hr-data-visualization/</guid>
       <description>Berikut merupakan visualisasi data dari data IBM menggunakan Looker Studio, simak penjelasannya</description>
       <content:encoded><![CDATA[<h1 id="-analisis-sederhana-dashboard-hr-ibm">📊 Analisis Sederhana Dashboard HR IBM</h1>
 <h2 id="1-ringkasan-data-utama">1. Ringkasan Data Utama</h2>
@@ -328,9 +432,9 @@ Ada perbedaan gaji yang cukup besar antara posisi senior dan junior.</p>
     </item>
     <item>
       <title>Student Perfoamance Data Visualization</title>
-      <link>http://localhost:1313/portfolio/student-performance-data-visualization/</link>
+      <link>http://localhost:52176/portfolio/student-performance-data-visualization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/portfolio/student-performance-data-visualization/</guid>
+      <guid>http://localhost:52176/portfolio/student-performance-data-visualization/</guid>
       <description>Berikut merupakan visualisasi data dari data Hasil Nilai Sekolah menggunakan Looker Studio, simak penjelasannya</description>
       <content:encoded><![CDATA[<h1 id="analisis-dashboard-student-performance">Analisis Dashboard Student Performance</h1>
 <h2 id="ringkasan-utama">Ringkasan Utama</h2>
@@ -389,9 +493,9 @@ Ada perbedaan gaji yang cukup besar antara posisi senior dan junior.</p>
     </item>
     <item>
       <title>Toserba Data Visualization</title>
-      <link>http://localhost:1313/portfolio/toserba-data-visualization/</link>
+      <link>http://localhost:52176/portfolio/toserba-data-visualization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/portfolio/toserba-data-visualization/</guid>
+      <guid>http://localhost:52176/portfolio/toserba-data-visualization/</guid>
       <description>Berikut merupakan visualisasi data dari data Hasil Nilai Sekolah menggunakan Looker Studio, simak penjelasannya</description>
       <content:encoded><![CDATA[<h1 id="analisis-dashboard-penjualan-toko-grosir">Analisis Dashboard Penjualan Toko Grosir</h1>
 <h2 id="ringkasan-utama">Ringkasan Utama</h2>

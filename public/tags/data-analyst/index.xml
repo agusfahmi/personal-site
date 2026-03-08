@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Data Analyst on Agus Fahmi Aji Pramana</title>
-    <link>http://localhost:1313/tags/data-analyst/</link>
+    <link>http://localhost:52176/tags/data-analyst/</link>
     <description>Recent content in Data Analyst on Agus Fahmi Aji Pramana</description>
     <image>
       <title>Agus Fahmi Aji Pramana</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:52176/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:52176/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Mar 2026 11:47:11 +0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/data-analyst/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Mar 2026 12:17:13 +0700</lastBuildDate>
+    <atom:link href="http://localhost:52176/tags/data-analyst/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pegadaian Data Visualization</title>
-      <link>http://localhost:1313/portfolio/pegadaian-data-visualization/</link>
+      <link>http://localhost:52176/portfolio/pegadaian-data-visualization/</link>
       <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/portfolio/pegadaian-data-visualization/</guid>
+      <guid>http://localhost:52176/portfolio/pegadaian-data-visualization/</guid>
       <description>Berikut merupakan visualisasi data dari data Pegadian menggunakan Looker Studio, simak penjelasannya</description>
       <content:encoded><![CDATA[<h1 id="analisis-dashboard-transaksi-pegadaian">Analisis Dashboard Transaksi Pegadaian</h1>
 <h2 id="1-ringkasan-kpi">1. Ringkasan KPI</h2>
@@ -124,9 +124,9 @@ Dashboard memberikan snapshot instan performa dan coverage Pegadaian. Tingginya 
     </item>
     <item>
       <title>Cara Preprocessing Data dengan Baik</title>
-      <link>http://localhost:1313/blogs/cara-preprocessing-data-dengan-baik/</link>
+      <link>http://localhost:52176/blogs/cara-preprocessing-data-dengan-baik/</link>
       <pubDate>Sat, 28 Dec 2024 14:55:00 -0300</pubDate>
-      <guid>http://localhost:1313/blogs/cara-preprocessing-data-dengan-baik/</guid>
+      <guid>http://localhost:52176/blogs/cara-preprocessing-data-dengan-baik/</guid>
       <description>Cara Preprocessing Data dengan Baik</description>
       <content:encoded><![CDATA[<h1 id="panduan-preprocessing-data-yang-baik-dalam-machine-learning">Panduan Preprocessing Data yang Baik dalam Machine Learning</h1>
 <p>Preprocessing adalah langkah penting dalam alur kerja data science dan machine learning. Data yang baik adalah kunci untuk model yang akurat dan dapat diandalkan. Artikel ini akan membahas pentingnya preprocessing data dan beberapa teknik yang umum digunakan untuk mempersiapkan data sebelum digunakan dalam pelatihan model machine learning.</p>
@@ -268,9 +268,9 @@ Dashboard memberikan snapshot instan performa dan coverage Pegadaian. Tingginya 
     </item>
     <item>
       <title>Student Exam Result Visualization</title>
-      <link>http://localhost:1313/portfolio/student-exam-result-visualization/</link>
+      <link>http://localhost:52176/portfolio/student-exam-result-visualization/</link>
       <pubDate>Sat, 28 Dec 2024 14:55:00 -0300</pubDate>
-      <guid>http://localhost:1313/portfolio/student-exam-result-visualization/</guid>
+      <guid>http://localhost:52176/portfolio/student-exam-result-visualization/</guid>
       <description>Berikut merupakan visualisasi data dari data Hasil Nilai Sekolah menggunakan Looker Studio, simak penjelasannya</description>
       <content:encoded><![CDATA[<h1 id="-analisis-dashboard-nilai-siswa">📊 Analisis Dashboard Nilai Siswa</h1>
 <h2 id="1-ringkasan-data">1. Ringkasan Data</h2>
@@ -388,9 +388,9 @@ Kelas <strong>B memiliki performa akademik terbaik</strong>, sedangkan <strong>k
     </item>
     <item>
       <title>Hospital Data Visualization</title>
-      <link>http://localhost:1313/portfolio/hospital-data-visualization/</link>
+      <link>http://localhost:52176/portfolio/hospital-data-visualization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/portfolio/hospital-data-visualization/</guid>
+      <guid>http://localhost:52176/portfolio/hospital-data-visualization/</guid>
       <description>Berikut merupakan visualisasi data dari data Rumah Sakit menggunakan Looker Studio, simak penjelasannya</description>
       <content:encoded><![CDATA[<h1 id="-analisis-dashboard-rumah-sakit">🏥 Analisis Dashboard Rumah Sakit</h1>
 <h2 id="1-ringkasan-data">1. Ringkasan Data</h2>
@@ -485,9 +485,9 @@ Beban kerja dokter relatif tersebar, tetapi beberapa dokter menangani lebih bany
     </item>
     <item>
       <title>HR IBM Data Visualization</title>
-      <link>http://localhost:1313/portfolio/hr-data-visualization/</link>
+      <link>http://localhost:52176/portfolio/hr-data-visualization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/portfolio/hr-data-visualization/</guid>
+      <guid>http://localhost:52176/portfolio/hr-data-visualization/</guid>
       <description>Berikut merupakan visualisasi data dari data IBM menggunakan Looker Studio, simak penjelasannya</description>
       <content:encoded><![CDATA[<h1 id="-analisis-sederhana-dashboard-hr-ibm">📊 Analisis Sederhana Dashboard HR IBM</h1>
 <h2 id="1-ringkasan-data-utama">1. Ringkasan Data Utama</h2>
@@ -569,9 +569,9 @@ Ada perbedaan gaji yang cukup besar antara posisi senior dan junior.</p>
     </item>
     <item>
       <title>Student Perfoamance Data Visualization</title>
-      <link>http://localhost:1313/portfolio/student-performance-data-visualization/</link>
+      <link>http://localhost:52176/portfolio/student-performance-data-visualization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/portfolio/student-performance-data-visualization/</guid>
+      <guid>http://localhost:52176/portfolio/student-performance-data-visualization/</guid>
       <description>Berikut merupakan visualisasi data dari data Hasil Nilai Sekolah menggunakan Looker Studio, simak penjelasannya</description>
       <content:encoded><![CDATA[<h1 id="analisis-dashboard-student-performance">Analisis Dashboard Student Performance</h1>
 <h2 id="ringkasan-utama">Ringkasan Utama</h2>
@@ -630,9 +630,9 @@ Ada perbedaan gaji yang cukup besar antara posisi senior dan junior.</p>
     </item>
     <item>
       <title>Toserba Data Visualization</title>
-      <link>http://localhost:1313/portfolio/toserba-data-visualization/</link>
+      <link>http://localhost:52176/portfolio/toserba-data-visualization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/portfolio/toserba-data-visualization/</guid>
+      <guid>http://localhost:52176/portfolio/toserba-data-visualization/</guid>
       <description>Berikut merupakan visualisasi data dari data Hasil Nilai Sekolah menggunakan Looker Studio, simak penjelasannya</description>
       <content:encoded><![CDATA[<h1 id="analisis-dashboard-penjualan-toko-grosir">Analisis Dashboard Penjualan Toko Grosir</h1>
 <h2 id="ringkasan-utama">Ringkasan Utama</h2>

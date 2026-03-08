@@ -1,34 +1,12 @@
-// document.addEventListener("DOMContentLoaded", function(){
+const tagBadges = document.querySelectorAll('.tag-badge');
 
-//   const buttons = document.querySelectorAll(".filter-btn");
-//   const items = document.querySelectorAll(".portfolio-item");
-
-//   buttons.forEach(btn => {
-
-//     btn.addEventListener("click", () => {
-
-//       const filter = btn.dataset.filter;
-
-//       buttons.forEach(b => b.classList.remove("active"));
-//       btn.classList.add("active");
-
-//       items.forEach(item => {
-
-//         const tags = item.dataset.tags;
-
-//         if(filter === "all" || tags.includes(filter)){
-//           item.style.display = "block";
-//         } else {
-//           item.style.display = "none";
-//         }
-
-//       });
-
-//     });
-
-//   });
-
-// });
+tagBadges.forEach(badge => {
+  badge.addEventListener('click', function(e){
+    e.preventDefault(); // agar link # tidak scroll ke atas
+    const tag = badge.textContent.trim().toLowerCase().replace(/\s+/g, '-'); // ambil nama tag
+    filterPosts(tag);
+  });
+});
 
 function filterPosts(tag) {
   const posts = document.querySelectorAll('.portfolio-item');
