@@ -1,5 +1,6 @@
 This my personal website
 
 ### Create Post
-'''hugo new --kind folder blogs/<folder-name>/index.md
+```bash
+hugo new --kind folder blogs/<folder-name>/index.md
 
