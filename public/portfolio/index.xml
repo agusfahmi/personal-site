@@ -13,6 +13,115 @@
     <language>en</language>
     <atom:link href="http://localhost:1313/portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Pegadaian Data Visualization</title>
+      <link>http://localhost:1313/portfolio/pegadaian-data-visualization/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/pegadaian-data-visualization/</guid>
+      <description>Pegadaian Data Visualization</description>
+      <content:encoded><![CDATA[<h1 id="analisis-dashboard-transaksi-pegadaian">Analisis Dashboard Transaksi Pegadaian</h1>
+<h2 id="1-ringkasan-kpi">1. Ringkasan KPI</h2>
+<ul>
+<li><strong>Total of Data:</strong> 100 → total transaksi tercatat.</li>
+<li><strong>Total of Product:</strong> 11 → jumlah produk Pegadaian yang terlibat.</li>
+<li><strong>Total of Region:</strong> 12 → wilayah operasional yang tercatat.</li>
+<li><strong>Total of Area:</strong> 47 → pembagian area atau subwilayah di dalam region.</li>
+<li><strong>Total of Branch:</strong> 100 → total cabang yang berpartisipasi.</li>
+</ul>
+<p><strong>Interpretasi:</strong><br>
+Dashboard memberikan snapshot instan performa dan coverage Pegadaian. Tingginya jumlah cabang dan area menunjukkan jaringan distribusi yang luas, sementara jumlah produk relatif sedikit menunjukkan fokus pada produk tertentu.</p>
+<hr>
+<h2 id="2-analisis-tabel-transaksi">2. Analisis Tabel Transaksi</h2>
+<p>Contoh 4 baris pertama tabel:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Product</th>
+          <th>Channel</th>
+          <th>Product Count</th>
+          <th>Jenis Transaksi</th>
+          <th>Total Transaksi</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>GADAI KCA</td>
+          <td>PEGADAIAN DIGITAL</td>
+          <td>1</td>
+          <td>Minta Tambah</td>
+          <td>412,900</td>
+      </tr>
+      <tr>
+          <td>TABUNGAN EMAS</td>
+          <td>PEGADAIAN DIGITAL</td>
+          <td>62</td>
+          <td>Sale (TE)</td>
+          <td>650,000</td>
+      </tr>
+      <tr>
+          <td>GADAI TAB EMAS</td>
+          <td>PEGADAIAN DIGITAL</td>
+          <td>32</td>
+          <td>Open Kredit</td>
+          <td>498,000</td>
+      </tr>
+      <tr>
+          <td>TABUNGAN EMAS</td>
+          <td>PEGADAIAN DIGITAL</td>
+          <td>62</td>
+          <td>Open Kredit</td>
+          <td>52,500</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Interpretasi:</strong></p>
+<ul>
+<li>Produk <strong>TABUNGAN EMAS</strong> dominan dari segi jumlah transaksi (product_count tinggi).</li>
+<li>Transaksi terbesar secara nominal adalah <strong>Sale (TE)</strong> untuk Tabungan Emas.</li>
+<li>Distribusi transaksi sebagian besar terjadi melalui <strong>Pegadaian Digital</strong>, menunjukkan adopsi kanal digital yang kuat.</li>
+</ul>
+<hr>
+<h2 id="3-visualisasi">3. Visualisasi</h2>
+<ul>
+<li>
+<p><strong>Treemap:</strong> Menunjukkan distribusi jenis transaksi.</p>
+<ul>
+<li>Cicil, Open Kredit, Tebus, Sale (TE) adalah kategori utama.</li>
+<li>Ukuran blok merepresentasikan volume transaksi.</li>
+</ul>
+</li>
+<li>
+<p><strong>Bar Chart per Kota:</strong></p>
+<ul>
+<li>Medan tertinggi, diikuti Bandung, Surabaya, Balikpapan, dan Jakarta 1.</li>
+<li>Mengindikasikan konsentrasi transaksi di kota-kota besar.</li>
+</ul>
+</li>
+<li>
+<p><strong>Line Chart per Produk:</strong></p>
+<ul>
+<li>Menunjukkan total transaksi per singkatan produk (TB, SL, CC, dll.)</li>
+<li>TB paling tinggi, TR paling rendah → distribusi tidak merata antar produk.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="4-sidebar-filter">4. Sidebar Filter</h2>
+<ul>
+<li>Pengguna bisa filter berdasarkan produk, mempermudah analisis granular.</li>
+<li>Search bar mempermudah menemukan produk spesifik.</li>
+</ul>
+<hr>
+<h2 id="5-insight-dan-rekomendasi">5. Insight dan Rekomendasi</h2>
+<ol>
+<li><strong>Produk populer:</strong> TABUNGAN EMAS dan GADAI KCA → fokus promosi &amp; optimasi.</li>
+<li><strong>Kanal digital:</strong> Dominasi transaksi digital → bisa tingkatkan layanan online.</li>
+<li><strong>Kota dengan transaksi tinggi:</strong> Medan → evaluasi kapasitas cabang, layanan pelanggan.</li>
+<li><strong>Distribusi produk:</strong> Beberapa produk rendah transaksinya → perlu strategi pemasaran atau bundle produk.</li>
+<li><strong>Visualisasi:</strong> Sudah cukup intuitif, tapi line chart bisa ditambahkan label nominal agar lebih jelas.</li>
+</ol>
+]]></content:encoded>
+    </item>
+    <item>
       <title>Student Exam Result Visualization</title>
       <link>http://localhost:1313/portfolio/student-exam-result-visualization/</link>
       <pubDate>Sat, 28 Dec 2024 14:55:00 -0300</pubDate>
