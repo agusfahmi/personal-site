@@ -5,7 +5,7 @@ description: 'Cara Preprocessing Data dengan Baik'
 date: 2024-12-28 14:55:00 -0300
 categories: [Blog]
 keywords: [python, data visualization, data analysis, eda]
-tags: [Python, Data Visualization, Data Analysis]
+tags: [Python, Data Analyst, Data Science]
 summary: Exploratory Data Analysis of Amazon's top 50 bestselling books 2009 - 2019
 draft : false
 cover:
