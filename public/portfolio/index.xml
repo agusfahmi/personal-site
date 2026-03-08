@@ -2,28 +2,72 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Portfolio on Agus Fahmi Aji Pramana</title>
-    <link>http://localhost:52292/portfolio/</link>
+    <link>http://localhost:1313/portfolio/</link>
     <description>Recent content in Portfolio on Agus Fahmi Aji Pramana</description>
     <image>
       <title>Agus Fahmi Aji Pramana</title>
-      <url>http://localhost:52292/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:52292/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <atom:link href="http://localhost:52292/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Doctor Assistance With LLM</title>
-      <link>http://localhost:52292/portfolio/doctor-assistance-with-llm/</link>
+      <link>http://localhost:1313/portfolio/doctor-assistance-with-llm/</link>
       <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52292/portfolio/doctor-assistance-with-llm/</guid>
+      <guid>http://localhost:1313/portfolio/doctor-assistance-with-llm/</guid>
       <description>Berikut merupakan project chatbot berbasis AI menggunakan model PALM dari google</description>
+      <content:encoded><![CDATA[<h1 id="chatbot-kesehatan-berbasis-llm-palm2">Chatbot Kesehatan Berbasis LLM (Palm2)</h1>
+<p>Gambar menunjukkan antarmuka <strong>chatbot kesehatan</strong> yang memanfaatkan <strong>Large Language Model (LLM)</strong>, yaitu <strong>Palm2</strong> dari Google. Chatbot ini dirancang untuk membantu pengguna dalam konsultasi kesehatan dengan cara interaktif melalui percakapan berbasis teks.</p>
+<hr>
+<h2 id="1-panel-kiri-menu-navigasi">1. Panel Kiri: Menu Navigasi</h2>
+<ul>
+<li>Panel berwarna biru.</li>
+<li>Menu utama:
+<ul>
+<li><strong>Konsultasi</strong> → area untuk memulai interaksi dengan chatbot.</li>
+<li><strong>Petunjuk Penggunaan</strong> → panduan agar pengguna memahami cara menggunakan chatbot.</li>
+</ul>
+</li>
+<li>Terdapat tombol <strong>Clear Chat History</strong> untuk menghapus riwayat percakapan, menjaga privasi dan kebersihan data.</li>
+</ul>
+<hr>
+<h2 id="2-panel-kanan-area-chat">2. Panel Kanan: Area Chat</h2>
+<ul>
+<li>Panel gelap untuk area percakapan.</li>
+<li>Judul halaman: <strong>Chatbot Kesehatan</strong></li>
+<li>Deskripsi: &ldquo;Chatbot kesehatan ini menggunakan Palm2&rdquo;</li>
+<li>Percakapan:
+<ul>
+<li>Pesan pengguna: <em>&ldquo;Ada yang bisa AI bantu?&rdquo;</em></li>
+</ul>
+</li>
+<li>Terdapat <strong>input box</strong> untuk mengetik pertanyaan atau keluhan, dengan tombol kirim di sebelah kanan.</li>
+</ul>
+<hr>
+<h2 id="3-teknologi-di-balik-chatbot">3. Teknologi di Balik Chatbot</h2>
+<ul>
+<li>Chatbot ini memanfaatkan <strong>Palm2</strong>, salah satu <strong>Large Language Model (LLM)</strong> modern.</li>
+<li>Kemampuan LLM:
+<ul>
+<li>Memahami konteks percakapan.</li>
+<li>Memberikan jawaban yang relevan dan informatif.</li>
+<li>Dapat menangani pertanyaan kesehatan secara umum.</li>
+</ul>
+</li>
+<li>LLM memungkinkan chatbot untuk meniru interaksi manusia dan memberikan respon adaptif sesuai input pengguna.</li>
+</ul>
+<hr>
+<h2 id="4-kesimpulan">4. Kesimpulan</h2>
+<p>Chatbot ini menggabungkan antarmuka sederhana dengan kekuatan <strong>Palm2 LLM</strong>, sehingga pengguna dapat melakukan konsultasi kesehatan secara mudah, cepat, dan interaktif melalui percakapan teks.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Pegadaian Data Visualization</title>
-      <link>http://localhost:52292/portfolio/pegadaian-data-visualization/</link>
+      <link>http://localhost:1313/portfolio/pegadaian-data-visualization/</link>
       <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52292/portfolio/pegadaian-data-visualization/</guid>
+      <guid>http://localhost:1313/portfolio/pegadaian-data-visualization/</guid>
       <description>Berikut merupakan visualisasi data dari data Pegadian menggunakan Looker Studio, simak penjelasannya</description>
       <content:encoded><![CDATA[<h1 id="analisis-dashboard-transaksi-pegadaian">Analisis Dashboard Transaksi Pegadaian</h1>
 <h2 id="1-ringkasan-kpi">1. Ringkasan KPI</h2>
@@ -130,9 +174,9 @@ Dashboard memberikan snapshot instan performa dan coverage Pegadaian. Tingginya 
     </item>
     <item>
       <title>Student Exam Result Visualization</title>
-      <link>http://localhost:52292/portfolio/student-exam-result-visualization/</link>
+      <link>http://localhost:1313/portfolio/student-exam-result-visualization/</link>
       <pubDate>Sat, 28 Dec 2024 14:55:00 -0300</pubDate>
-      <guid>http://localhost:52292/portfolio/student-exam-result-visualization/</guid>
+      <guid>http://localhost:1313/portfolio/student-exam-result-visualization/</guid>
       <description>Berikut merupakan visualisasi data dari data Hasil Nilai Sekolah menggunakan Looker Studio, simak penjelasannya</description>
       <content:encoded><![CDATA[<h1 id="-analisis-dashboard-nilai-siswa">📊 Analisis Dashboard Nilai Siswa</h1>
 <h2 id="1-ringkasan-data">1. Ringkasan Data</h2>
@@ -250,9 +294,9 @@ Kelas <strong>B memiliki performa akademik terbaik</strong>, sedangkan <strong>k
     </item>
     <item>
       <title>Hospital Data Visualization</title>
-      <link>http://localhost:52292/portfolio/hospital-data-visualization/</link>
+      <link>http://localhost:1313/portfolio/hospital-data-visualization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52292/portfolio/hospital-data-visualization/</guid>
+      <guid>http://localhost:1313/portfolio/hospital-data-visualization/</guid>
       <description>Berikut merupakan visualisasi data dari data Rumah Sakit menggunakan Looker Studio, simak penjelasannya</description>
       <content:encoded><![CDATA[<h1 id="-analisis-dashboard-rumah-sakit">🏥 Analisis Dashboard Rumah Sakit</h1>
 <h2 id="1-ringkasan-data">1. Ringkasan Data</h2>
@@ -347,9 +391,9 @@ Beban kerja dokter relatif tersebar, tetapi beberapa dokter menangani lebih bany
     </item>
     <item>
       <title>HR IBM Data Visualization</title>
-      <link>http://localhost:52292/portfolio/hr-data-visualization/</link>
+      <link>http://localhost:1313/portfolio/hr-data-visualization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52292/portfolio/hr-data-visualization/</guid>
+      <guid>http://localhost:1313/portfolio/hr-data-visualization/</guid>
       <description>Berikut merupakan visualisasi data dari data IBM menggunakan Looker Studio, simak penjelasannya</description>
       <content:encoded><![CDATA[<h1 id="-analisis-sederhana-dashboard-hr-ibm">📊 Analisis Sederhana Dashboard HR IBM</h1>
 <h2 id="1-ringkasan-data-utama">1. Ringkasan Data Utama</h2>
@@ -431,9 +475,9 @@ Ada perbedaan gaji yang cukup besar antara posisi senior dan junior.</p>
     </item>
     <item>
       <title>Student Perfoamance Data Visualization</title>
-      <link>http://localhost:52292/portfolio/student-performance-data-visualization/</link>
+      <link>http://localhost:1313/portfolio/student-performance-data-visualization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52292/portfolio/student-performance-data-visualization/</guid>
+      <guid>http://localhost:1313/portfolio/student-performance-data-visualization/</guid>
       <description>Berikut merupakan visualisasi data dari data Hasil Nilai Sekolah menggunakan Looker Studio, simak penjelasannya</description>
       <content:encoded><![CDATA[<h1 id="analisis-dashboard-student-performance">Analisis Dashboard Student Performance</h1>
 <h2 id="ringkasan-utama">Ringkasan Utama</h2>
@@ -492,9 +536,9 @@ Ada perbedaan gaji yang cukup besar antara posisi senior dan junior.</p>
     </item>
     <item>
       <title>Toserba Data Visualization</title>
-      <link>http://localhost:52292/portfolio/toserba-data-visualization/</link>
+      <link>http://localhost:1313/portfolio/toserba-data-visualization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52292/portfolio/toserba-data-visualization/</guid>
+      <guid>http://localhost:1313/portfolio/toserba-data-visualization/</guid>
       <description>Berikut merupakan visualisasi data dari data Hasil Nilai Sekolah menggunakan Looker Studio, simak penjelasannya</description>
       <content:encoded><![CDATA[<h1 id="analisis-dashboard-penjualan-toko-grosir">Analisis Dashboard Penjualan Toko Grosir</h1>
 <h2 id="ringkasan-utama">Ringkasan Utama</h2>
