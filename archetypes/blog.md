@@ -6,7 +6,7 @@ date: '{{ dateFormat "2006-01-02" .Date }}'
 tags: []
 cover:
   relative: true
-  image: 'img/cover.webp'
+  image: ''
   alt: 'Cover'
   hidden: false
 draft: true
