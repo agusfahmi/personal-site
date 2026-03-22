@@ -1,7 +1,7 @@
 ---
 title: 'FMCG 2022-2024 Data Visualization'
 summary: 'FMCG 2022-2024 Data Visualization'
-description: 'FMCG 2022-2024'
+description: Berikut merupakan visualisasi data dari data Rumah Sakit menggunakan Looker Studio, simak penjelasannya
 date: '2026-03-22'
 showReadingTime: false
 showDate: false
