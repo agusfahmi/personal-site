@@ -2,88 +2,88 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://agfmi.com/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2026-07-27T16:54:17+07:00</lastmod>
   </url><url>
-    <loc>https://agfmi.com/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2026-07-27T16:54:17+07:00</lastmod>
   </url><url>
-    <loc>https://agfmi.com/tags/data-analyst/</loc>
+    <loc>http://localhost:1313/tags/data-analyst/</loc>
     <lastmod>2026-07-27T16:54:17+07:00</lastmod>
   </url><url>
-    <loc>https://agfmi.com/portfolio/fmcg-2022-2024/</loc>
+    <loc>http://localhost:1313/portfolio/fmcg-2022-2024/</loc>
     <lastmod>2026-07-27T16:28:45+07:00</lastmod>
   </url><url>
-    <loc>https://agfmi.com/categories/portfolio/</loc>
+    <loc>http://localhost:1313/categories/portfolio/</loc>
     <lastmod>2026-07-27T16:54:17+07:00</lastmod>
   </url><url>
-    <loc>https://agfmi.com/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2026-07-27T16:54:17+07:00</lastmod>
   </url><url>
-    <loc>https://agfmi.com/portfolio/doctor-assistance-with-llm/</loc>
+    <loc>http://localhost:1313/portfolio/doctor-assistance-with-llm/</loc>
     <lastmod>2026-07-27T16:28:45+07:00</lastmod>
   </url><url>
-    <loc>https://agfmi.com/tags/llm/</loc>
+    <loc>http://localhost:1313/tags/llm/</loc>
     <lastmod>2026-07-27T16:28:45+07:00</lastmod>
   </url><url>
-    <loc>https://agfmi.com/portfolio/pegadaian-data-visualization/</loc>
+    <loc>http://localhost:1313/portfolio/pegadaian-data-visualization/</loc>
     <lastmod>2026-07-27T16:28:45+07:00</lastmod>
   </url><url>
-    <loc>https://agfmi.com/categories/blog/</loc>
+    <loc>http://localhost:1313/categories/blog/</loc>
     <lastmod>2026-07-27T16:28:45+07:00</lastmod>
   </url><url>
-    <loc>https://agfmi.com/blogs/</loc>
+    <loc>http://localhost:1313/blogs/</loc>
     <lastmod>2026-07-27T16:28:45+07:00</lastmod>
   </url><url>
-    <loc>https://agfmi.com/blogs/cara-menggunakan-tensorflow/</loc>
+    <loc>http://localhost:1313/blogs/cara-menggunakan-tensorflow/</loc>
     <lastmod>2026-03-08T20:37:45+07:00</lastmod>
   </url><url>
-    <loc>https://agfmi.com/blogs/cara-preprocessing-data-dengan-baik/</loc>
+    <loc>http://localhost:1313/blogs/cara-preprocessing-data-dengan-baik/</loc>
     <lastmod>2026-07-27T16:28:45+07:00</lastmod>
   </url><url>
-    <loc>https://agfmi.com/tags/data-science/</loc>
+    <loc>http://localhost:1313/tags/data-science/</loc>
     <lastmod>2026-07-27T16:28:45+07:00</lastmod>
   </url><url>
-    <loc>https://agfmi.com/tags/python/</loc>
+    <loc>http://localhost:1313/tags/python/</loc>
     <lastmod>2026-07-27T16:28:45+07:00</lastmod>
   </url><url>
-    <loc>https://agfmi.com/portfolio/student-exam-result-visualization/</loc>
+    <loc>http://localhost:1313/portfolio/student-exam-result-visualization/</loc>
     <lastmod>2026-07-27T16:28:45+07:00</lastmod>
   </url><url>
-    <loc>https://agfmi.com/aboutme/</loc>
+    <loc>http://localhost:1313/aboutme/</loc>
     <lastmod>2025-03-09T15:08:59+07:00</lastmod>
   </url><url>
-    <loc>https://agfmi.com/archives/</loc>
+    <loc>http://localhost:1313/archives/</loc>
     <lastmod>2025-03-10T21:13:43+07:00</lastmod>
   </url><url>
-    <loc>https://agfmi.com/portfolio/ev-market-data-visualization/</loc>
+    <loc>http://localhost:1313/portfolio/ev-market-data-visualization/</loc>
     <lastmod>2026-07-27T16:54:17+07:00</lastmod>
   </url><url>
-    <loc>https://agfmi.com/portfolio/hospital-data-visualization/</loc>
+    <loc>http://localhost:1313/portfolio/hospital-data-visualization/</loc>
     <lastmod>2026-07-27T16:28:45+07:00</lastmod>
   </url><url>
-    <loc>https://agfmi.com/portfolio/hr-data-visualization/</loc>
+    <loc>http://localhost:1313/portfolio/hr-data-visualization/</loc>
     <lastmod>2026-07-27T16:28:45+07:00</lastmod>
   </url><url>
-    <loc>https://agfmi.com/portfolio/</loc>
+    <loc>http://localhost:1313/portfolio/</loc>
     <lastmod>2026-03-07T20:51:58+07:00</lastmod>
   </url><url>
-    <loc>https://agfmi.com/projects/</loc>
+    <loc>http://localhost:1313/projects/</loc>
     <lastmod>2025-03-09T15:08:59+07:00</lastmod>
   </url><url>
-    <loc>https://agfmi.com/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
     <lastmod>2025-03-09T15:08:59+07:00</lastmod>
   </url><url>
-    <loc>https://agfmi.com/portfolio/student-performance-data-visualization/</loc>
+    <loc>http://localhost:1313/portfolio/student-performance-data-visualization/</loc>
     <lastmod>2026-07-27T16:28:45+07:00</lastmod>
   </url><url>
-    <loc>https://agfmi.com/terms/</loc>
+    <loc>http://localhost:1313/terms/</loc>
     <lastmod>2025-03-10T21:26:32+07:00</lastmod>
   </url><url>
-    <loc>https://agfmi.com/portfolio/toserba-data-visualization/</loc>
+    <loc>http://localhost:1313/portfolio/toserba-data-visualization/</loc>
     <lastmod>2026-07-27T16:28:45+07:00</lastmod>
   </url><url>
-    <loc>https://agfmi.com/tags/visualization/</loc>
+    <loc>http://localhost:1313/tags/visualization/</loc>
     <lastmod>2026-07-27T16:54:17+07:00</lastmod>
   </url>
 </urlset>
