@@ -1,53 +1,55 @@
 {{ define "main" }}
 
-<h1>{{ .Title }}</h1>
+<div class="portfolio-content">
+  <header class="portfolio-header">
+    <h1 class="portfolio-page-title">{{ .Title }}</h1>
 
-{{ if .Description }}
-<p class="page-description">
-  {{ .Description }}
-</p>
-{{ end }}
+    {{ if .Description }}
+    <p class="page-description">
+      {{ .Description }}
+    </p>
+    {{ end }}
+  </header>
 
-<!-- TAG FILTER -->
-<div class="portfolio-filter">
+  <div class="portfolio-filter" role="toolbar" aria-label="Filter portfolio">
+    <button class="filter-btn active" type="button" onclick="filterPosts('all')">
+      All
+    </button>
 
-<button class="filter-btn active" onclick="filterPosts('all')">
-All
-</button>
-
-{{ range $name, $_ := .Site.Taxonomies.tags }}
-<button class="filter-btn" onclick="filterPosts('{{ $name | urlize }}')">
-{{ $name | upper }}
-</button>
-{{ end }}
-
-</div>
-
-<div class="portfolio-grid">
-  {{ range .Pages }}
-  <div class="portfolio-item {{ range .Params.tags }} tag-{{ . | urlize }} {{ end }}">
-    <a href="{{ .RelPermalink }}">
-        {{- $isHidden := (site.Params.cover.hidden | default site.Params.cover.hiddenInList) }}
-      {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
-      <h3>{{ .Title }}</h3>
-      {{ if .Description }}
-      <p class="portfolio-desc">
-        {{ .Description }}
-      </p>
-      {{ end }}
-      {{ if .Params.tags }}
-      <div class="tag-container">
-        {{ range .Params.tags }}
-        <span class="tag-badge">
-          {{ . }}
-        </span>
-        {{ end }}
-      </div>
-      {{ end }}
-
-    </a>
+    {{ range $name, $_ := .Site.Taxonomies.tags }}
+    <button class="filter-btn" type="button" onclick="filterPosts('{{ $name | urlize }}')">
+      {{ $name | upper }}
+    </button>
+    {{ end }}
   </div>
-  {{ end }}
+
+  <div class="portfolio-grid">
+    {{ range .Pages }}
+    <div class="portfolio-item {{ range .Params.tags }} tag-{{ . | urlize }} {{ end }}">
+      <a href="{{ .RelPermalink }}">
+        {{- $isHidden := (site.Params.cover.hidden | default site.Params.cover.hiddenInList) }}
+        {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
+        <div class="portfolio-item-body">
+          <h3>{{ .Title }}</h3>
+          {{ if .Description }}
+          <p class="portfolio-desc">
+            {{ .Description }}
+          </p>
+          {{ end }}
+          {{ if .Params.tags }}
+          <div class="tag-container">
+            {{ range .Params.tags }}
+            <span class="tag-badge">
+              {{ . }}
+            </span>
+            {{ end }}
+          </div>
+          {{ end }}
+        </div>
+      </a>
+    </div>
+    {{ end }}
+  </div>
 </div>
-  
+
 {{ end }}
