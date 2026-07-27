@@ -8,9 +8,9 @@ tags: [Data Analyst, Visualization]
 summary: Visualisasi data pasar kendaraan listrik (EV) yang menampilkan tren pertumbuhan penjualan, perbandingan negara, serta proyeksi pasar yang menarik.
 draft: false
 cover:
-    image: 'EV Dashboard.jpg'
+    image: 'EV_Dashboard.jpg'
     hidden: false
-    alt: dashboard ev
+    alt: dashboard
 ---
 
 # ⚡ Visualisasi Data EV Market
