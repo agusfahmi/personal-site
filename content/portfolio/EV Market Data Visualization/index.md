@@ -10,7 +10,7 @@ draft: false
 cover:
     image: 'EV Dashboard.jpg'
     hidden: false
-    alt: LLM
+    alt: dashboard ev
 ---
 
 # ⚡ Visualisasi Data EV Market
