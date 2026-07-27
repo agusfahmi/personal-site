@@ -2,21 +2,141 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Portfolio on Agus Fahmi Aji Pramana</title>
-    <link>http://localhost:61398/portfolio/</link>
+    <link>https://agfmi.com/portfolio/</link>
     <description>Recent content in Portfolio on Agus Fahmi Aji Pramana</description>
     <image>
       <title>Agus Fahmi Aji Pramana</title>
-      <url>http://localhost:61398/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:61398/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://agfmi.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://agfmi.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.145.0</generator>
+    <generator>Hugo -- 0.164.0</generator>
     <language>en</language>
-    <atom:link href="http://localhost:61398/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://agfmi.com/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FMCG 2022-2024 Data Visualization</title>
+      <link>https://agfmi.com/portfolio/fmcg-2022-2024/</link>
+      <pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://agfmi.com/portfolio/fmcg-2022-2024/</guid>
+      <description>Berikut merupakan visualisasi data dari data Rumah Sakit menggunakan Looker Studio, simak penjelasannya</description>
+      <content:encoded><![CDATA[<h1 id="dashboard-fmcg-20222024-analisis-kinerja-penjualan-dan-operasional">Dashboard FMCG 2022–2024: Analisis Kinerja Penjualan dan Operasional</h1>
+<h2 id="1-ringkasan-kpi-key-performance-indicators">1. Ringkasan KPI (Key Performance Indicators)</h2>
+<p>Bagian ini menampilkan indikator utama:</p>
+<ul>
+<li><strong>Total Data: 190,8 rb</strong> → jumlah keseluruhan data transaksi yang dianalisis</li>
+<li><strong>Units Sold: 3,8 jt</strong> → total unit produk terjual</li>
+<li><strong>Price per Unit: 190.757</strong> → rata-rata harga per unit</li>
+<li><strong>Promotion Flag: 0,1</strong> → proporsi produk yang dipromosikan (±10%)</li>
+<li><strong>Stock Available: 30,1 jt</strong> → total stok tersedia</li>
+<li><strong>Fulfillment Rate: 2,0 jt</strong> → jumlah pesanan yang berhasil dipenuhi</li>
+</ul>
+<p><strong>Interpretasi:</strong><br>
+Volume stok jauh lebih besar dibanding penjualan, yang mengindikasikan potensi overstock atau distribusi belum optimal.</p>
+<hr>
+<h2 id="2-distribusi-channel-penjualan">2. Distribusi Channel Penjualan</h2>
+<p>Diagram donat menunjukkan:</p>
+<ul>
+<li><strong>Retail: 33,4%</strong></li>
+<li><strong>E-commerce: 33,4%</strong></li>
+<li><strong>Discount: 33,3%</strong></li>
+</ul>
+<p><strong>Interpretasi:</strong><br>
+Distribusi channel sangat seimbang. Tidak ada dominasi channel tertentu, sehingga strategi omnichannel berjalan relatif merata.</p>
+<hr>
+<h2 id="3-tren-penjualan-per-kategori-time-series">3. Tren Penjualan per Kategori (Time Series)</h2>
+<p>Grafik garis (2022–2024) menunjukkan:</p>
+<ul>
+<li><strong>Yogurt</strong> → kategori paling dominan dan fluktuatif (puncak sekitar 70 rb)</li>
+<li><strong>Milk &amp; SnackBar</strong> → tren naik stabil, terutama tahun 2023</li>
+<li><strong>ReadyMeal</strong> → relatif stabil di kisaran menengah</li>
+<li><strong>Juice</strong> → paling rendah dan stagnan</li>
+</ul>
+<p><strong>Interpretasi:</strong></p>
+<ul>
+<li>Yogurt menjadi <strong>driver utama revenue</strong></li>
+<li>Juice memiliki <strong>performa rendah</strong>, perlu evaluasi produk atau pemasaran</li>
+</ul>
+<hr>
+<h2 id="4-distribusi-wilayah-treemap">4. Distribusi Wilayah (Treemap)</h2>
+<ul>
+<li><strong>PL-North</strong> → kontribusi terbesar</li>
+<li><strong>PL-South</strong> → menengah</li>
+<li><strong>PL-Central</strong> → paling kecil</li>
+</ul>
+<p><strong>Interpretasi:</strong><br>
+Wilayah utara merupakan pasar utama. Potensi ekspansi ada di wilayah central yang masih rendah.</p>
+<hr>
+<h2 id="5-penjualan-per-kategori-produk">5. Penjualan per Kategori Produk</h2>
+<p>Bar chart menunjukkan:</p>
+<ul>
+<li><strong>Yogurt</strong> → tertinggi (~1,5 jt unit)</li>
+<li><strong>Milk</strong> → kedua</li>
+<li><strong>ReadyMeal &amp; SnackBar</strong> → menengah</li>
+<li><strong>Juice</strong> → terendah</li>
+</ul>
+<p><strong>Insight:</strong><br>
+Konsisten dengan grafik tren, Yogurt adalah produk unggulan.</p>
+<hr>
+<h2 id="6-top-product-sku">6. Top Product (SKU)</h2>
+<ul>
+<li><strong>YO-029, YO-005, YO-012</strong> → produk terlaris</li>
+<li>Produk Milk dan ReadyMeal berada di bawahnya</li>
+</ul>
+<p><strong>Interpretasi:</strong><br>
+SKU berbasis Yogurt mendominasi top sales, menunjukkan kekuatan product-market fit pada kategori tersebut.</p>
+<hr>
+<h2 id="7-perbandingan-regional-per-kategori">7. Perbandingan Regional per Kategori</h2>
+<p>Grafik menunjukkan:</p>
+<ul>
+<li>Semua wilayah memiliki pola mirip</li>
+<li><strong>PL-North</strong> sedikit unggul di hampir semua kategori</li>
+<li>Yogurt tetap dominan di semua wilayah</li>
+</ul>
+<p><strong>Insight:</strong><br>
+Permintaan Yogurt bersifat konsisten lintas wilayah, bukan fenomena lokal.</p>
+<hr>
+<h2 id="8-segmentasi-produk">8. Segmentasi Produk</h2>
+<ul>
+<li><strong>Yogurt-Seg1</strong> → tertinggi (~600 rb)</li>
+<li><strong>Yogurt-Seg3 &amp; Seg2</strong> → mengikuti</li>
+<li><strong>Milk-Seg2 &amp; SnackBar-Seg1</strong> → lebih rendah</li>
+</ul>
+<p><strong>Interpretasi:</strong><br>
+Segmentasi Yogurt menunjukkan diversifikasi produk berhasil meningkatkan penjualan.</p>
+<hr>
+<h2 id="9-analisis-strategis">9. Analisis Strategis</h2>
+<h3 id="a-strength">a. Strength</h3>
+<ul>
+<li>Produk Yogurt sangat kuat dan konsisten</li>
+<li>Channel distribusi seimbang</li>
+<li>Permintaan stabil di semua wilayah</li>
+</ul>
+<h3 id="b-weakness">b. Weakness</h3>
+<ul>
+<li>Juice underperform</li>
+<li>Stock terlalu tinggi dibanding penjualan</li>
+<li>Wilayah central kurang optimal</li>
+</ul>
+<h3 id="c-opportunity">c. Opportunity</h3>
+<ul>
+<li>Ekspansi Yogurt (varian baru atau segmentasi lebih lanjut)</li>
+<li>Optimasi channel e-commerce</li>
+<li>Penetrasi wilayah central</li>
+</ul>
+<h3 id="d-threat">d. Threat</h3>
+<ul>
+<li>Overstock meningkatkan biaya penyimpanan</li>
+<li>Ketergantungan tinggi pada satu kategori (Yogurt)</li>
+</ul>
+<hr>
+<h2 id="10-kesimpulan">10. Kesimpulan</h2>
+<p>Dashboard ini menunjukkan bahwa performa FMCG didorong secara signifikan oleh kategori Yogurt dengan distribusi channel yang seimbang dan dominasi wilayah utara. Namun, terdapat ketidakseimbangan antara stok dan penjualan serta rendahnya performa kategori tertentu seperti Juice yang memerlukan strategi perbaikan berbasis data.</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Doctor Assistance With LLM</title>
-      <link>http://localhost:61398/portfolio/doctor-assistance-with-llm/</link>
+      <link>https://agfmi.com/portfolio/doctor-assistance-with-llm/</link>
       <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61398/portfolio/doctor-assistance-with-llm/</guid>
+      <guid>https://agfmi.com/portfolio/doctor-assistance-with-llm/</guid>
       <description>Berikut merupakan project chatbot berbasis AI menggunakan model PALM dari google</description>
       <content:encoded><![CDATA[<h1 id="chatbot-kesehatan-berbasis-llm-palm2">Chatbot Kesehatan Berbasis LLM (Palm2)</h1>
 <p>Gambar menunjukkan antarmuka <strong>chatbot kesehatan</strong> yang memanfaatkan <strong>Large Language Model (LLM)</strong>, yaitu <strong>Palm2</strong> dari Google. Chatbot ini dirancang untuk membantu pengguna dalam konsultasi kesehatan dengan cara interaktif melalui percakapan berbasis teks.</p>
@@ -65,9 +185,9 @@
     </item>
     <item>
       <title>Pegadaian Data Visualization</title>
-      <link>http://localhost:61398/portfolio/pegadaian-data-visualization/</link>
+      <link>https://agfmi.com/portfolio/pegadaian-data-visualization/</link>
       <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61398/portfolio/pegadaian-data-visualization/</guid>
+      <guid>https://agfmi.com/portfolio/pegadaian-data-visualization/</guid>
       <description>Berikut merupakan visualisasi data dari data Pegadian menggunakan Looker Studio, simak penjelasannya</description>
       <content:encoded><![CDATA[<h1 id="analisis-dashboard-transaksi-pegadaian">Analisis Dashboard Transaksi Pegadaian</h1>
 <h2 id="1-ringkasan-kpi">1. Ringkasan KPI</h2>
@@ -84,45 +204,45 @@ Dashboard memberikan snapshot instan performa dan coverage Pegadaian. Tingginya 
 <h2 id="2-analisis-tabel-transaksi">2. Analisis Tabel Transaksi</h2>
 <p>Contoh 4 baris pertama tabel:</p>
 <table>
-  <thead>
-      <tr>
-          <th>Product</th>
-          <th>Channel</th>
-          <th>Product Count</th>
-          <th>Jenis Transaksi</th>
-          <th>Total Transaksi</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>GADAI KCA</td>
-          <td>PEGADAIAN DIGITAL</td>
-          <td>1</td>
-          <td>Minta Tambah</td>
-          <td>412,900</td>
-      </tr>
-      <tr>
-          <td>TABUNGAN EMAS</td>
-          <td>PEGADAIAN DIGITAL</td>
-          <td>62</td>
-          <td>Sale (TE)</td>
-          <td>650,000</td>
-      </tr>
-      <tr>
-          <td>GADAI TAB EMAS</td>
-          <td>PEGADAIAN DIGITAL</td>
-          <td>32</td>
-          <td>Open Kredit</td>
-          <td>498,000</td>
-      </tr>
-      <tr>
-          <td>TABUNGAN EMAS</td>
-          <td>PEGADAIAN DIGITAL</td>
-          <td>62</td>
-          <td>Open Kredit</td>
-          <td>52,500</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>Product</th>
+					<th>Channel</th>
+					<th>Product Count</th>
+					<th>Jenis Transaksi</th>
+					<th>Total Transaksi</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>GADAI KCA</td>
+					<td>PEGADAIAN DIGITAL</td>
+					<td>1</td>
+					<td>Minta Tambah</td>
+					<td>412,900</td>
+			</tr>
+			<tr>
+					<td>TABUNGAN EMAS</td>
+					<td>PEGADAIAN DIGITAL</td>
+					<td>62</td>
+					<td>Sale (TE)</td>
+					<td>650,000</td>
+			</tr>
+			<tr>
+					<td>GADAI TAB EMAS</td>
+					<td>PEGADAIAN DIGITAL</td>
+					<td>32</td>
+					<td>Open Kredit</td>
+					<td>498,000</td>
+			</tr>
+			<tr>
+					<td>TABUNGAN EMAS</td>
+					<td>PEGADAIAN DIGITAL</td>
+					<td>62</td>
+					<td>Open Kredit</td>
+					<td>52,500</td>
+			</tr>
+	</tbody>
 </table>
 <p><strong>Interpretasi:</strong></p>
 <ul>
@@ -174,9 +294,9 @@ Dashboard memberikan snapshot instan performa dan coverage Pegadaian. Tingginya 
     </item>
     <item>
       <title>Student Exam Result Visualization</title>
-      <link>http://localhost:61398/portfolio/student-exam-result-visualization/</link>
+      <link>https://agfmi.com/portfolio/student-exam-result-visualization/</link>
       <pubDate>Sat, 28 Dec 2024 14:55:00 -0300</pubDate>
-      <guid>http://localhost:61398/portfolio/student-exam-result-visualization/</guid>
+      <guid>https://agfmi.com/portfolio/student-exam-result-visualization/</guid>
       <description>Berikut merupakan visualisasi data dari data Hasil Nilai Sekolah menggunakan Looker Studio, simak penjelasannya</description>
       <content:encoded><![CDATA[<h1 id="-analisis-dashboard-nilai-siswa">📊 Analisis Dashboard Nilai Siswa</h1>
 <h2 id="1-ringkasan-data">1. Ringkasan Data</h2>
@@ -202,35 +322,35 @@ Mayoritas siswa berhasil menyelesaikan pembelajaran dengan baik.</p>
 <h2 id="3-perbandingan-kelulusan-per-kelas">3. Perbandingan Kelulusan per Kelas</h2>
 <p>Jumlah siswa lulus dan gagal di setiap kelas:</p>
 <table>
-  <thead>
-      <tr>
-          <th>Kelas</th>
-          <th>Lulus</th>
-          <th>Gagal</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>Kelas A</td>
-          <td>Tinggi</td>
-          <td>Rendah</td>
-      </tr>
-      <tr>
-          <td>Kelas B</td>
-          <td>Paling tinggi</td>
-          <td>Paling rendah</td>
-      </tr>
-      <tr>
-          <td>Kelas C</td>
-          <td>Tinggi</td>
-          <td>Sedang</td>
-      </tr>
-      <tr>
-          <td>Kelas D</td>
-          <td>Lebih rendah</td>
-          <td>Paling banyak</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>Kelas</th>
+					<th>Lulus</th>
+					<th>Gagal</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Kelas A</td>
+					<td>Tinggi</td>
+					<td>Rendah</td>
+			</tr>
+			<tr>
+					<td>Kelas B</td>
+					<td>Paling tinggi</td>
+					<td>Paling rendah</td>
+			</tr>
+			<tr>
+					<td>Kelas C</td>
+					<td>Tinggi</td>
+					<td>Sedang</td>
+			</tr>
+			<tr>
+					<td>Kelas D</td>
+					<td>Lebih rendah</td>
+					<td>Paling banyak</td>
+			</tr>
+	</tbody>
 </table>
 <p><strong>Kesimpulan:</strong><br>
 Kelas <strong>B dan A</strong> memiliki performa akademik terbaik, sedangkan <strong>kelas D memiliki tingkat kegagalan paling tinggi</strong>.</p>
@@ -247,30 +367,30 @@ Sebagian besar siswa memperoleh nilai tinggi.</p>
 <hr>
 <h2 id="5-rata-rata-nilai-per-kelas">5. Rata-rata Nilai per Kelas</h2>
 <table>
-  <thead>
-      <tr>
-          <th>Kelas</th>
-          <th>Rata-rata Nilai</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>Kelas B</td>
-          <td>86,37</td>
-      </tr>
-      <tr>
-          <td>Kelas C</td>
-          <td>78,81</td>
-      </tr>
-      <tr>
-          <td>Kelas A</td>
-          <td>78,56</td>
-      </tr>
-      <tr>
-          <td>Kelas D</td>
-          <td>66,04</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>Kelas</th>
+					<th>Rata-rata Nilai</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Kelas B</td>
+					<td>86,37</td>
+			</tr>
+			<tr>
+					<td>Kelas C</td>
+					<td>78,81</td>
+			</tr>
+			<tr>
+					<td>Kelas A</td>
+					<td>78,56</td>
+			</tr>
+			<tr>
+					<td>Kelas D</td>
+					<td>66,04</td>
+			</tr>
+	</tbody>
 </table>
 <p><strong>Kesimpulan:</strong><br>
 Kelas <strong>B memiliki performa akademik terbaik</strong>, sedangkan <strong>kelas D memiliki rata-rata nilai paling rendah</strong>.</p>
@@ -294,9 +414,9 @@ Kelas <strong>B memiliki performa akademik terbaik</strong>, sedangkan <strong>k
     </item>
     <item>
       <title>Hospital Data Visualization</title>
-      <link>http://localhost:61398/portfolio/hospital-data-visualization/</link>
+      <link>https://agfmi.com/portfolio/hospital-data-visualization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61398/portfolio/hospital-data-visualization/</guid>
+      <guid>https://agfmi.com/portfolio/hospital-data-visualization/</guid>
       <description>Berikut merupakan visualisasi data dari data Rumah Sakit menggunakan Looker Studio, simak penjelasannya</description>
       <content:encoded><![CDATA[<h1 id="-analisis-dashboard-rumah-sakit">🏥 Analisis Dashboard Rumah Sakit</h1>
 <h2 id="1-ringkasan-data">1. Ringkasan Data</h2>
@@ -391,9 +511,9 @@ Beban kerja dokter relatif tersebar, tetapi beberapa dokter menangani lebih bany
     </item>
     <item>
       <title>HR IBM Data Visualization</title>
-      <link>http://localhost:61398/portfolio/hr-data-visualization/</link>
+      <link>https://agfmi.com/portfolio/hr-data-visualization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61398/portfolio/hr-data-visualization/</guid>
+      <guid>https://agfmi.com/portfolio/hr-data-visualization/</guid>
       <description>Berikut merupakan visualisasi data dari data IBM menggunakan Looker Studio, simak penjelasannya</description>
       <content:encoded><![CDATA[<h1 id="-analisis-sederhana-dashboard-hr-ibm">📊 Analisis Sederhana Dashboard HR IBM</h1>
 <h2 id="1-ringkasan-data-utama">1. Ringkasan Data Utama</h2>
@@ -475,9 +595,9 @@ Ada perbedaan gaji yang cukup besar antara posisi senior dan junior.</p>
     </item>
     <item>
       <title>Student Perfoamance Data Visualization</title>
-      <link>http://localhost:61398/portfolio/student-performance-data-visualization/</link>
+      <link>https://agfmi.com/portfolio/student-performance-data-visualization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61398/portfolio/student-performance-data-visualization/</guid>
+      <guid>https://agfmi.com/portfolio/student-performance-data-visualization/</guid>
       <description>Berikut merupakan visualisasi data dari data Hasil Nilai Sekolah menggunakan Looker Studio, simak penjelasannya</description>
       <content:encoded><![CDATA[<h1 id="analisis-dashboard-student-performance">Analisis Dashboard Student Performance</h1>
 <h2 id="ringkasan-utama">Ringkasan Utama</h2>
@@ -497,7 +617,8 @@ Ada perbedaan gaji yang cukup besar antara posisi senior dan junior.</p>
 <li><strong>Other:</strong> 32,3%</li>
 </ul>
 <blockquote>
-<p>Distribusi gender relatif seimbang dengan sedikit dominasi Male.</p></blockquote>
+<p>Distribusi gender relatif seimbang dengan sedikit dominasi Male.</p>
+</blockquote>
 <hr>
 <h2 id="analisis-akademik--performa">Analisis Akademik &amp; Performa</h2>
 <ul>
@@ -536,9 +657,9 @@ Ada perbedaan gaji yang cukup besar antara posisi senior dan junior.</p>
     </item>
     <item>
       <title>Toserba Data Visualization</title>
-      <link>http://localhost:61398/portfolio/toserba-data-visualization/</link>
+      <link>https://agfmi.com/portfolio/toserba-data-visualization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61398/portfolio/toserba-data-visualization/</guid>
+      <guid>https://agfmi.com/portfolio/toserba-data-visualization/</guid>
       <description>Berikut merupakan visualisasi data dari data Hasil Nilai Sekolah menggunakan Looker Studio, simak penjelasannya</description>
       <content:encoded><![CDATA[<h1 id="analisis-dashboard-penjualan-toko-grosir">Analisis Dashboard Penjualan Toko Grosir</h1>
 <h2 id="ringkasan-utama">Ringkasan Utama</h2>
@@ -552,7 +673,8 @@ Ada perbedaan gaji yang cukup besar antara posisi senior dan junior.</p>
 <li><strong>Target Penjualan:</strong> Rp 800.000.000</li>
 </ul>
 <blockquote>
-<p><strong>Catatan:</strong> Target penjualan tercapai sekitar 65,08% dari target.</p></blockquote>
+<p><strong>Catatan:</strong> Target penjualan tercapai sekitar 65,08% dari target.</p>
+</blockquote>
 <hr>
 <h2 id="analisis-geografis">Analisis Geografis</h2>
 <ul>
@@ -578,7 +700,8 @@ Ada perbedaan gaji yang cukup besar antara posisi senior dan junior.</p>
 <li>Sup (~Rp 20 juta)</li>
 </ol>
 <blockquote>
-<p><strong>Catatan:</strong> Minuman menyumbang hampir setengah total penjualan.</p></blockquote>
+<p><strong>Catatan:</strong> Minuman menyumbang hampir setengah total penjualan.</p>
+</blockquote>
 <hr>
 <h2 id="analisis-metode-pembayaran">Analisis Metode Pembayaran</h2>
 <ul>
@@ -587,71 +710,73 @@ Ada perbedaan gaji yang cukup besar antara posisi senior dan junior.</p>
 <li><strong>Tunai:</strong> 14,3%</li>
 </ul>
 <blockquote>
-<p>Metode pembayaran elektronik mendominasi, menandakan preferensi customer terhadap transaksi non-tunai.</p></blockquote>
+<p>Metode pembayaran elektronik mendominasi, menandakan preferensi customer terhadap transaksi non-tunai.</p>
+</blockquote>
 <hr>
 <h2 id="analisis-penjualan-per-sales">Analisis Penjualan Per Sales</h2>
 <table>
-  <thead>
-      <tr>
-          <th>Rank</th>
-          <th>Sales</th>
-          <th>Penjualan (Rp)</th>
-          <th>Persentase</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>1</td>
-          <td>Agus Setiawan</td>
-          <td>199.742.500</td>
-          <td>38,37%</td>
-      </tr>
-      <tr>
-          <td>2</td>
-          <td>Lukas Darmadji</td>
-          <td>65.610.000</td>
-          <td>12,6%</td>
-      </tr>
-      <tr>
-          <td>3</td>
-          <td>Dewi Ratna Sari</td>
-          <td>63.780.000</td>
-          <td>12,25%</td>
-      </tr>
-      <tr>
-          <td>4</td>
-          <td>Nayla Subandono</td>
-          <td>62.780.000</td>
-          <td>12,06%</td>
-      </tr>
-      <tr>
-          <td>5</td>
-          <td>Darmanto Adjie</td>
-          <td>57.875.000</td>
-          <td>11,12%</td>
-      </tr>
-      <tr>
-          <td>6</td>
-          <td>Inne Anneke</td>
-          <td>37.865.000</td>
-          <td>7,27%</td>
-      </tr>
-      <tr>
-          <td>7</td>
-          <td>Andreas Nichol</td>
-          <td>26.175.000</td>
-          <td>5,03%</td>
-      </tr>
-      <tr>
-          <td>8</td>
-          <td>Eko Prasetyo</td>
-          <td>6.800.000</td>
-          <td>1,31%</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>Rank</th>
+					<th>Sales</th>
+					<th>Penjualan (Rp)</th>
+					<th>Persentase</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>1</td>
+					<td>Agus Setiawan</td>
+					<td>199.742.500</td>
+					<td>38,37%</td>
+			</tr>
+			<tr>
+					<td>2</td>
+					<td>Lukas Darmadji</td>
+					<td>65.610.000</td>
+					<td>12,6%</td>
+			</tr>
+			<tr>
+					<td>3</td>
+					<td>Dewi Ratna Sari</td>
+					<td>63.780.000</td>
+					<td>12,25%</td>
+			</tr>
+			<tr>
+					<td>4</td>
+					<td>Nayla Subandono</td>
+					<td>62.780.000</td>
+					<td>12,06%</td>
+			</tr>
+			<tr>
+					<td>5</td>
+					<td>Darmanto Adjie</td>
+					<td>57.875.000</td>
+					<td>11,12%</td>
+			</tr>
+			<tr>
+					<td>6</td>
+					<td>Inne Anneke</td>
+					<td>37.865.000</td>
+					<td>7,27%</td>
+			</tr>
+			<tr>
+					<td>7</td>
+					<td>Andreas Nichol</td>
+					<td>26.175.000</td>
+					<td>5,03%</td>
+			</tr>
+			<tr>
+					<td>8</td>
+					<td>Eko Prasetyo</td>
+					<td>6.800.000</td>
+					<td>1,31%</td>
+			</tr>
+	</tbody>
 </table>
 <blockquote>
-<p><strong>Catatan:</strong> Agus Setiawan menyumbang lebih dari sepertiga total penjualan. Perlu strategi pengembangan sales lain agar distribusi lebih merata.</p></blockquote>
+<p><strong>Catatan:</strong> Agus Setiawan menyumbang lebih dari sepertiga total penjualan. Perlu strategi pengembangan sales lain agar distribusi lebih merata.</p>
+</blockquote>
 <hr>
 <h2 id="rekomendasi">Rekomendasi</h2>
 <ol>
