@@ -1,9 +1,7 @@
 ---
 title: 'Pegadaian Data Visualization'
-summary: 'Pegadaian Data Visualization'
 description: 'Berikut merupakan visualisasi data dari data Pegadian menggunakan Looker Studio, simak penjelasannya'
 date: '2026-03-08'
-draft: true
 categories: [Portfolio]
 keywords: [Data Analyst, Exam, Data Science]
 tags: [Data Analyst]

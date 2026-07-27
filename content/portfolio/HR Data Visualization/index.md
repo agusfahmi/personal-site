@@ -1,6 +1,5 @@
 ---
 title: 'HR IBM Data Visualization'
-summary: 'HR IBM Data Visualization'
 description: 'Berikut merupakan visualisasi data dari data IBM menggunakan Looker Studio, simak penjelasannya'
 date: ""
 categories: [Portfolio]

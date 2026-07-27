@@ -1,6 +1,5 @@
 ---
 title: 'Student Exam Result Visualization'
-summary: 'Student Exam Result Visualization'
 description: 'Berikut merupakan visualisasi data dari data Hasil Nilai Sekolah menggunakan Looker Studio, simak penjelasannya'
 date: 2024-12-28 14:55:00 -0300
 categories: [Portfolio]

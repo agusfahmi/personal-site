@@ -1,6 +1,5 @@
 ---
 title: 'Toserba Data Visualization'
-summary: 'Toserba Data Visualization'
 description: 'Berikut merupakan visualisasi data dari data Hasil Nilai Sekolah menggunakan Looker Studio, simak penjelasannya'
 date: ""
 categories: [Portfolio]

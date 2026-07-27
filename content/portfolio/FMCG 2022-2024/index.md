@@ -9,7 +9,6 @@ hideMeta: true
 categories: [Portfolio]
 keywords: [python, data visualization, data analysis, eda]
 tags: [Data Analyst]
-summary: Berikut merupakan visualisasi data dari data Rumah Sakit menggunakan Looker Studio, simak penjelasannya
 draft : false
 cover:
     image: 'data.jpg'

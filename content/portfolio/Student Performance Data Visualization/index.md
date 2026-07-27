@@ -1,6 +1,5 @@
 ---
 title: 'Student Perfoamance Data Visualization'
-summary: 'Student Perfoamance Data Visualization'
 description: 'Berikut merupakan visualisasi data dari data Hasil Nilai Sekolah menggunakan Looker Studio, simak penjelasannya'
 date: ""
 categories: [Portfolio]

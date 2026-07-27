@@ -9,7 +9,6 @@ hideMeta: true
 categories: [Portfolio]
 keywords: [python, data visualization, data analysis, LLM]
 tags: [LLM]
-summary: Berikut merupakan project chatbot berbasis AI menggunakan model PALM dari google
 draft : false
 cover:
     image: 'data.png'
