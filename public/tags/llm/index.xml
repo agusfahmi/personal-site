@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>LLM on Agus Fahmi Aji Pramana</title>
-    <link>http://localhost:50504/tags/llm/</link>
+    <link>http://localhost:1313/tags/llm/</link>
     <description>Recent content in LLM on Agus Fahmi Aji Pramana</description>
     <image>
       <title>Agus Fahmi Aji Pramana</title>
-      <url>http://localhost:50504/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:50504/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.164.0</generator>
     <language>en</language>
     <lastBuildDate>Mon, 27 Jul 2026 16:28:45 +0700</lastBuildDate>
-    <atom:link href="http://localhost:50504/tags/llm/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/llm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Doctor Assistance With LLM</title>
-      <link>http://localhost:50504/portfolio/doctor-assistance-with-llm/</link>
+      <link>http://localhost:1313/portfolio/doctor-assistance-with-llm/</link>
       <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50504/portfolio/doctor-assistance-with-llm/</guid>
+      <guid>http://localhost:1313/portfolio/doctor-assistance-with-llm/</guid>
       <description>Berikut merupakan project chatbot berbasis AI menggunakan model PALM dari google</description>
       <content:encoded><![CDATA[<h1 id="chatbot-kesehatan-berbasis-llm-palm2">Chatbot Kesehatan Berbasis LLM (Palm2)</h1>
 <p>Gambar menunjukkan antarmuka <strong>chatbot kesehatan</strong> yang memanfaatkan <strong>Large Language Model (LLM)</strong>, yaitu <strong>Palm2</strong> dari Google. Chatbot ini dirancang untuk membantu pengguna dalam konsultasi kesehatan dengan cara interaktif melalui percakapan berbasis teks.</p>
