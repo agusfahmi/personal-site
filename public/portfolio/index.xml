@@ -418,48 +418,51 @@ Kelas <strong>B memiliki performa akademik terbaik</strong>, sedangkan <strong>k
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/portfolio/ev-market-data-visualization/</guid>
       <description>Visualisasi data pasar kendaraan listrik (EV) untuk melihat tren pertumbuhan, pangsa pasar, dan potensi industri yang berkembang.</description>
-      <content:encoded><![CDATA[<h1 id="-visualisasi-data-ev-market">⚡ Visualisasi Data EV Market</h1>
-<p>Dashboard ini fokus pada analisis pasar kendaraan listrik (EV) dengan tujuan melihat tren pertumbuhan penjualan, distribusi pasar, serta faktor yang mendorong adopsi EV di berbagai wilayah.</p>
-<h2 id="1-ringkasan-proyek">1. Ringkasan Proyek</h2>
-<p>Proyek ini menampilkan data pasar EV secara visual agar insight lebih mudah dipahami, khususnya terkait:</p>
-<ul>
-<li>pertumbuhan penjualan EV dari waktu ke waktu</li>
-<li>persentase pangsa pasar EV terhadap kendaraan berbahan bakar fosil</li>
-<li>negara atau wilayah dengan adopsi EV tertinggi</li>
-<li>tren dukungan infrastruktur seperti charging station</li>
-</ul>
+      <content:encoded><![CDATA[<h1 id="analisis-key-performance-indicator-kpi">Analisis Key Performance Indicator (KPI)</h1>
+<h2 id="1-total-sales-unit">1. Total Sales Unit</h2>
+<p><strong>Current Value:</strong> <strong>28.663.628 Unit</strong><br>
+<strong>Previous Year:</strong> <strong>87.603.840 Unit</strong><br>
+<strong>Change:</strong> <strong>-67,3%</strong></p>
+<h3 id="deskripsi">Deskripsi</h3>
+<p>KPI <strong>Total Sales Unit</strong> menunjukkan jumlah keseluruhan kendaraan listrik yang berhasil terjual selama periode analisis. Berdasarkan dashboard, jumlah penjualan mengalami penurunan dari <strong>87.603.840 unit</strong> pada periode sebelumnya menjadi <strong>28.663.628 unit</strong>, atau turun sebesar <strong>67,3%</strong>.</p>
+<h3 id="business-impact">Business Impact</h3>
+<p>Penurunan volume penjualan ini mengindikasikan melemahnya permintaan pasar terhadap kendaraan listrik. Kondisi tersebut dapat dipengaruhi oleh berbagai faktor, seperti perlambatan ekonomi, meningkatnya harga kendaraan, perubahan preferensi konsumen, atau semakin ketatnya persaingan antar produsen. Apabila tren ini terus berlanjut, perusahaan berpotensi mengalami penurunan pangsa pasar, peningkatan persediaan yang tidak terjual, serta penurunan keuntungan. Oleh karena itu, perusahaan perlu mengevaluasi strategi pemasaran, promosi, dan pengembangan produk agar mampu meningkatkan kembali volume penjualan.</p>
 <hr>
-<h2 id="2-fokus-analisis">2. Fokus Analisis</h2>
-<p>Beberapa elemen utama yang divisualisasikan:</p>
-<ul>
-<li>Jumlah penjualan EV per tahun</li>
-<li>Pertumbuhan pasar global dan regional</li>
-<li>Perbandingan EV dengan kendaraan konvensional</li>
-<li>Distribusi pasar berdasarkan negara utama</li>
-<li>Hubungan antara pertumbuhan EV dan ketersediaan infrastruktur pengisian</li>
-</ul>
+<h2 id="2-average-price-increase">2. Average Price Increase</h2>
+<p><strong>Current Average Price:</strong> <strong>$84.043</strong><br>
+<strong>Previous Year:</strong> <strong>$79.195</strong><br>
+<strong>Increase:</strong> <strong>+$4.848 (≈6,12%)</strong></p>
+<h3 id="deskripsi-1">Deskripsi</h3>
+<p>KPI ini menunjukkan rata-rata harga kendaraan listrik yang dijual pada periode analisis. Harga rata-rata meningkat dari <strong>$79.195</strong> menjadi <strong>$84.043</strong>, atau mengalami kenaikan sekitar <strong>6,12%</strong> dibandingkan tahun sebelumnya.</p>
+<h3 id="business-impact-1">Business Impact</h3>
+<p>Kenaikan harga menunjukkan bahwa produsen berhasil meningkatkan nilai jual produknya, baik karena peningkatan fitur, inovasi teknologi, maupun kenaikan biaya produksi. Namun, jika kenaikan harga terjadi bersamaan dengan penurunan volume penjualan, hal tersebut dapat mengindikasikan bahwa harga mulai memengaruhi daya beli konsumen. Perusahaan perlu mengevaluasi apakah strategi harga yang diterapkan masih sesuai dengan kondisi pasar atau perlu dilakukan penyesuaian agar tetap kompetitif.</p>
 <hr>
-<h2 id="3-insight-utama">3. Insight Utama</h2>
-<p>Beberapa temuan yang terlihat dari visualisasi data:</p>
-<ul>
-<li>Permintaan EV terus meningkat secara konsisten dalam beberapa tahun terakhir.</li>
-<li>Negara-negara dengan kebijakan dukungan energi bersih cenderung memiliki adopsi EV yang lebih cepat.</li>
-<li>Pertumbuhan pasar EV sangat dipengaruhi oleh faktor harga, insentif pemerintah, dan ketersediaan charger.</li>
-<li>Industri EV diperkirakan akan terus berkembang seiring meningkatnya kesadaran lingkungan dan inovasi baterai.</li>
-</ul>
+<h2 id="3-revenue">3. Revenue</h2>
+<p><strong>Current Revenue:</strong> <strong>$2.250.213.136.199</strong><br>
+<strong>Previous Year:</strong> <strong>$6.949.501.352.886</strong><br>
+<strong>Change:</strong> <strong>-67,6%</strong></p>
+<h3 id="deskripsi-2">Deskripsi</h3>
+<p>Revenue merupakan total pendapatan yang diperoleh dari seluruh penjualan kendaraan listrik. Dashboard menunjukkan bahwa pendapatan mengalami penurunan sebesar <strong>67,6%</strong>, dari <strong>$6,95 triliun</strong> menjadi <strong>$2,25 triliun</strong>.</p>
+<h3 id="business-impact-2">Business Impact</h3>
+<p>Penurunan revenue yang signifikan menunjukkan bahwa kenaikan harga rata-rata kendaraan belum mampu mengimbangi penurunan jumlah unit yang terjual. Dampaknya adalah berkurangnya pendapatan perusahaan yang dapat memengaruhi laba, kemampuan investasi, pengembangan teknologi, hingga strategi ekspansi bisnis. Oleh karena itu, manajemen perlu melakukan evaluasi terhadap strategi penjualan dan efisiensi operasional untuk meningkatkan kembali pendapatan perusahaan.</p>
 <hr>
-<h2 id="4-visualisasi-yang-disajikan">4. Visualisasi yang Disajikan</h2>
-<p>Visualisasi yang digunakan mencakup:</p>
-<ul>
-<li>line chart untuk tren penjualan EV</li>
-<li>bar chart untuk perbandingan pasar antar negara</li>
-<li>pie chart atau stacked chart untuk pangsa pasar</li>
-<li>map visualization untuk melihat distribusi geografis adopsi EV</li>
-</ul>
+<h2 id="4-total-brand">4. Total Brand</h2>
+<p><strong>Total Brand:</strong> <strong>20</strong></p>
+<h3 id="deskripsi-3">Deskripsi</h3>
+<p>Dashboard menganalisis data dari <strong>20 merek kendaraan listrik</strong> yang berkompetisi di pasar.</p>
+<h3 id="business-impact-3">Business Impact</h3>
+<p>Jumlah brand yang cukup banyak menunjukkan bahwa pasar kendaraan listrik memiliki tingkat persaingan yang tinggi. Semakin banyak kompetitor, semakin penting bagi perusahaan untuk memiliki keunggulan kompetitif melalui inovasi produk, strategi harga, maupun peningkatan kualitas layanan. Selain itu, analisis terhadap performa masing-masing brand dapat digunakan sebagai dasar dalam melakukan benchmarking terhadap kompetitor utama.</p>
 <hr>
-<h2 id="5-kesimpulan">5. Kesimpulan</h2>
-<p>Pasar kendaraan listrik menunjukkan pertumbuhan yang sangat menjanjikan. Dengan semakin banyak negara yang mengadopsi kebijakan ramah lingkungan, EV diperkirakan akan menjadi bagian penting dari masa depan transportasi.</p>
-<p>Selain itu, visualisasi data membantu stakeholder memahami pola pertumbuhan pasar secara lebih cepat dan lebih jelas dibandingkan hanya melihat angka mentah.</p>
+<h2 id="5-total-model">5. Total Model</h2>
+<p><strong>Total Model:</strong> <strong>76</strong></p>
+<h3 id="deskripsi-4">Deskripsi</h3>
+<p>Sebanyak <strong>76 model kendaraan listrik</strong> dianalisis dalam dashboard sehingga memberikan gambaran mengenai keragaman produk yang tersedia di pasar.</p>
+<h3 id="business-impact-4">Business Impact</h3>
+<p>Banyaknya model kendaraan menunjukkan bahwa pasar EV memiliki variasi produk yang luas untuk memenuhi berbagai kebutuhan konsumen. Informasi ini membantu perusahaan dalam mengevaluasi model yang memiliki performa penjualan terbaik maupun model yang kurang diminati. Hasil evaluasi tersebut dapat digunakan untuk menentukan strategi pengembangan produk, optimalisasi portofolio, serta efisiensi biaya produksi.</p>
+<hr>
+<h1 id="kesimpulan">Kesimpulan</h1>
+<p>Berdasarkan analisis KPI, dapat disimpulkan bahwa meskipun <strong>harga rata-rata kendaraan listrik meningkat sekitar 6,12%</strong>, <strong>total penjualan unit dan revenue justru mengalami penurunan lebih dari 67%</strong> dibandingkan periode sebelumnya. Kondisi ini mengindikasikan bahwa kenaikan harga belum mampu mempertahankan permintaan pasar, sehingga berdampak langsung terhadap penurunan pendapatan perusahaan.</p>
+<p>temuan ini menjadi dasar bagi manajemen untuk mengevaluasi strategi penetapan harga (<em>pricing strategy</em>), efektivitas pemasaran, serta preferensi konsumen. Analisis lanjutan terhadap faktor-faktor seperti elastisitas harga, perilaku pelanggan, kondisi ekonomi, dan strategi kompetitor diperlukan agar perusahaan dapat meningkatkan penjualan sekaligus menjaga profitabilitas di tengah persaingan pasar kendaraan listrik yang semakin ketat.</p>
 ]]></content:encoded>
     </item>
     <item>
