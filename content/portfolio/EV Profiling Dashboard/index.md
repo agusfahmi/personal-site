@@ -1,5 +1,5 @@
 ---
-title: 'Hospital Data Visualization'
+title: 'Ev Profiling Dashboard'
 description: 'Berikut merupakan visualisasi data dari data Rumah Sakit menggunakan Looker Studio, simak penjelasannya'
 date: ""
 categories: [Portfolio]

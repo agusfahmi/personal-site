@@ -1418,10 +1418,10 @@ Kelas <strong>B memiliki performa akademik terbaik</strong>, sedangkan <strong>k
 ]]></content:encoded>
     </item>
     <item>
-      <title>Hospital Data Visualization</title>
-      <link>http://localhost:1313/portfolio/hospital-data-visualization-copy/</link>
+      <title>Ev Profiling Dashboard</title>
+      <link>http://localhost:1313/portfolio/ev-profiling-dashboard/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/portfolio/hospital-data-visualization-copy/</guid>
+      <guid>http://localhost:1313/portfolio/ev-profiling-dashboard/</guid>
       <description>Berikut merupakan visualisasi data dari data Rumah Sakit menggunakan Looker Studio, simak penjelasannya</description>
       <content:encoded><![CDATA[<h1 id="-analisis-dashboard-rumah-sakit">🏥 Analisis Dashboard Rumah Sakit</h1>
 <h2 id="1-ringkasan-data">1. Ringkasan Data</h2>
