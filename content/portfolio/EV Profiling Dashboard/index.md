@@ -1,6 +1,6 @@
 ---
 title: 'Ev Profiling Dashboard'
-description: 'Berikut merupakan visualisasi data dari data Rumah Sakit menggunakan Looker Studio, simak penjelasannya'
+description: 'Berikut merupakan visualisasi data dari profiling mobil EV, simak penjelasannya'
 date: ""
 categories: [Portfolio]
 keywords: [python, data visualization, data analysis, eda]
@@ -13,111 +13,95 @@ cover:
     alt: data visualization
 ---
 
-# 🏥 Analisis Dashboard Rumah Sakit
 
-## 1. Ringkasan Data
-- **Total Pasien:** 348
-- **Pavilion:** 36
-- **Alamanda:** 88
-- **Rosalia:** 195
-
-**Interpretasi:**  
-Sebagian besar pasien dirawat di **Rosalia**, menunjukkan bahwa ruang atau unit ini memiliki kapasitas atau tingkat penggunaan tertinggi.
+Dashboard ini merupakan **dashboard interaktif profiling mobil listrik (Electric Vehicle/EV)** yang menampilkan berbagai metrik performa, spesifikasi teknis, rating pelanggan, dan tren penjualan. Dashboard ini kemungkinan besar dibuat menggunakan tool BI seperti **Power BI** atau **Tableau**.
 
 ---
 
-## 2. Distribusi Penyakit
+## 1. Header / Panel Filter
+**Judul:** "FIND YOUR CAR MODELS"
 
-Penyakit yang paling banyak ditangani:
+Terdapat 3 filter dropdown di bagian atas untuk menyaring data:
+- **Merk** — memilih merek/brand mobil
+- **Model** — memilih model mobil spesifik
+- **Tahun** (contoh: 2020) — memilih tahun produksi/data
 
-- Diabetes
-- Stroke
-- Tifus
-- Asma
-- Kanker
-- Pneumonia
-- Jantung
-- Diare
-- THT
-
-**Kesimpulan:**  
-Kasus penyakit kronis seperti **Diabetes dan Stroke** cukup dominan dibandingkan penyakit lainnya.
+Filter ini memungkinkan pengguna mempersempit tampilan data sesuai mobil yang ingin dianalisis.
 
 ---
 
-## 3. Status Pasien
+## 2. Panel Detail Mobil (Kiri Atas)
+Berisi kartu informasi ringkas mobil yang sedang dipilih:
 
-Distribusi status pasien:
+| Field | Contoh Nilai |
+|---|---|
+| Brand | Toyota |
+| Model | bZ Compact SUV |
+| Year | 2020 |
+| Avg of Customer Rating | 3.48 |
 
-- **Sembuh:** 64,4%
-- **Meninggal:** 27,1%
-- **Masih Dirawat (Active):** sekitar 8%
-
-**Kesimpulan:**  
-Mayoritas pasien berhasil sembuh, namun tingkat kematian masih cukup signifikan sehingga perlu perhatian pada penanganan penyakit berat.
-
----
-
-## 4. Tren Pasien Masuk dan Keluar
-
-Grafik menunjukkan jumlah:
-
-- **Tanggal Masuk**
-- **Tanggal Keluar**
-
-Setiap bulan.
-
-**Kesimpulan:**
-- Jumlah pasien masuk dan keluar relatif stabil.
-- Tidak terlihat lonjakan pasien yang sangat tinggi pada bulan tertentu.
+Ada juga area kosong/kotak abu-abu di atasnya — kemungkinan tempat untuk menampilkan **gambar/foto mobil** yang belum terisi (icon "no image" terlihat di pojok kiri atas kotak tersebut).
 
 ---
 
-## 5. Distribusi Kasus Penyakit per Bulan
+## 3. Persentase Rating (Donut Chart, Kiri Bawah)
+**Judul:** "Presentage of Rating"
 
-Beberapa penyakit muncul secara konsisten setiap bulan, seperti:
+Menampilkan distribusi rating pelanggan dalam bentuk **donut chart**:
+- Rating **4** → 94.87% (warna kuning/mustard) — mayoritas mobil mendapat rating 4
+- Rating **5** → 5.13% (warna teal/hijau tosca) — sebagian kecil mendapat rating sempurna
 
-- Diabetes
-- Asma
-- Tifus
-- Pneumonia
-
-**Kesimpulan:**  
-Penyakit-penyakit tersebut kemungkinan merupakan **penyakit yang paling sering ditangani oleh rumah sakit**.
+Insight: Sebagian besar pelanggan memberikan rating cukup tinggi (4 dari 5), namun rating 5 masih jarang.
 
 ---
 
-## 6. Data Dokter
+## 4. Kartu Metrik / KPI Cards (Baris Tengah Atas)
+Sepuluh kartu metrik menampilkan **rata-rata (average)** dari berbagai spesifikasi EV:
 
-Panel sebelah kiri menunjukkan jumlah pasien yang ditangani oleh setiap dokter.
+| Metrik | Nilai |
+|---|---|
+| ⭐ Rating Customer (Avg) | 3.55 |
+| 🛣️ Range Miles (Avg) | 267.97 |
+| ⏱️ Top Speed (Avg) | 165.64 |
+| ⚙️ Avg Torque (Nm) | 517.13 |
+| 🐎 Avg Horsepower | 563.95 |
+| ⚡ Charging Speed (Kw, Avg) | 125.83 |
+| ⚖️ Avg Weight (Kg) | 1,891.54 |
+| 🚀 Avg Acceleration (0–60 Mph) | 5.6 detik |
+| 🔋 Avg Battery Capacity (Kwh) | 77.22 |
+| 🚚 Avg Cargo Volume (Cubic Ft) | 50.3 |
 
-Contoh:
-
-- dr. Martina → 27 pasien
-- dr. Bambang → 24 pasien
-- dr. Bernadeta → 24 pasien
-
-**Kesimpulan:**  
-Beban kerja dokter relatif tersebar, tetapi beberapa dokter menangani lebih banyak pasien dibanding yang lain.
-
----
-
-## 7. Insight Utama
-
-Beberapa poin penting dari dashboard:
-
-- Unit **Rosalia** memiliki jumlah pasien terbanyak.
-- Penyakit kronis seperti **Diabetes dan Stroke** cukup dominan.
-- Mayoritas pasien **sembuh**, tetapi tingkat kematian masih perlu diperhatikan.
-- Jumlah pasien masuk dan keluar **relatif stabil setiap bulan**.
+Kartu-kartu ini memberi **gambaran cepat (overview)** performa rata-rata seluruh mobil listrik dalam dataset (atau sesuai filter yang dipilih).
 
 ---
 
-## 8. Rekomendasi
+## 5. Sales Trend (Line/Area Chart, Tengah Bawah)
+**Judul:** "Sales Trend"
 
-Beberapa langkah yang dapat dilakukan:
+- Sumbu X: Tahun (2020–2026)
+- Sumbu Y: Jumlah penjualan (angka besar, misal 13.701.379,00 di puncak tahun 2025)
+- Terdapat **garis utama** (teal, dengan label angka) yang menunjukkan **tren total penjualan gabungan**, naik tajam dari 2020 hingga puncaknya di 2025, lalu turun drastis di 2026.
+- Terdapat juga banyak **garis tipis berwarna-warni** di belakangnya — kemungkinan merepresentasikan **tren penjualan per model/brand individual**, menunjukkan variasi performa antar model.
 
-- meningkatkan **penanganan penyakit kronis** seperti diabetes dan stroke
-- mengevaluasi **beban kerja dokter**
-- meningkatkan **kapasitas unit dengan pasien terbanyak**
-- melakukan **analisis tren penyakit secara berkala** untuk perencanaan layanan kesehatan
+Insight: Penjualan EV secara umum mengalami pertumbuhan pesat hingga 2025, kemudian menurun tajam (bisa jadi karena data 2026 belum lengkap/masih berjalan).
+
+---
+
+## 6. Range Miles by Battery (Bar Chart, Kanan Bawah)
+**Judul:** "Range Miles by Battery"
+
+- Sumbu X: Nama model mobil (EV6, ID.3, Qin, Dolphin, bZ Compact SUV, Ronin, RIT, Picanto EV, Model Y, dll.)
+- Sumbu Y: "Range per Baterai" (skala 0–3,5+)
+- Semua model menunjukkan nilai yang **relatif seragam** (sekitar 3.5), menandakan efisiensi jarak tempuh per unit baterai cukup konsisten antar model.
+
+---
+
+## Ringkasan Fungsi Dashboard
+Dashboard ini dirancang untuk membantu pengguna (misalnya calon pembeli, analis pasar, atau tim produk):
+1. **Mencari & memfilter** mobil listrik berdasarkan merk, model, dan tahun.
+2. **Membandingkan spesifikasi teknis** (kecepatan, torsi, tenaga, baterai, dll.) secara cepat lewat KPI card.
+3. **Melihat kepuasan pelanggan** lewat rating dan distribusinya.
+4. **Menganalisis tren penjualan** dari waktu ke waktu.
+5. **Mengevaluasi efisiensi jarak tempuh** (range) relatif terhadap kapasitas baterai antar model.
+
+> **Catatan:** Interpretasi di atas didasarkan pada elemen visual yang terlihat pada gambar. Angka dan tren pasti dapat berubah tergantung data sumber dan filter yang diterapkan.

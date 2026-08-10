@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Portfolio on Agus Fahmi Aji Pramana</title>
-    <link>https://agfmi.com/categories/portfolio/</link>
+    <link>http://localhost:1313/categories/portfolio/</link>
     <description>Recent content in Portfolio on Agus Fahmi Aji Pramana</description>
     <image>
       <title>Agus Fahmi Aji Pramana</title>
-      <url>https://agfmi.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://agfmi.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.164.0</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 03 Aug 2026 10:15:07 +0700</lastBuildDate>
-    <atom:link href="https://agfmi.com/categories/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Aug 2026 19:11:52 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>FMCG 2022-2024 Data Visualization</title>
-      <link>https://agfmi.com/portfolio/fmcg-2022-2024/</link>
+      <link>http://localhost:1313/portfolio/fmcg-2022-2024/</link>
       <pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://agfmi.com/portfolio/fmcg-2022-2024/</guid>
+      <guid>http://localhost:1313/portfolio/fmcg-2022-2024/</guid>
       <description>Berikut merupakan visualisasi data dari data Rumah Sakit menggunakan Looker Studio, simak penjelasannya</description>
       <content:encoded><![CDATA[<h1 id="dashboard-fmcg-20222024-analisis-kinerja-penjualan-dan-operasional">Dashboard FMCG 2022–2024: Analisis Kinerja Penjualan dan Operasional</h1>
 <h2 id="1-ringkasan-kpi-key-performance-indicators">1. Ringkasan KPI (Key Performance Indicators)</h2>
@@ -135,9 +135,9 @@ Segmentasi Yogurt menunjukkan diversifikasi produk berhasil meningkatkan penjual
     </item>
     <item>
       <title>Doctor Assistance With LLM</title>
-      <link>https://agfmi.com/portfolio/doctor-assistance-with-llm/</link>
+      <link>http://localhost:1313/portfolio/doctor-assistance-with-llm/</link>
       <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://agfmi.com/portfolio/doctor-assistance-with-llm/</guid>
+      <guid>http://localhost:1313/portfolio/doctor-assistance-with-llm/</guid>
       <description>Berikut merupakan project chatbot berbasis AI menggunakan model PALM dari google</description>
       <content:encoded><![CDATA[<h1 id="chatbot-kesehatan-berbasis-llm-palm2">Chatbot Kesehatan Berbasis LLM (Palm2)</h1>
 <p>Gambar menunjukkan antarmuka <strong>chatbot kesehatan</strong> yang memanfaatkan <strong>Large Language Model (LLM)</strong>, yaitu <strong>Palm2</strong> dari Google. Chatbot ini dirancang untuk membantu pengguna dalam konsultasi kesehatan dengan cara interaktif melalui percakapan berbasis teks.</p>
@@ -186,9 +186,9 @@ Segmentasi Yogurt menunjukkan diversifikasi produk berhasil meningkatkan penjual
     </item>
     <item>
       <title>Pegadaian Data Visualization</title>
-      <link>https://agfmi.com/portfolio/pegadaian-data-visualization/</link>
+      <link>http://localhost:1313/portfolio/pegadaian-data-visualization/</link>
       <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://agfmi.com/portfolio/pegadaian-data-visualization/</guid>
+      <guid>http://localhost:1313/portfolio/pegadaian-data-visualization/</guid>
       <description>Berikut merupakan visualisasi data dari data Pegadian menggunakan Looker Studio, simak penjelasannya</description>
       <content:encoded><![CDATA[<h1 id="analisis-dashboard-transaksi-pegadaian">Analisis Dashboard Transaksi Pegadaian</h1>
 <h2 id="1-ringkasan-kpi">1. Ringkasan KPI</h2>
@@ -295,9 +295,9 @@ Dashboard memberikan snapshot instan performa dan coverage Pegadaian. Tingginya 
     </item>
     <item>
       <title>Student Exam Result Visualization</title>
-      <link>https://agfmi.com/portfolio/student-exam-result-visualization/</link>
+      <link>http://localhost:1313/portfolio/student-exam-result-visualization/</link>
       <pubDate>Sat, 28 Dec 2024 14:55:00 -0300</pubDate>
-      <guid>https://agfmi.com/portfolio/student-exam-result-visualization/</guid>
+      <guid>http://localhost:1313/portfolio/student-exam-result-visualization/</guid>
       <description>Berikut merupakan visualisasi data dari data Hasil Nilai Sekolah menggunakan Looker Studio, simak penjelasannya</description>
       <content:encoded><![CDATA[<h1 id="-analisis-dashboard-nilai-siswa">📊 Analisis Dashboard Nilai Siswa</h1>
 <h2 id="1-ringkasan-data">1. Ringkasan Data</h2>
@@ -415,59 +415,62 @@ Kelas <strong>B memiliki performa akademik terbaik</strong>, sedangkan <strong>k
     </item>
     <item>
       <title>EV Market Data Visualization</title>
-      <link>https://agfmi.com/portfolio/ev-market-data-visualization/</link>
+      <link>http://localhost:1313/portfolio/ev-market-data-visualization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://agfmi.com/portfolio/ev-market-data-visualization/</guid>
+      <guid>http://localhost:1313/portfolio/ev-market-data-visualization/</guid>
       <description>Visualisasi data pasar kendaraan listrik (EV) untuk melihat tren pertumbuhan, pangsa pasar, dan potensi industri yang berkembang.</description>
-      <content:encoded><![CDATA[<h1 id="-visualisasi-data-ev-market">⚡ Visualisasi Data EV Market</h1>
-<p>Dashboard ini fokus pada analisis pasar kendaraan listrik (EV) dengan tujuan melihat tren pertumbuhan penjualan, distribusi pasar, serta faktor yang mendorong adopsi EV di berbagai wilayah.</p>
-<h2 id="1-ringkasan-proyek">1. Ringkasan Proyek</h2>
-<p>Proyek ini menampilkan data pasar EV secara visual agar insight lebih mudah dipahami, khususnya terkait:</p>
-<ul>
-<li>pertumbuhan penjualan EV dari waktu ke waktu</li>
-<li>persentase pangsa pasar EV terhadap kendaraan berbahan bakar fosil</li>
-<li>negara atau wilayah dengan adopsi EV tertinggi</li>
-<li>tren dukungan infrastruktur seperti charging station</li>
-</ul>
+      <content:encoded><![CDATA[<h1 id="analisis-key-performance-indicator-kpi">Analisis Key Performance Indicator (KPI)</h1>
+<h2 id="1-total-sales-unit">1. Total Sales Unit</h2>
+<p><strong>Current Value:</strong> <strong>28.663.628 Unit</strong><br>
+<strong>Previous Year:</strong> <strong>87.603.840 Unit</strong><br>
+<strong>Change:</strong> <strong>-67,3%</strong></p>
+<h3 id="deskripsi">Deskripsi</h3>
+<p>KPI <strong>Total Sales Unit</strong> menunjukkan jumlah keseluruhan kendaraan listrik yang berhasil terjual selama periode analisis. Berdasarkan dashboard, jumlah penjualan mengalami penurunan dari <strong>87.603.840 unit</strong> pada periode sebelumnya menjadi <strong>28.663.628 unit</strong>, atau turun sebesar <strong>67,3%</strong>.</p>
+<h3 id="business-impact">Business Impact</h3>
+<p>Penurunan volume penjualan ini mengindikasikan melemahnya permintaan pasar terhadap kendaraan listrik. Kondisi tersebut dapat dipengaruhi oleh berbagai faktor, seperti perlambatan ekonomi, meningkatnya harga kendaraan, perubahan preferensi konsumen, atau semakin ketatnya persaingan antar produsen. Apabila tren ini terus berlanjut, perusahaan berpotensi mengalami penurunan pangsa pasar, peningkatan persediaan yang tidak terjual, serta penurunan keuntungan. Oleh karena itu, perusahaan perlu mengevaluasi strategi pemasaran, promosi, dan pengembangan produk agar mampu meningkatkan kembali volume penjualan.</p>
 <hr>
-<h2 id="2-fokus-analisis">2. Fokus Analisis</h2>
-<p>Beberapa elemen utama yang divisualisasikan:</p>
-<ul>
-<li>Jumlah penjualan EV per tahun</li>
-<li>Pertumbuhan pasar global dan regional</li>
-<li>Perbandingan EV dengan kendaraan konvensional</li>
-<li>Distribusi pasar berdasarkan negara utama</li>
-<li>Hubungan antara pertumbuhan EV dan ketersediaan infrastruktur pengisian</li>
-</ul>
+<h2 id="2-average-price-increase">2. Average Price Increase</h2>
+<p><strong>Current Average Price:</strong> <strong>$84.043</strong><br>
+<strong>Previous Year:</strong> <strong>$79.195</strong><br>
+<strong>Increase:</strong> <strong>+$4.848 (≈6,12%)</strong></p>
+<h3 id="deskripsi-1">Deskripsi</h3>
+<p>KPI ini menunjukkan rata-rata harga kendaraan listrik yang dijual pada periode analisis. Harga rata-rata meningkat dari <strong>$79.195</strong> menjadi <strong>$84.043</strong>, atau mengalami kenaikan sekitar <strong>6,12%</strong> dibandingkan tahun sebelumnya.</p>
+<h3 id="business-impact-1">Business Impact</h3>
+<p>Kenaikan harga menunjukkan bahwa produsen berhasil meningkatkan nilai jual produknya, baik karena peningkatan fitur, inovasi teknologi, maupun kenaikan biaya produksi. Namun, jika kenaikan harga terjadi bersamaan dengan penurunan volume penjualan, hal tersebut dapat mengindikasikan bahwa harga mulai memengaruhi daya beli konsumen. Perusahaan perlu mengevaluasi apakah strategi harga yang diterapkan masih sesuai dengan kondisi pasar atau perlu dilakukan penyesuaian agar tetap kompetitif.</p>
 <hr>
-<h2 id="3-insight-utama">3. Insight Utama</h2>
-<p>Beberapa temuan yang terlihat dari visualisasi data:</p>
-<ul>
-<li>Permintaan EV terus meningkat secara konsisten dalam beberapa tahun terakhir.</li>
-<li>Negara-negara dengan kebijakan dukungan energi bersih cenderung memiliki adopsi EV yang lebih cepat.</li>
-<li>Pertumbuhan pasar EV sangat dipengaruhi oleh faktor harga, insentif pemerintah, dan ketersediaan charger.</li>
-<li>Industri EV diperkirakan akan terus berkembang seiring meningkatnya kesadaran lingkungan dan inovasi baterai.</li>
-</ul>
+<h2 id="3-revenue">3. Revenue</h2>
+<p><strong>Current Revenue:</strong> <strong>$2.250.213.136.199</strong><br>
+<strong>Previous Year:</strong> <strong>$6.949.501.352.886</strong><br>
+<strong>Change:</strong> <strong>-67,6%</strong></p>
+<h3 id="deskripsi-2">Deskripsi</h3>
+<p>Revenue merupakan total pendapatan yang diperoleh dari seluruh penjualan kendaraan listrik. Dashboard menunjukkan bahwa pendapatan mengalami penurunan sebesar <strong>67,6%</strong>, dari <strong>$6,95 triliun</strong> menjadi <strong>$2,25 triliun</strong>.</p>
+<h3 id="business-impact-2">Business Impact</h3>
+<p>Penurunan revenue yang signifikan menunjukkan bahwa kenaikan harga rata-rata kendaraan belum mampu mengimbangi penurunan jumlah unit yang terjual. Dampaknya adalah berkurangnya pendapatan perusahaan yang dapat memengaruhi laba, kemampuan investasi, pengembangan teknologi, hingga strategi ekspansi bisnis. Oleh karena itu, manajemen perlu melakukan evaluasi terhadap strategi penjualan dan efisiensi operasional untuk meningkatkan kembali pendapatan perusahaan.</p>
 <hr>
-<h2 id="4-visualisasi-yang-disajikan">4. Visualisasi yang Disajikan</h2>
-<p>Visualisasi yang digunakan mencakup:</p>
-<ul>
-<li>line chart untuk tren penjualan EV</li>
-<li>bar chart untuk perbandingan pasar antar negara</li>
-<li>pie chart atau stacked chart untuk pangsa pasar</li>
-<li>map visualization untuk melihat distribusi geografis adopsi EV</li>
-</ul>
+<h2 id="4-total-brand">4. Total Brand</h2>
+<p><strong>Total Brand:</strong> <strong>20</strong></p>
+<h3 id="deskripsi-3">Deskripsi</h3>
+<p>Dashboard menganalisis data dari <strong>20 merek kendaraan listrik</strong> yang berkompetisi di pasar.</p>
+<h3 id="business-impact-3">Business Impact</h3>
+<p>Jumlah brand yang cukup banyak menunjukkan bahwa pasar kendaraan listrik memiliki tingkat persaingan yang tinggi. Semakin banyak kompetitor, semakin penting bagi perusahaan untuk memiliki keunggulan kompetitif melalui inovasi produk, strategi harga, maupun peningkatan kualitas layanan. Selain itu, analisis terhadap performa masing-masing brand dapat digunakan sebagai dasar dalam melakukan benchmarking terhadap kompetitor utama.</p>
 <hr>
-<h2 id="5-kesimpulan">5. Kesimpulan</h2>
-<p>Pasar kendaraan listrik menunjukkan pertumbuhan yang sangat menjanjikan. Dengan semakin banyak negara yang mengadopsi kebijakan ramah lingkungan, EV diperkirakan akan menjadi bagian penting dari masa depan transportasi.</p>
-<p>Selain itu, visualisasi data membantu stakeholder memahami pola pertumbuhan pasar secara lebih cepat dan lebih jelas dibandingkan hanya melihat angka mentah.</p>
+<h2 id="5-total-model">5. Total Model</h2>
+<p><strong>Total Model:</strong> <strong>76</strong></p>
+<h3 id="deskripsi-4">Deskripsi</h3>
+<p>Sebanyak <strong>76 model kendaraan listrik</strong> dianalisis dalam dashboard sehingga memberikan gambaran mengenai keragaman produk yang tersedia di pasar.</p>
+<h3 id="business-impact-4">Business Impact</h3>
+<p>Banyaknya model kendaraan menunjukkan bahwa pasar EV memiliki variasi produk yang luas untuk memenuhi berbagai kebutuhan konsumen. Informasi ini membantu perusahaan dalam mengevaluasi model yang memiliki performa penjualan terbaik maupun model yang kurang diminati. Hasil evaluasi tersebut dapat digunakan untuk menentukan strategi pengembangan produk, optimalisasi portofolio, serta efisiensi biaya produksi.</p>
+<hr>
+<h1 id="kesimpulan">Kesimpulan</h1>
+<p>Berdasarkan analisis KPI, dapat disimpulkan bahwa meskipun <strong>harga rata-rata kendaraan listrik meningkat sekitar 6,12%</strong>, <strong>total penjualan unit dan revenue justru mengalami penurunan lebih dari 67%</strong> dibandingkan periode sebelumnya. Kondisi ini mengindikasikan bahwa kenaikan harga belum mampu mempertahankan permintaan pasar, sehingga berdampak langsung terhadap penurunan pendapatan perusahaan.</p>
+<p>temuan ini menjadi dasar bagi manajemen untuk mengevaluasi strategi penetapan harga (<em>pricing strategy</em>), efektivitas pemasaran, serta preferensi konsumen. Analisis lanjutan terhadap faktor-faktor seperti elastisitas harga, perilaku pelanggan, kondisi ekonomi, dan strategi kompetitor diperlukan agar perusahaan dapat meningkatkan penjualan sekaligus menjaga profitabilitas di tengah persaingan pasar kendaraan listrik yang semakin ketat.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <title>Hospital Data Visualization</title>
-      <link>https://agfmi.com/portfolio/hospital-data-visualization-copy/</link>
+      <title>Ev Profiling Dashboard</title>
+      <link>http://localhost:1313/portfolio/ev-profiling-dashboard/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://agfmi.com/portfolio/hospital-data-visualization-copy/</guid>
+      <guid>http://localhost:1313/portfolio/ev-profiling-dashboard/</guid>
       <description>Berikut merupakan visualisasi data dari data Rumah Sakit menggunakan Looker Studio, simak penjelasannya</description>
       <content:encoded><![CDATA[<h1 id="-analisis-dashboard-rumah-sakit">🏥 Analisis Dashboard Rumah Sakit</h1>
 <h2 id="1-ringkasan-data">1. Ringkasan Data</h2>
@@ -562,9 +565,9 @@ Beban kerja dokter relatif tersebar, tetapi beberapa dokter menangani lebih bany
     </item>
     <item>
       <title>Hospital Data Visualization</title>
-      <link>https://agfmi.com/portfolio/hospital-data-visualization/</link>
+      <link>http://localhost:1313/portfolio/hospital-data-visualization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://agfmi.com/portfolio/hospital-data-visualization/</guid>
+      <guid>http://localhost:1313/portfolio/hospital-data-visualization/</guid>
       <description>Berikut merupakan visualisasi data dari data Rumah Sakit menggunakan Looker Studio, simak penjelasannya</description>
       <content:encoded><![CDATA[<h1 id="-analisis-dashboard-rumah-sakit">🏥 Analisis Dashboard Rumah Sakit</h1>
 <h2 id="1-ringkasan-data">1. Ringkasan Data</h2>
@@ -659,9 +662,9 @@ Beban kerja dokter relatif tersebar, tetapi beberapa dokter menangani lebih bany
     </item>
     <item>
       <title>HR IBM Data Visualization</title>
-      <link>https://agfmi.com/portfolio/hr-data-visualization/</link>
+      <link>http://localhost:1313/portfolio/hr-data-visualization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://agfmi.com/portfolio/hr-data-visualization/</guid>
+      <guid>http://localhost:1313/portfolio/hr-data-visualization/</guid>
       <description>Berikut merupakan visualisasi data dari data IBM menggunakan Looker Studio, simak penjelasannya</description>
       <content:encoded><![CDATA[<h1 id="-analisis-sederhana-dashboard-hr-ibm">📊 Analisis Sederhana Dashboard HR IBM</h1>
 <h2 id="1-ringkasan-data-utama">1. Ringkasan Data Utama</h2>
@@ -743,9 +746,9 @@ Ada perbedaan gaji yang cukup besar antara posisi senior dan junior.</p>
     </item>
     <item>
       <title>Student Perfoamance Data Visualization</title>
-      <link>https://agfmi.com/portfolio/student-performance-data-visualization/</link>
+      <link>http://localhost:1313/portfolio/student-performance-data-visualization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://agfmi.com/portfolio/student-performance-data-visualization/</guid>
+      <guid>http://localhost:1313/portfolio/student-performance-data-visualization/</guid>
       <description>Berikut merupakan visualisasi data dari data Hasil Nilai Sekolah menggunakan Looker Studio, simak penjelasannya</description>
       <content:encoded><![CDATA[<h1 id="analisis-dashboard-student-performance">Analisis Dashboard Student Performance</h1>
 <h2 id="ringkasan-utama">Ringkasan Utama</h2>
@@ -805,9 +808,9 @@ Ada perbedaan gaji yang cukup besar antara posisi senior dan junior.</p>
     </item>
     <item>
       <title>Toserba Data Visualization</title>
-      <link>https://agfmi.com/portfolio/toserba-data-visualization/</link>
+      <link>http://localhost:1313/portfolio/toserba-data-visualization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://agfmi.com/portfolio/toserba-data-visualization/</guid>
+      <guid>http://localhost:1313/portfolio/toserba-data-visualization/</guid>
       <description>Berikut merupakan visualisasi data dari data Hasil Nilai Sekolah menggunakan Looker Studio, simak penjelasannya</description>
       <content:encoded><![CDATA[<h1 id="analisis-dashboard-penjualan-toko-grosir">Analisis Dashboard Penjualan Toko Grosir</h1>
 <h2 id="ringkasan-utama">Ringkasan Utama</h2>
