@@ -12,74 +12,135 @@ cover:
     hidden: false
     alt: image of an multiple books, most closed and some open
 ---
-# Analisis Dashboard Penjualan Toko Grosir
+#"DASHBOARD ONLINE SHOP"
 
-## Ringkasan Utama
-- **Total Transaksi:** 49
-- **Total Penjualan:** Rp 520.600.000
-- **Tingkat Kepuasan:** 78,86%
-- **Total Kota:** 11
-- **Total Customer:** 14
-- **Jumlah Produk:** 23
-- **Target Penjualan:** Rp 800.000.000
-> **Catatan:** Target penjualan tercapai sekitar 65,08% dari target.
+Dashboard ini merupakan **dashboard analisis penjualan toko online (e-commerce)** yang menampilkan performa revenue, kategori produk, tren penjualan, metode pembayaran, dan dampak diskon terhadap penjualan. Dashboard ini kemungkinan dibuat menggunakan tool BI seperti **Power BI**, dengan tema warna teal (hijau kebiruan) dan navy sebagai identitas visual.
 
 ---
 
-## Analisis Geografis
-- Penjualan tersebar di 11 kota.
-- Konsentrasi penjualan tertinggi berada di wilayah Asia Tenggara.
-- Strategi pemasaran khusus diperlukan untuk kota dengan penjualan rendah.
+## 1. Header
+**Judul:** "DASHBOARD ONLINE SHOP"
+
+Header berwarna teal sebagai identitas dashboard.
 
 ---
 
-## Analisis Waktu
-- Penjualan mengalami fluktuasi signifikan dari 15 Jan hingga 23 Jun.
-- Puncak penjualan terbesar terjadi pertengahan Maret.
-- Disarankan menganalisis faktor penyebab lonjakan untuk strategi replikasi.
+## 2. Kartu Ringkasan / KPI Cards (Kiri Atas)
+Empat kartu metrik menampilkan ringkasan utama:
+
+| Metrik | Nilai |
+|---|---|
+| Revenue | 5,109,776 |
+| Avg (Unit Price) | 308.42 |
+| Avg (Customer Rating) | 2.97 |
+| Total of Data | 5,000 |
+
+**Insight:** Rata-rata rating pelanggan berada di angka 2.97 dari skala umum 1-5, tergolong **cukup rendah/menengah** — ini bisa menjadi perhatian khusus terkait kepuasan pelanggan meski revenue yang dihasilkan cukup besar.
 
 ---
 
-## Analisis Produk
-**Kategori Produk Terlaris:**
-1. Minuman (~Rp 230 juta)
-2. Selai (~Rp 40 juta)
-3. Buah (~Rp 25 juta)
-4. Susu (~Rp 25 juta)
-5. Sup (~Rp 20 juta)
+## 3. Sales Trend by Month — Bar per Kategori (Kanan Atas)
+**Judul:** "Sales Trend by Month" *(bar chart horizontal berdasarkan kategori produk)*
 
-> **Catatan:** Minuman menyumbang hampir setengah total penjualan.
+Menampilkan **Row Count | Revenue** per kategori produk:
 
----
+| Kategori | Perkiraan Nilai |
+|---|---|
+| Electronics | Tertinggi (~1.7M) |
+| Clothing | ~1.6M |
+| Beauty | ~1.0M |
+| Home | ~1.1M |
 
-## Analisis Metode Pembayaran
-- **Kartu Kredit:** 44,9%
-- **Transfer:** 40,8%
-- **Tunai:** 14,3%
-
-> Metode pembayaran elektronik mendominasi, menandakan preferensi customer terhadap transaksi non-tunai.
+**Insight:** Kategori **Electronics** dan **Clothing** menjadi kontributor revenue terbesar, sedangkan **Beauty** memberikan kontribusi terendah di antara keempat kategori.
 
 ---
 
-## Analisis Penjualan Per Sales
-| Rank | Sales | Penjualan (Rp) | Persentase |
-|------|-------|----------------|------------|
-| 1    | Agus Setiawan      | 199.742.500 | 38,37% |
-| 2    | Lukas Darmadji     | 65.610.000  | 12,6%  |
-| 3    | Dewi Ratna Sari   | 63.780.000  | 12,25% |
-| 4    | Nayla Subandono    | 62.780.000  | 12,06% |
-| 5    | Darmanto Adjie     | 57.875.000  | 11,12% |
-| 6    | Inne Anneke        | 37.865.000  | 7,27%  |
-| 7    | Andreas Nichol     | 26.175.000  | 5,03%  |
-| 8    | Eko Prasetyo       | 6.800.000   | 1,31%  |
+## 4. Sales Trend by Month — Line Chart (Tengah)
+**Judul:** "Sales Trend by Month"
 
-> **Catatan:** Agus Setiawan menyumbang lebih dari sepertiga total penjualan. Perlu strategi pengembangan sales lain agar distribusi lebih merata.
+- Sumbu X: Periode bulan (Jun 2022 – May 2035) — rentang waktu yang **sangat panjang/tidak biasa**, kemungkinan data dummy/simulasi atau ada anomali pada format tanggal di sumber data
+- Sumbu Y: Revenue (3,850 – 4,100)
+
+Pola pergerakan:
+- Stabil di kisaran 3,870–3,920 pada awal periode (Jun 2022 – Okt 2023)
+- **Naik tajam** ke puncak **~4,110** pada Mar 2024
+- Menurun bertahap hingga mencapai titik terendah **~3,850** pada Okt 2033
+- **Melonjak kembali** ke ~4,080 pada Mei 2035
+
+**Insight:** Fluktuasi revenue relatif kecil (dalam rentang ratusan), namun rentang tahun pada sumbu X (hingga 2035) tampak tidak wajar untuk data riil — perlu dicek kembali apakah ini merupakan data sampel/simulasi atau ada kesalahan format tanggal.
 
 ---
 
-## Rekomendasi
-1. Fokus meningkatkan penjualan kategori Minuman.
-2. Optimalkan strategi di kota dengan penjualan rendah.
-3. Analisis penyebab lonjakan penjualan pada Maret untuk direplikasi.
-4. Tingkatkan kemampuan sales dengan performa rendah.
-5. Promosikan metode pembayaran non-tunai.
+## 5. Quantity of Product (Bar Chart, Kanan Tengah)
+**Judul:** "Quantity of Product"
+
+Menampilkan jumlah kuantitas terjual per kategori produk:
+
+| Kategori | Kuantitas (perkiraan) |
+|---|---|
+| Electronics | ~7,000 |
+| Clothing | ~6,000 |
+| Home | ~4,000 |
+| Beauty | ~3,000 |
+
+**Insight:** Electronics unggul baik dari sisi revenue maupun kuantitas terjual, menjadikannya kategori produk paling laris di toko online ini.
+
+---
+
+## 6. Payment Method (Pie Chart, Kiri Bawah)
+**Judul:** "Payment Method"
+
+Menampilkan proporsi metode pembayaran yang digunakan pelanggan:
+
+| Metode | Persentase |
+|---|---|
+| Card | 45.40% |
+| COD (Cash on Delivery) | 35.48% |
+| Wallet | 19.12% |
+
+**Insight:** Pembayaran dengan **kartu (Card)** menjadi metode paling populer, namun COD masih memiliki porsi cukup besar (lebih dari sepertiga transaksi), menandakan sebagian pelanggan masih mengandalkan pembayaran tunai saat barang diterima.
+
+---
+
+## 7. Product Category Based on Discount (Bar Chart, Tengah Bawah)
+**Judul:** "Product Category Based on Discount"
+
+Menampilkan revenue per kategori produk yang **menggunakan diskon**:
+
+| Kategori | Revenue dengan Diskon (perkiraan) |
+|---|---|
+| Beauty | Sangat rendah (mendekati 0) |
+| Clothing | ~1.4M |
+| Electronics | ~1.7M (tertinggi) |
+| Home | ~900K |
+
+**Insight:** Diskon pada kategori **Electronics** dan **Clothing** memberikan kontribusi revenue signifikan, sementara diskon pada kategori **Beauty** hampir tidak menghasilkan revenue — mengindikasikan strategi diskon di kategori Beauty kurang efektif atau minim penerapan.
+
+---
+
+## 8. Revenue by Discount (Bar Chart Horizontal, Kanan Bawah)
+**Judul:** "Revenue by Discount"
+
+Menampilkan revenue dari transaksi berdiskon berdasarkan wilayah (**Region**):
+
+| Wilayah | Revenue (perkiraan) |
+|---|---|
+| West | Tertinggi (~1.3M) |
+| East | ~1.15M |
+| North | ~1.25M |
+| South | ~1.2M |
+
+**Insight:** Revenue dari transaksi berdiskon relatif **merata di semua wilayah** dengan **West** sedikit unggul, menunjukkan strategi diskon diterapkan secara konsisten secara nasional tanpa kesenjangan besar antar wilayah.
+
+---
+
+## Ringkasan Fungsi Dashboard
+Dashboard ini dirancang untuk membantu tim manajemen/pemasaran toko online untuk:
+1. **Memantau performa revenue** secara keseluruhan dan rata-rata harga per unit.
+2. **Mengevaluasi kepuasan pelanggan** melalui rating rata-rata.
+3. **Mengidentifikasi kategori produk terlaris** (dari sisi revenue maupun kuantitas) untuk fokus strategi bisnis.
+4. **Menganalisis tren penjualan** dari waktu ke waktu guna mendeteksi pola musiman.
+5. **Memahami preferensi metode pembayaran** pelanggan.
+6. **Mengevaluasi efektivitas strategi diskon** per kategori produk dan wilayah, guna optimasi promosi di masa mendatang.
+
+> **Catatan:** Interpretasi di atas didasarkan pada elemen visual yang terlihat pada gambar. Beberapa nilai numerik pada grafik diperkirakan (approx.) karena keterbatasan resolusi gambar. Angka dan tren pasti dapat berubah tergantung data sumber dan filter yang diterapkan.

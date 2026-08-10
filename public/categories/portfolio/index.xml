@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Portfolio on Agus Fahmi Aji Pramana</title>
-    <link>https://agfmi.com/categories/portfolio/</link>
+    <link>http://localhost:1313/categories/portfolio/</link>
     <description>Recent content in Portfolio on Agus Fahmi Aji Pramana</description>
     <image>
       <title>Agus Fahmi Aji Pramana</title>
-      <url>https://agfmi.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://agfmi.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.164.0</generator>
     <language>en</language>
     <lastBuildDate>Mon, 10 Aug 2026 21:29:10 +0700</lastBuildDate>
-    <atom:link href="https://agfmi.com/categories/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>FMCG 2022-2024 Data Visualization</title>
-      <link>https://agfmi.com/portfolio/fmcg-2022-2024/</link>
+      <link>http://localhost:1313/portfolio/fmcg-2022-2024/</link>
       <pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://agfmi.com/portfolio/fmcg-2022-2024/</guid>
+      <guid>http://localhost:1313/portfolio/fmcg-2022-2024/</guid>
       <description>Berikut merupakan visualisasi data dari data Rumah Sakit menggunakan Looker Studio, simak penjelasannya</description>
       <content:encoded><![CDATA[<h1 id="dashboard-fmcg-20222024-analisis-kinerja-penjualan-dan-operasional">Dashboard FMCG 2022–2024: Analisis Kinerja Penjualan dan Operasional</h1>
 <h2 id="1-ringkasan-kpi-key-performance-indicators">1. Ringkasan KPI (Key Performance Indicators)</h2>
@@ -135,9 +135,9 @@ Segmentasi Yogurt menunjukkan diversifikasi produk berhasil meningkatkan penjual
     </item>
     <item>
       <title>Doctor Assistance With LLM</title>
-      <link>https://agfmi.com/portfolio/doctor-assistance-with-llm/</link>
+      <link>http://localhost:1313/portfolio/doctor-assistance-with-llm/</link>
       <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://agfmi.com/portfolio/doctor-assistance-with-llm/</guid>
+      <guid>http://localhost:1313/portfolio/doctor-assistance-with-llm/</guid>
       <description>Berikut merupakan project chatbot berbasis AI menggunakan model PALM dari google</description>
       <content:encoded><![CDATA[<h1 id="chatbot-kesehatan-berbasis-llm-palm2">Chatbot Kesehatan Berbasis LLM (Palm2)</h1>
 <p>Gambar menunjukkan antarmuka <strong>chatbot kesehatan</strong> yang memanfaatkan <strong>Large Language Model (LLM)</strong>, yaitu <strong>Palm2</strong> dari Google. Chatbot ini dirancang untuk membantu pengguna dalam konsultasi kesehatan dengan cara interaktif melalui percakapan berbasis teks.</p>
@@ -186,9 +186,9 @@ Segmentasi Yogurt menunjukkan diversifikasi produk berhasil meningkatkan penjual
     </item>
     <item>
       <title>Pegadaian Data Visualization</title>
-      <link>https://agfmi.com/portfolio/pegadaian-data-visualization/</link>
+      <link>http://localhost:1313/portfolio/pegadaian-data-visualization/</link>
       <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://agfmi.com/portfolio/pegadaian-data-visualization/</guid>
+      <guid>http://localhost:1313/portfolio/pegadaian-data-visualization/</guid>
       <description>Berikut merupakan visualisasi data dari data Pegadian menggunakan Looker Studio, simak penjelasannya</description>
       <content:encoded><![CDATA[<h1 id="analisis-dashboard-transaksi-pegadaian">Analisis Dashboard Transaksi Pegadaian</h1>
 <h2 id="1-ringkasan-kpi">1. Ringkasan KPI</h2>
@@ -295,9 +295,9 @@ Dashboard memberikan snapshot instan performa dan coverage Pegadaian. Tingginya 
     </item>
     <item>
       <title>Student Exam Result Visualization</title>
-      <link>https://agfmi.com/portfolio/student-exam-result-visualization/</link>
+      <link>http://localhost:1313/portfolio/student-exam-result-visualization/</link>
       <pubDate>Sat, 28 Dec 2024 14:55:00 -0300</pubDate>
-      <guid>https://agfmi.com/portfolio/student-exam-result-visualization/</guid>
+      <guid>http://localhost:1313/portfolio/student-exam-result-visualization/</guid>
       <description>Berikut merupakan visualisasi data dari data Hasil Nilai Sekolah menggunakan Looker Studio, simak penjelasannya</description>
       <content:encoded><![CDATA[<h1 id="-analisis-dashboard-nilai-siswa">📊 Analisis Dashboard Nilai Siswa</h1>
 <h2 id="1-ringkasan-data">1. Ringkasan Data</h2>
@@ -415,408 +415,720 @@ Kelas <strong>B memiliki performa akademik terbaik</strong>, sedangkan <strong>k
     </item>
     <item>
       <title>Dashboard Bantuan Bencana</title>
-      <link>https://agfmi.com/portfolio/dashboard-bantuan-bencana/</link>
+      <link>http://localhost:1313/portfolio/dashboard-bantuan-bencana/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://agfmi.com/portfolio/dashboard-bantuan-bencana/</guid>
+      <guid>http://localhost:1313/portfolio/dashboard-bantuan-bencana/</guid>
       <description>Berikut merupakan visualisasi data dari data Bantuan Bencana, simak penjelasannya</description>
-      <content:encoded><![CDATA[<h1 id="analisis-dashboard-penjualan-toko-grosir">Analisis Dashboard Penjualan Toko Grosir</h1>
-<h2 id="ringkasan-utama">Ringkasan Utama</h2>
+      <content:encoded><![CDATA[<h1 id="dashboard-bantuan-bencana">&ldquo;DASHBOARD BANTUAN BENCANA&rdquo;</h1>
+<p>Dashboard ini merupakan <strong>dashboard monitoring distribusi bantuan bencana</strong> yang menampilkan alur bantuan mulai dari masuk (donasi/pengumpulan) hingga keluar (distribusi ke wilayah terdampak). Dashboard ini kemungkinan dibuat menggunakan tool BI seperti <strong>Power BI</strong> atau <strong>Tableau</strong>, dengan dominasi warna biru sebagai tema utama.</p>
+<hr>
+<h2 id="1-panel-filter-kiri">1. Panel Filter (Kiri)</h2>
+<p>Terdapat beberapa filter untuk menyaring data yang ditampilkan:</p>
 <ul>
-<li><strong>Total Transaksi:</strong> 49</li>
-<li><strong>Total Penjualan:</strong> Rp 520.600.000</li>
-<li><strong>Tingkat Kepuasan:</strong> 78,86%</li>
-<li><strong>Total Kota:</strong> 11</li>
-<li><strong>Total Customer:</strong> 14</li>
-<li><strong>Jumlah Produk:</strong> 23</li>
-<li><strong>Target Penjualan:</strong> Rp 800.000.000</li>
+<li><strong>Wilayah</strong> — dropdown untuk memilih wilayah tertentu</li>
+<li><strong>Kategori</strong> — dropdown untuk memilih kategori bantuan (misal: Makanan, Non Food, Peralatan, Obat-obatan)</li>
+<li><strong>Rentang Tanggal (From–To)</strong> — filter periode, contoh: dari <strong>25/11/2025</strong> sampai <strong>17/12/2025</strong></li>
 </ul>
-<blockquote>
-<p><strong>Catatan:</strong> Target penjualan tercapai sekitar 65,08% dari target.</p>
-</blockquote>
+<p>Filter ini memungkinkan pengguna menganalisis data bantuan pada periode dan wilayah/kategori spesifik.</p>
 <hr>
-<h2 id="analisis-geografis">Analisis Geografis</h2>
-<ul>
-<li>Penjualan tersebar di 11 kota.</li>
-<li>Konsentrasi penjualan tertinggi berada di wilayah Asia Tenggara.</li>
-<li>Strategi pemasaran khusus diperlukan untuk kota dengan penjualan rendah.</li>
-</ul>
-<hr>
-<h2 id="analisis-waktu">Analisis Waktu</h2>
-<ul>
-<li>Penjualan mengalami fluktuasi signifikan dari 15 Jan hingga 23 Jun.</li>
-<li>Puncak penjualan terbesar terjadi pertengahan Maret.</li>
-<li>Disarankan menganalisis faktor penyebab lonjakan untuk strategi replikasi.</li>
-</ul>
-<hr>
-<h2 id="analisis-produk">Analisis Produk</h2>
-<p><strong>Kategori Produk Terlaris:</strong></p>
-<ol>
-<li>Minuman (~Rp 230 juta)</li>
-<li>Selai (~Rp 40 juta)</li>
-<li>Buah (~Rp 25 juta)</li>
-<li>Susu (~Rp 25 juta)</li>
-<li>Sup (~Rp 20 juta)</li>
-</ol>
-<blockquote>
-<p><strong>Catatan:</strong> Minuman menyumbang hampir setengah total penjualan.</p>
-</blockquote>
-<hr>
-<h2 id="analisis-metode-pembayaran">Analisis Metode Pembayaran</h2>
-<ul>
-<li><strong>Kartu Kredit:</strong> 44,9%</li>
-<li><strong>Transfer:</strong> 40,8%</li>
-<li><strong>Tunai:</strong> 14,3%</li>
-</ul>
-<blockquote>
-<p>Metode pembayaran elektronik mendominasi, menandakan preferensi customer terhadap transaksi non-tunai.</p>
-</blockquote>
-<hr>
-<h2 id="analisis-penjualan-per-sales">Analisis Penjualan Per Sales</h2>
+<h2 id="2-kartu-ringkasan--kpi-cards-baris-atas">2. Kartu Ringkasan / KPI Cards (Baris Atas)</h2>
+<p>Lima kartu metrik menampilkan ringkasan utama data bantuan bencana:</p>
 <table>
 	<thead>
 			<tr>
-					<th>Rank</th>
-					<th>Sales</th>
-					<th>Penjualan (Rp)</th>
+					<th>Metrik</th>
+					<th>Nilai</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Total Bantuan (Data)</td>
+					<td>2,988</td>
+			</tr>
+			<tr>
+					<td>Bantuan Masuk (Paket)</td>
+					<td>142,248</td>
+			</tr>
+			<tr>
+					<td>Bantuan Keluar (Paket)</td>
+					<td>177,326</td>
+			</tr>
+			<tr>
+					<td>Jumlah Donatur</td>
+					<td>60</td>
+			</tr>
+			<tr>
+					<td>Wilayah Distribusi</td>
+					<td>3</td>
+			</tr>
+	</tbody>
+</table>
+<p><strong>Insight:</strong> Jumlah bantuan keluar (177,326) lebih besar dari bantuan masuk (142,248), yang bisa mengindikasikan adanya stok sebelumnya yang ikut didistribusikan, atau satuan/periode perhitungan yang berbeda antara data masuk dan keluar.</p>
+<hr>
+<h2 id="3-proporsi-setiap-bantuan-pie-chart-kiri-tengah">3. Proporsi Setiap Bantuan (Pie Chart, Kiri Tengah)</h2>
+<p>Menampilkan distribusi kategori bantuan dalam bentuk <strong>pie chart</strong>:</p>
+<table>
+	<thead>
+			<tr>
+					<th>Kategori</th>
 					<th>Persentase</th>
 			</tr>
 	</thead>
 	<tbody>
 			<tr>
-					<td>1</td>
-					<td>Agus Setiawan</td>
-					<td>199.742.500</td>
-					<td>38,37%</td>
+					<td>Makanan</td>
+					<td>46.26%</td>
 			</tr>
 			<tr>
-					<td>2</td>
-					<td>Lukas Darmadji</td>
-					<td>65.610.000</td>
-					<td>12,6%</td>
+					<td>Peralatan</td>
+					<td>33.74%</td>
 			</tr>
 			<tr>
-					<td>3</td>
-					<td>Dewi Ratna Sari</td>
-					<td>63.780.000</td>
-					<td>12,25%</td>
+					<td>Non Food</td>
+					<td>19.34%</td>
 			</tr>
 			<tr>
-					<td>4</td>
-					<td>Nayla Subandono</td>
-					<td>62.780.000</td>
-					<td>12,06%</td>
-			</tr>
-			<tr>
-					<td>5</td>
-					<td>Darmanto Adjie</td>
-					<td>57.875.000</td>
-					<td>11,12%</td>
-			</tr>
-			<tr>
-					<td>6</td>
-					<td>Inne Anneke</td>
-					<td>37.865.000</td>
-					<td>7,27%</td>
-			</tr>
-			<tr>
-					<td>7</td>
-					<td>Andreas Nichol</td>
-					<td>26.175.000</td>
-					<td>5,03%</td>
-			</tr>
-			<tr>
-					<td>8</td>
-					<td>Eko Prasetyo</td>
-					<td>6.800.000</td>
-					<td>1,31%</td>
+					<td>Obat-obatan</td>
+					<td>0.66%</td>
 			</tr>
 	</tbody>
 </table>
-<blockquote>
-<p><strong>Catatan:</strong> Agus Setiawan menyumbang lebih dari sepertiga total penjualan. Perlu strategi pengembangan sales lain agar distribusi lebih merata.</p>
-</blockquote>
+<p><strong>Insight:</strong> Bantuan makanan mendominasi hampir separuh dari total bantuan, diikuti peralatan. Bantuan obat-obatan porsinya sangat kecil — bisa menjadi perhatian jika kebutuhan medis di lapangan cukup tinggi.</p>
 <hr>
-<h2 id="rekomendasi">Rekomendasi</h2>
+<h2 id="4-trend-bantuan-bencana-arealine-chart-kanan-tengah">4. Trend Bantuan Bencana (Area/Line Chart, Kanan Tengah)</h2>
+<p>Menampilkan <strong>tren jumlah bantuan kategori &ldquo;Makanan&rdquo;</strong> dari waktu ke waktu (25/11/2025 – 17/12/2025):</p>
+<ul>
+<li>Nilai harian berfluktuasi relatif rendah (5 hingga sekitar 2,818) di sebagian besar hari.</li>
+<li>Terjadi <strong>lonjakan tajam pada 14/12/2025</strong> dengan nilai <strong>12,656</strong>, jauh di atas hari-hari lain.</li>
+<li>Setelah lonjakan, nilai kembali turun ke kisaran normal (275, 228, 479, dst).</li>
+</ul>
+<p><strong>Insight:</strong> Lonjakan pada 14/12/2025 kemungkinan menandakan adanya pengiriman/distribusi bantuan makanan dalam jumlah besar pada tanggal tersebut — bisa jadi respons terhadap kejadian bencana besar atau pengiriman logistik besar dari donatur tertentu.</p>
+<hr>
+<h2 id="5-asal-bantuan-bar-chart-horizontal-kiri-bawah">5. Asal Bantuan (Bar Chart Horizontal, Kiri Bawah)</h2>
+<p>Menampilkan sumber/asal bantuan berdasarkan <strong>berat satuan (num)</strong>, diurutkan dari terbesar ke terkecil:</p>
+<table>
+	<thead>
+			<tr>
+					<th>Asal Bantuan</th>
+					<th>Berat Satuan</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>BAPAK AMIN</td>
+					<td>10,835</td>
+			</tr>
+			<tr>
+					<td>DONASI</td>
+					<td>8,702</td>
+			</tr>
+			<tr>
+					<td>Donasi</td>
+					<td>5,146</td>
+			</tr>
+			<tr>
+					<td>HALIM SORTIE 6</td>
+					<td>1,107</td>
+			</tr>
+			<tr>
+					<td>Banpres</td>
+					<td>836</td>
+			</tr>
+			<tr>
+					<td>HALIM SORTIE 4</td>
+					<td>778</td>
+			</tr>
+			<tr>
+					<td>HALIM SORTI 2</td>
+					<td>768</td>
+			</tr>
+			<tr>
+					<td>HALIM SORTIE 7</td>
+					<td>682</td>
+			</tr>
+			<tr>
+					<td>PEMKAB TOBA (BUPATI)</td>
+					<td>660</td>
+			</tr>
+			<tr>
+					<td>BNPB</td>
+					<td>592</td>
+			</tr>
+	</tbody>
+</table>
+<p><strong>Insight:</strong> Donatur individu (&ldquo;BAPAK AMIN&rdquo;) dan kategori umum &ldquo;Donasi&rdquo; menjadi kontributor terbesar, melebihi kontribusi dari lembaga pemerintah seperti BNPB atau Pemkab. Perlu dicek apakah &ldquo;Donasi&rdquo; dan &ldquo;DONASI&rdquo; seharusnya digabung sebagai satu kategori (potensi duplikasi data akibat perbedaan kapitalisasi).</p>
+<hr>
+<h2 id="6-daftar-bantuan-pokok-tabel-tengah-bawah">6. Daftar Bantuan Pokok (Tabel, Tengah Bawah)</h2>
+<p>Tabel berisi rincian jenis barang bantuan beserta berat/jumlah satuannya:</p>
+<table>
+	<thead>
+			<tr>
+					<th>Nama Barang</th>
+					<th>Berat Satuan</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Air Mineral</td>
+					<td>2,615</td>
+			</tr>
+			<tr>
+					<td>Mie Instan</td>
+					<td>1,525</td>
+			</tr>
+			<tr>
+					<td>Sarden</td>
+					<td>1,417</td>
+			</tr>
+			<tr>
+					<td>Minyak Goreng</td>
+					<td>1,249</td>
+			</tr>
+			<tr>
+					<td>Beras</td>
+					<td>894</td>
+			</tr>
+			<tr>
+					<td>Beras @ 5 Kg</td>
+					<td>725</td>
+			</tr>
+			<tr>
+					<td>Makanan Siap Saji</td>
+					<td>377</td>
+			</tr>
+			<tr>
+					<td>Makanan Siap Saji Dsp</td>
+					<td>104</td>
+			</tr>
+			<tr>
+					<td>Masaji</td>
+					<td>64</td>
+			</tr>
+			<tr>
+					<td>Beras Bulog</td>
+					<td>19</td>
+			</tr>
+	</tbody>
+</table>
+<p><strong>Insight:</strong> Kebutuhan pokok seperti air mineral dan mie instan menjadi barang bantuan dengan volume tertinggi — sejalan dengan dominasi kategori &ldquo;Makanan&rdquo; pada pie chart.</p>
+<hr>
+<h2 id="7-wilayah-distribusi-bantuan-bar-chart--legenda-gradasi-kanan-bawah">7. Wilayah Distribusi Bantuan (Bar Chart + Legenda Gradasi, Kanan Bawah)</h2>
+<p>Menampilkan <strong>jumlah donatur</strong> berdasarkan <strong>provinsi asal gudang</strong>:</p>
+<table>
+	<thead>
+			<tr>
+					<th>Provinsi</th>
+					<th>Jumlah Donatur (perkiraan)</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Aceh</td>
+					<td>± 8</td>
+			</tr>
+			<tr>
+					<td>Sumatera Barat</td>
+					<td>± 3</td>
+			</tr>
+			<tr>
+					<td>Sumatera Utara</td>
+					<td>± 40</td>
+			</tr>
+	</tbody>
+</table>
+<p>Legenda warna menunjukkan skala persentase (0%–20% hingga 80%–100%) untuk merepresentasikan intensitas donatur per wilayah.</p>
+<p><strong>Insight:</strong> Sumatera Utara menjadi pusat gudang/distribusi dengan jumlah donatur jauh lebih tinggi dibanding dua provinsi lainnya, menunjukkan wilayah ini sebagai basis logistik utama.</p>
+<hr>
+<h2 id="ringkasan-fungsi-dashboard">Ringkasan Fungsi Dashboard</h2>
+<p>Dashboard ini dirancang untuk membantu tim manajemen bencana (BNPB, relawan, atau koordinator logistik) untuk:</p>
 <ol>
-<li>Fokus meningkatkan penjualan kategori Minuman.</li>
-<li>Optimalkan strategi di kota dengan penjualan rendah.</li>
-<li>Analisis penyebab lonjakan penjualan pada Maret untuk direplikasi.</li>
-<li>Tingkatkan kemampuan sales dengan performa rendah.</li>
-<li>Promosikan metode pembayaran non-tunai.</li>
+<li><strong>Memantau arus bantuan</strong> secara real-time — dari masuk hingga keluar.</li>
+<li><strong>Menganalisis komposisi jenis bantuan</strong> yang paling banyak dibutuhkan/didistribusikan.</li>
+<li><strong>Melacak tren waktu</strong> untuk mendeteksi lonjakan kebutuhan atau pengiriman.</li>
+<li><strong>Mengidentifikasi kontributor/donatur utama</strong> demi transparansi dan apresiasi.</li>
+<li><strong>Mengelola logistik antar wilayah</strong> dengan mengetahui gudang mana yang paling aktif mendistribusikan bantuan.</li>
 </ol>
+<blockquote>
+<p><strong>Catatan:</strong> Interpretasi di atas didasarkan pada elemen visual yang terlihat pada gambar. Angka dan tren pasti dapat berubah tergantung data sumber dan filter yang diterapkan.</p>
+</blockquote>
 ]]></content:encoded>
     </item>
     <item>
       <title>Dashboard Bencana</title>
-      <link>https://agfmi.com/portfolio/dashboard-bencana/</link>
+      <link>http://localhost:1313/portfolio/dashboard-bencana/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://agfmi.com/portfolio/dashboard-bencana/</guid>
+      <guid>http://localhost:1313/portfolio/dashboard-bencana/</guid>
       <description>Berikut merupakan visualisasi data dari data Bencana, simak penjelasannya</description>
-      <content:encoded><![CDATA[<h1 id="analisis-dashboard-penjualan-toko-grosir">Analisis Dashboard Penjualan Toko Grosir</h1>
-<h2 id="ringkasan-utama">Ringkasan Utama</h2>
-<ul>
-<li><strong>Total Transaksi:</strong> 49</li>
-<li><strong>Total Penjualan:</strong> Rp 520.600.000</li>
-<li><strong>Tingkat Kepuasan:</strong> 78,86%</li>
-<li><strong>Total Kota:</strong> 11</li>
-<li><strong>Total Customer:</strong> 14</li>
-<li><strong>Jumlah Produk:</strong> 23</li>
-<li><strong>Target Penjualan:</strong> Rp 800.000.000</li>
-</ul>
-<blockquote>
-<p><strong>Catatan:</strong> Target penjualan tercapai sekitar 65,08% dari target.</p>
-</blockquote>
+      <content:encoded><![CDATA[<h1 id="penjelasan-dashboard-dashboard-bencana">Penjelasan Dashboard &ldquo;Dashboard Bencana&rdquo;</h1>
+<p>Dashboard ini merupakan <strong>dashboard monitoring dampak bencana alam</strong> di Indonesia yang menampilkan jumlah korban, kerusakan infrastruktur, sebaran lokasi bencana, serta tren jenis bencana dari waktu ke waktu. Dashboard ini kemungkinan dibuat menggunakan tool BI seperti <strong>Power BI</strong>, dengan tema warna biru dan oranye sebagai aksen.</p>
 <hr>
-<h2 id="analisis-geografis">Analisis Geografis</h2>
+<h2 id="1-header--filter-atas">1. Header &amp; Filter (Atas)</h2>
+<p><strong>Judul:</strong> &ldquo;Dashboard Bencara Example&rdquo; <em>(catatan: kemungkinan salah ketik dari &ldquo;Bencana&rdquo;)</em></p>
+<p>Terdapat filter untuk menyaring data:</p>
 <ul>
-<li>Penjualan tersebar di 11 kota.</li>
-<li>Konsentrasi penjualan tertinggi berada di wilayah Asia Tenggara.</li>
-<li>Strategi pemasaran khusus diperlukan untuk kota dengan penjualan rendah.</li>
+<li><strong>Provinsi</strong> — dropdown pemilihan provinsi</li>
+<li><strong>Kabupaten/Kota</strong> — dropdown pemilihan kabupaten/kota</li>
+<li><strong>Rentang Tanggal (From–To)</strong> — periode data, contoh: <strong>1/1/2025 00:00:00</strong> sampai <strong>7/31/2025 23:59:59</strong> (data mencakup 7 bulan pertama 2025)</li>
 </ul>
 <hr>
-<h2 id="analisis-waktu">Analisis Waktu</h2>
-<ul>
-<li>Penjualan mengalami fluktuasi signifikan dari 15 Jan hingga 23 Jun.</li>
-<li>Puncak penjualan terbesar terjadi pertengahan Maret.</li>
-<li>Disarankan menganalisis faktor penyebab lonjakan untuk strategi replikasi.</li>
-</ul>
-<hr>
-<h2 id="analisis-produk">Analisis Produk</h2>
-<p><strong>Kategori Produk Terlaris:</strong></p>
-<ol>
-<li>Minuman (~Rp 230 juta)</li>
-<li>Selai (~Rp 40 juta)</li>
-<li>Buah (~Rp 25 juta)</li>
-<li>Susu (~Rp 25 juta)</li>
-<li>Sup (~Rp 20 juta)</li>
-</ol>
-<blockquote>
-<p><strong>Catatan:</strong> Minuman menyumbang hampir setengah total penjualan.</p>
-</blockquote>
-<hr>
-<h2 id="analisis-metode-pembayaran">Analisis Metode Pembayaran</h2>
-<ul>
-<li><strong>Kartu Kredit:</strong> 44,9%</li>
-<li><strong>Transfer:</strong> 40,8%</li>
-<li><strong>Tunai:</strong> 14,3%</li>
-</ul>
-<blockquote>
-<p>Metode pembayaran elektronik mendominasi, menandakan preferensi customer terhadap transaksi non-tunai.</p>
-</blockquote>
-<hr>
-<h2 id="analisis-penjualan-per-sales">Analisis Penjualan Per Sales</h2>
+<h2 id="2-kartu-ringkasan-korban-kiri-atas">2. Kartu Ringkasan Korban (Kiri Atas)</h2>
+<p>Empat kartu metrik menampilkan jumlah korban akibat bencana:</p>
 <table>
 	<thead>
 			<tr>
-					<th>Rank</th>
-					<th>Sales</th>
-					<th>Penjualan (Rp)</th>
-					<th>Persentase</th>
+					<th>Metrik</th>
+					<th>Nilai</th>
 			</tr>
 	</thead>
 	<tbody>
 			<tr>
-					<td>1</td>
-					<td>Agus Setiawan</td>
-					<td>199.742.500</td>
-					<td>38,37%</td>
+					<td>Meninggal</td>
+					<td>294</td>
 			</tr>
 			<tr>
-					<td>2</td>
-					<td>Lukas Darmadji</td>
-					<td>65.610.000</td>
-					<td>12,6%</td>
+					<td>Terluka</td>
+					<td>476</td>
 			</tr>
 			<tr>
-					<td>3</td>
-					<td>Dewi Ratna Sari</td>
-					<td>63.780.000</td>
-					<td>12,25%</td>
+					<td>Hilang</td>
+					<td>28</td>
 			</tr>
 			<tr>
-					<td>4</td>
-					<td>Nayla Subandono</td>
-					<td>62.780.000</td>
-					<td>12,06%</td>
-			</tr>
-			<tr>
-					<td>5</td>
-					<td>Darmanto Adjie</td>
-					<td>57.875.000</td>
-					<td>11,12%</td>
-			</tr>
-			<tr>
-					<td>6</td>
-					<td>Inne Anneke</td>
-					<td>37.865.000</td>
-					<td>7,27%</td>
-			</tr>
-			<tr>
-					<td>7</td>
-					<td>Andreas Nichol</td>
-					<td>26.175.000</td>
-					<td>5,03%</td>
-			</tr>
-			<tr>
-					<td>8</td>
-					<td>Eko Prasetyo</td>
-					<td>6.800.000</td>
-					<td>1,31%</td>
+					<td>Terdampak</td>
+					<td>4,440,002</td>
 			</tr>
 	</tbody>
 </table>
-<blockquote>
-<p><strong>Catatan:</strong> Agus Setiawan menyumbang lebih dari sepertiga total penjualan. Perlu strategi pengembangan sales lain agar distribusi lebih merata.</p>
-</blockquote>
+<p><strong>Insight:</strong> Jumlah masyarakat yang terdampak sangat besar (lebih dari 4,4 juta jiwa) dibanding jumlah korban jiwa langsung, menunjukkan bencana berskala luas namun dengan tingkat fatalitas relatif terkendali.</p>
 <hr>
-<h2 id="rekomendasi">Rekomendasi</h2>
+<h2 id="3-kartu-kerusakan-infrastruktur-kanan">3. Kartu Kerusakan Infrastruktur (Kanan)</h2>
+<p>Tiga kartu menampilkan jumlah bangunan yang rusak:</p>
+<table>
+	<thead>
+			<tr>
+					<th>Jenis Bangunan</th>
+					<th>Jumlah Rusak</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Rumah Rusak Berat</td>
+					<td>2,946</td>
+			</tr>
+			<tr>
+					<td>Sekolah Rusak</td>
+					<td>271</td>
+			</tr>
+			<tr>
+					<td>Kantor Rusak</td>
+					<td>17</td>
+			</tr>
+	</tbody>
+</table>
+<p><strong>Insight:</strong> Rumah tinggal menjadi infrastruktur yang paling banyak mengalami kerusakan berat, jauh melebihi fasilitas pendidikan dan perkantoran — mengindikasikan dampak signifikan terhadap permukiman warga.</p>
+<hr>
+<h2 id="4-intensitas-setiap-bencana-bartreemap-kiri-tengah">4. Intensitas Setiap Bencana (Bar/Treemap, Kiri Tengah)</h2>
+<p><strong>Judul:</strong> &ldquo;Intensitas Setiap Bencana&rdquo;</p>
+<p>Menampilkan perbandingan jumlah kejadian berdasarkan jenis bencana:</p>
+<ul>
+<li><strong>Banjir</strong>: 1,334 kejadian (dominan, warna biru)</li>
+<li><strong>Longsor</strong>: 223 kejadian (warna oranye/merah)</li>
+<li>Terdapat kategori lain dengan proporsi kecil (warna hijau di bagian bawah, tidak berlabel jelas)</li>
+</ul>
+<p><strong>Insight:</strong> Banjir merupakan jenis bencana dengan intensitas kejadian jauh tertinggi dibanding jenis bencana lainnya, menjadikannya prioritas utama dalam mitigasi.</p>
+<hr>
+<h2 id="5-peta-sebaran-bencana-tengah">5. Peta Sebaran Bencana (Tengah)</h2>
+<p>Peta interaktif yang menampilkan sebaran lokasi bencana di wilayah Indonesia (dengan tampilan peta yang mencakup Asia hingga Timur Tengah, namun fokus data di Indonesia — terlihat titik-titik di Kabupaten Pelalawan, Kabupaten Berau, Kabupaten Bone, Kabupaten Sumba Timur, dll).</p>
+<p>Terdapat tombol toggle untuk mengganti tampilan data pada peta:</p>
+<ul>
+<li><strong>Terdampak</strong></li>
+<li><strong>Meninggal</strong> <em>(sedang aktif/dipilih)</em></li>
+<li><strong>Hilang</strong></li>
+<li><strong>Terluka</strong></li>
+</ul>
+<p>Fitur ini memungkinkan pengguna melihat sebaran geografis untuk masing-masing kategori dampak secara terpisah.</p>
+<hr>
+<h2 id="6-tingkat-kematian-tertinggi-di-10-provinsi-bar-chart-horizontal-kiri-bawah">6. Tingkat Kematian Tertinggi di 10 Provinsi (Bar Chart Horizontal, Kiri Bawah)</h2>
+<p>Menampilkan jumlah korban meninggal berdasarkan provinsi, diurutkan dari tertinggi:</p>
+<table>
+	<thead>
+			<tr>
+					<th>Provinsi</th>
+					<th>Jumlah Meninggal</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Jawa Barat</td>
+					<td>49</td>
+			</tr>
+			<tr>
+					<td>Jawa Tengah</td>
+					<td>35</td>
+			</tr>
+			<tr>
+					<td>Jawa Timur</td>
+					<td>35</td>
+			</tr>
+			<tr>
+					<td>Bali</td>
+					<td>23</td>
+			</tr>
+			<tr>
+					<td>Papua Barat</td>
+					<td>16</td>
+			</tr>
+			<tr>
+					<td>Lampung</td>
+					<td>14</td>
+			</tr>
+			<tr>
+					<td>Nusa Tenggara Barat</td>
+					<td>12</td>
+			</tr>
+			<tr>
+					<td>Nusa Tenggara Timur</td>
+					<td>12</td>
+			</tr>
+			<tr>
+					<td>Kalimantan Timur</td>
+					<td>11</td>
+			</tr>
+			<tr>
+					<td>Sulawesi Tengah</td>
+					<td>11</td>
+			</tr>
+	</tbody>
+</table>
+<p><strong>Insight:</strong> Provinsi-provinsi di Pulau Jawa (Jawa Barat, Jawa Tengah, Jawa Timur) mendominasi jumlah korban jiwa tertinggi, kemungkinan karena kepadatan penduduk yang tinggi di wilayah tersebut.</p>
+<hr>
+<h2 id="7-trend-jenis-bencana-setiap-bulan-area-chart-kanan-bawah">7. Trend Jenis Bencana Setiap Bulan (Area Chart, Kanan Bawah)</h2>
+<p><strong>Judul:</strong> &ldquo;Trend Jenis Bencana Setiap Bulan&rdquo;</p>
+<ul>
+<li>Sumbu X: Bulan (Jan 2025 – Jul 2025)</li>
+<li>Sumbu Y: Jumlah korban meninggal</li>
+<li>Menampilkan tren untuk berbagai jenis bencana (legenda &ldquo;Event Type Name&rdquo;): Abrasi Pantai, Angin Kencang, Banjir, Banjir Bandang, Banjir dan Tanah Longsor, Banjir Genangan, Banjir Rob, Banjir Waduk, Cuaca Ekstrem, Erupsi Gunung Api, dll.</li>
+</ul>
+<p>Pola yang terlihat:</p>
+<ul>
+<li><strong>Januari 2025</strong>: lonjakan tertinggi (~57 korban meninggal), didominasi warna oranye (<strong>Banjir Bandang</strong>)</li>
+<li><strong>Februari 2025</strong>: turun drastis ke titik terendah (~5-10)</li>
+<li><strong>Mei 2025</strong>: terjadi puncak kedua (~32), kembali didominasi Banjir Bandang</li>
+<li>Bulan-bulan lain menunjukkan fluktuasi sedang di kisaran 10-20</li>
+</ul>
+<p><strong>Insight:</strong> <strong>Banjir Bandang</strong> tampak sebagai kontributor utama korban jiwa di sepanjang periode, dengan dua puncak signifikan di Januari dan Mei 2025 — kemungkinan berkaitan dengan musim hujan/curah hujan tinggi pada bulan-bulan tersebut.</p>
+<hr>
+<h2 id="ringkasan-fungsi-dashboard">Ringkasan Fungsi Dashboard</h2>
+<p>Dashboard ini dirancang untuk membantu pihak berwenang (BNPB, pemerintah daerah, atau lembaga kemanusiaan) untuk:</p>
 <ol>
-<li>Fokus meningkatkan penjualan kategori Minuman.</li>
-<li>Optimalkan strategi di kota dengan penjualan rendah.</li>
-<li>Analisis penyebab lonjakan penjualan pada Maret untuk direplikasi.</li>
-<li>Tingkatkan kemampuan sales dengan performa rendah.</li>
-<li>Promosikan metode pembayaran non-tunai.</li>
+<li><strong>Memantau jumlah korban</strong> (meninggal, terluka, hilang, terdampak) secara real-time.</li>
+<li><strong>Mengevaluasi kerusakan infrastruktur</strong> akibat bencana (rumah, sekolah, kantor).</li>
+<li><strong>Mengidentifikasi jenis bencana paling sering terjadi</strong> untuk prioritas mitigasi (banjir menjadi perhatian utama).</li>
+<li><strong>Melihat sebaran geografis bencana</strong> melalui peta interaktif.</li>
+<li><strong>Mengetahui provinsi dengan risiko kematian tertinggi</strong> guna alokasi sumber daya yang tepat sasaran.</li>
+<li><strong>Menganalisis tren musiman</strong> jenis bencana untuk kesiapsiagaan di bulan-bulan rawan.</li>
 </ol>
+<blockquote>
+<p><strong>Catatan:</strong> Interpretasi di atas didasarkan pada elemen visual yang terlihat pada gambar. Angka dan tren pasti dapat berubah tergantung data sumber dan filter yang diterapkan.</p>
+</blockquote>
 ]]></content:encoded>
     </item>
     <item>
       <title>Dashboard Data Sekolah Di Indonesia</title>
-      <link>https://agfmi.com/portfolio/dashboard-data-sekolah-di-indonesia/</link>
+      <link>http://localhost:1313/portfolio/dashboard-data-sekolah-di-indonesia/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://agfmi.com/portfolio/dashboard-data-sekolah-di-indonesia/</guid>
+      <guid>http://localhost:1313/portfolio/dashboard-data-sekolah-di-indonesia/</guid>
       <description>Berikut merupakan visualisasi data dari data Data Sekolah Di Indonesia, simak penjelasannya</description>
-      <content:encoded><![CDATA[<h1 id="analisis-dashboard-penjualan-toko-grosir">Analisis Dashboard Penjualan Toko Grosir</h1>
-<h2 id="ringkasan-utama">Ringkasan Utama</h2>
-<ul>
-<li><strong>Total Transaksi:</strong> 49</li>
-<li><strong>Total Penjualan:</strong> Rp 520.600.000</li>
-<li><strong>Tingkat Kepuasan:</strong> 78,86%</li>
-<li><strong>Total Kota:</strong> 11</li>
-<li><strong>Total Customer:</strong> 14</li>
-<li><strong>Jumlah Produk:</strong> 23</li>
-<li><strong>Target Penjualan:</strong> Rp 800.000.000</li>
-</ul>
-<blockquote>
-<p><strong>Catatan:</strong> Target penjualan tercapai sekitar 65,08% dari target.</p>
-</blockquote>
+      <content:encoded><![CDATA[<h1 id="statistik-sekolah-di-indonesia">&ldquo;Statistik Sekolah di Indonesia&rdquo;</h1>
+<p>Dashboard ini merupakan <strong>dashboard statistik pendidikan nasional</strong> yang menampilkan data siswa, tenaga pendidik, sarana sekolah, tingkat putus sekolah, serta sebaran data pendidikan di seluruh provinsi Indonesia. Dashboard ini kemungkinan dibuat menggunakan tool BI seperti <strong>Power BI</strong>, dengan tema warna merah marun (maroon) dan navy sebagai identitas visual.</p>
 <hr>
-<h2 id="analisis-geografis">Analisis Geografis</h2>
-<ul>
-<li>Penjualan tersebar di 11 kota.</li>
-<li>Konsentrasi penjualan tertinggi berada di wilayah Asia Tenggara.</li>
-<li>Strategi pemasaran khusus diperlukan untuk kota dengan penjualan rendah.</li>
-</ul>
+<h2 id="1-header">1. Header</h2>
+<p><strong>Judul:</strong> &ldquo;Statistik Sekolah di Indonesia&rdquo;</p>
+<p>Header sederhana berwarna ungu tua/maroon sebagai identitas dashboard, tanpa filter interaktif yang terlihat pada bagian ini.</p>
 <hr>
-<h2 id="analisis-waktu">Analisis Waktu</h2>
-<ul>
-<li>Penjualan mengalami fluktuasi signifikan dari 15 Jan hingga 23 Jun.</li>
-<li>Puncak penjualan terbesar terjadi pertengahan Maret.</li>
-<li>Disarankan menganalisis faktor penyebab lonjakan untuk strategi replikasi.</li>
-</ul>
-<hr>
-<h2 id="analisis-produk">Analisis Produk</h2>
-<p><strong>Kategori Produk Terlaris:</strong></p>
-<ol>
-<li>Minuman (~Rp 230 juta)</li>
-<li>Selai (~Rp 40 juta)</li>
-<li>Buah (~Rp 25 juta)</li>
-<li>Susu (~Rp 25 juta)</li>
-<li>Sup (~Rp 20 juta)</li>
-</ol>
-<blockquote>
-<p><strong>Catatan:</strong> Minuman menyumbang hampir setengah total penjualan.</p>
-</blockquote>
-<hr>
-<h2 id="analisis-metode-pembayaran">Analisis Metode Pembayaran</h2>
-<ul>
-<li><strong>Kartu Kredit:</strong> 44,9%</li>
-<li><strong>Transfer:</strong> 40,8%</li>
-<li><strong>Tunai:</strong> 14,3%</li>
-</ul>
-<blockquote>
-<p>Metode pembayaran elektronik mendominasi, menandakan preferensi customer terhadap transaksi non-tunai.</p>
-</blockquote>
-<hr>
-<h2 id="analisis-penjualan-per-sales">Analisis Penjualan Per Sales</h2>
+<h2 id="2-kartu-ringkasan--kpi-cards-baris-atas">2. Kartu Ringkasan / KPI Cards (Baris Atas)</h2>
+<p>Enam kartu metrik menampilkan angka agregat nasional:</p>
 <table>
 	<thead>
 			<tr>
-					<th>Rank</th>
-					<th>Sales</th>
-					<th>Penjualan (Rp)</th>
+					<th>Metrik</th>
+					<th>Nilai</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Siswa</td>
+					<td>90,274,127</td>
+			</tr>
+			<tr>
+					<td>Kepala Sekolah dan Guru</td>
+					<td>24,346,900</td>
+			</tr>
+			<tr>
+					<td>Tenaga Kependidikan</td>
+					<td>3,157,367</td>
+			</tr>
+			<tr>
+					<td>Sekolah</td>
+					<td>2,507,111</td>
+			</tr>
+			<tr>
+					<td>Ruang Kelas</td>
+					<td>18,160,044</td>
+			</tr>
+			<tr>
+					<td>Rombel (Rombongan Belajar)</td>
+					<td>3,102,041</td>
+			</tr>
+	</tbody>
+</table>
+<p><strong>Insight:</strong> Rasio siswa terhadap ruang kelas sekitar 5:1, sementara rasio siswa terhadap kepala sekolah &amp; guru sekitar 3,7:1 — angka-angka ini memberi gambaran kapasitas dan beban sistem pendidikan secara nasional.</p>
+<hr>
+<h2 id="3-perbandingan-siswa-negeri-dan-swasta-pie-chart-kiri">3. Perbandingan Siswa Negeri dan Swasta (Pie Chart, Kiri)</h2>
+<p>Menampilkan proporsi siswa berdasarkan status sekolah:</p>
+<table>
+	<thead>
+			<tr>
+					<th>Status</th>
 					<th>Persentase</th>
 			</tr>
 	</thead>
 	<tbody>
 			<tr>
-					<td>1</td>
-					<td>Agus Setiawan</td>
-					<td>199.742.500</td>
-					<td>38,37%</td>
+					<td>Negeri</td>
+					<td>59.35%</td>
 			</tr>
 			<tr>
-					<td>2</td>
-					<td>Lukas Darmadji</td>
-					<td>65.610.000</td>
-					<td>12,6%</td>
-			</tr>
-			<tr>
-					<td>3</td>
-					<td>Dewi Ratna Sari</td>
-					<td>63.780.000</td>
-					<td>12,25%</td>
-			</tr>
-			<tr>
-					<td>4</td>
-					<td>Nayla Subandono</td>
-					<td>62.780.000</td>
-					<td>12,06%</td>
-			</tr>
-			<tr>
-					<td>5</td>
-					<td>Darmanto Adjie</td>
-					<td>57.875.000</td>
-					<td>11,12%</td>
-			</tr>
-			<tr>
-					<td>6</td>
-					<td>Inne Anneke</td>
-					<td>37.865.000</td>
-					<td>7,27%</td>
-			</tr>
-			<tr>
-					<td>7</td>
-					<td>Andreas Nichol</td>
-					<td>26.175.000</td>
-					<td>5,03%</td>
-			</tr>
-			<tr>
-					<td>8</td>
-					<td>Eko Prasetyo</td>
-					<td>6.800.000</td>
-					<td>1,31%</td>
+					<td>Swasta</td>
+					<td>40.65%</td>
 			</tr>
 	</tbody>
 </table>
-<blockquote>
-<p><strong>Catatan:</strong> Agus Setiawan menyumbang lebih dari sepertiga total penjualan. Perlu strategi pengembangan sales lain agar distribusi lebih merata.</p>
-</blockquote>
+<p><strong>Insight:</strong> Mayoritas siswa bersekolah di sekolah negeri, namun porsi sekolah swasta juga cukup signifikan (lebih dari 40%), menunjukkan peran besar sektor swasta dalam pendidikan nasional.</p>
 <hr>
-<h2 id="rekomendasi">Rekomendasi</h2>
+<h2 id="4-tingkat-siswa-yang-putus-sekolah-dan-mengulang-line-chart-tengah">4. Tingkat Siswa yang Putus Sekolah dan Mengulang (Line Chart, Tengah)</h2>
+<p><strong>Judul:</strong> &ldquo;Tingkat Siswa yang Putus Sekolah dan Mengulang (Tahun)&rdquo;</p>
+<p>Menampilkan dua garis tren dari tahun 2016–2024:</p>
+<ul>
+<li><strong>Putus Sekolah</strong> (garis merah tua): 16,299 (2016) → naik ke puncak <strong>139,184</strong> (2019) → turun drastis ke <strong>0</strong> (2021 &amp; 2022) → naik kembali ke <strong>23,155</strong> (2023) dan <strong>22,141</strong> (2024)</li>
+<li><strong>Mengulang</strong> (garis oranye muda): 12,902 (2016) → naik tajam ke puncak <strong>156,244</strong> (2018) → turun ke <strong>57,447</strong> (2019) → terus menurun hingga <strong>16,101</strong> (2024)</li>
+</ul>
+<p><strong>Insight:</strong></p>
+<ul>
+<li>Kedua tren memuncak sekitar tahun 2018–2019, kemungkinan terkait perubahan kebijakan pendataan atau kondisi tertentu.</li>
+<li>Penurunan drastis ke angka 0 pada 2021–2022 kemungkinan berkaitan dengan <strong>kebijakan kenaikan kelas otomatis selama pandemi COVID-19</strong>, sebelum kembali normal di 2023–2024.</li>
+</ul>
+<hr>
+<h2 id="5-jumlah-ruang-kelas-berdasarkan-kota-bar-chart-horizontal-kanan-atas">5. Jumlah Ruang Kelas Berdasarkan Kota (Bar Chart Horizontal, Kanan Atas)</h2>
+<p><strong>Judul:</strong> &ldquo;Jumlah Ruang Kelas Berdasarkan Kota&rdquo;</p>
+<p>Menampilkan 9 kota/kabupaten dengan jumlah ruang kelas terbanyak, dipecah berdasarkan status sekolah (<strong>Swasta</strong> vs <strong>Negeri</strong>):</p>
+<table>
+	<thead>
+			<tr>
+					<th>Kota/Kab</th>
+					<th>Keterangan</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Kab. Bogor</td>
+					<td>Tertinggi, dengan porsi swasta besar</td>
+			</tr>
+			<tr>
+					<td>Kota Medan</td>
+					<td></td>
+			</tr>
+			<tr>
+					<td>Kab. Garut</td>
+					<td></td>
+			</tr>
+			<tr>
+					<td>Kab. Cianjur</td>
+					<td></td>
+			</tr>
+			<tr>
+					<td>Kota Surabaya</td>
+					<td></td>
+			</tr>
+			<tr>
+					<td>Kab. Bandung</td>
+					<td></td>
+			</tr>
+			<tr>
+					<td>Kab. Sukabumi</td>
+					<td></td>
+			</tr>
+			<tr>
+					<td>Kota Bekasi</td>
+					<td></td>
+			</tr>
+			<tr>
+					<td>Kab. Tangerang</td>
+					<td></td>
+			</tr>
+	</tbody>
+</table>
+<p><strong>Insight:</strong> Kabupaten Bogor menempati posisi tertinggi dalam jumlah ruang kelas, dan sebagian besar wilayah top-list berasal dari Pulau Jawa — konsisten dengan tingginya populasi penduduk di wilayah tersebut.</p>
+<hr>
+<h2 id="6-siswa-putus-sekolah-berdasarkan-status-sekolah-bar-chart-kiri-bawah">6. Siswa Putus Sekolah Berdasarkan Status Sekolah (Bar Chart, Kiri Bawah)</h2>
+<p><strong>Judul:</strong> &ldquo;Siswa Putus Sekolah Berdasarkan Status Sekolah&rdquo;</p>
+<p>Menampilkan perbandingan jumlah siswa putus sekolah antara sekolah <strong>Negeri</strong> dan <strong>Swasta</strong>, dengan dua sub-kategori per status (kemungkinan per jenjang atau tahun), skala sumbu Y hingga 280,000.</p>
+<p><strong>Insight:</strong> Baik sekolah negeri maupun swasta menunjukkan pola yang mirip: kategori pertama (kolom kiri per grup) lebih rendah dari kategori kedua, dengan siswa swasta menunjukkan angka tertinggi mendekati 260,000.</p>
+<hr>
+<h2 id="7-total-siswa-tiap-daerah-treemap-tengah-bawah">7. Total Siswa Tiap Daerah (Treemap, Tengah Bawah)</h2>
+<p><strong>Judul:</strong> &ldquo;Total Siswa Tiap Daerah&rdquo;</p>
+<p>Menampilkan jumlah total siswa per provinsi dalam bentuk <strong>treemap</strong> (ukuran kotak proporsional terhadap jumlah siswa):</p>
+<table>
+	<thead>
+			<tr>
+					<th>Provinsi</th>
+					<th>Jumlah Siswa</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Prov. Jawa Barat</td>
+					<td>16,372,783</td>
+			</tr>
+			<tr>
+					<td>Prov. Jawa Timur</td>
+					<td>11,751,647</td>
+			</tr>
+			<tr>
+					<td>Prov. Jawa Tengah</td>
+					<td>10,962,989</td>
+			</tr>
+			<tr>
+					<td>Prov. Sumatera Utara</td>
+					<td>6,186,532</td>
+			</tr>
+			<tr>
+					<td>Prov. Banten</td>
+					<td>4,108,146</td>
+			</tr>
+			<tr>
+					<td>Prov. D.K.I. Jakarta</td>
+					<td>3,497,292</td>
+			</tr>
+			<tr>
+					<td>Prov. Sulawesi (Sulawesi Selatan?)</td>
+					<td>3,248,252</td>
+			</tr>
+			<tr>
+					<td>Prov. Sumatera Selatan</td>
+					<td>2,982,089</td>
+			</tr>
+			<tr>
+					<td>Prov. Lampung</td>
+					<td>2,774,816</td>
+			</tr>
+			<tr>
+					<td>Prov. Nusa Tenggara Timur</td>
+					<td>2,803,017</td>
+			</tr>
+	</tbody>
+</table>
+<p><strong>Insight:</strong> Tiga provinsi di Pulau Jawa (Jawa Barat, Jawa Timur, Jawa Tengah) mendominasi jumlah siswa secara nasional, mencerminkan kepadatan penduduk yang tinggi di pulau tersebut.</p>
+<hr>
+<h2 id="8-tabel-wilayah--rombel--tenaga-kependidikan-kanan-bawah">8. Tabel Wilayah — Rombel &amp; Tenaga Kependidikan (Kanan Bawah)</h2>
+<p>Tabel rinci menampilkan data per provinsi (diurutkan dari Rombel tertinggi):</p>
+<table>
+	<thead>
+			<tr>
+					<th>Wilayah</th>
+					<th>Rombel</th>
+					<th>Tenaga Kependidikan</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Prov. Jawa Barat</td>
+					<td>537,921</td>
+					<td>440,497</td>
+			</tr>
+			<tr>
+					<td>Prov. Jawa Timur</td>
+					<td>400,016</td>
+					<td>387,963</td>
+			</tr>
+			<tr>
+					<td>Prov. Jawa Tengah</td>
+					<td>357,740</td>
+					<td>386,873</td>
+			</tr>
+			<tr>
+					<td>Prov. Sulawesi Selatan</td>
+					<td>116,836</td>
+					<td>143,247</td>
+			</tr>
+			<tr>
+					<td>Prov. Sumatera Utara</td>
+					<td>208,074</td>
+					<td>137,914</td>
+			</tr>
+			<tr>
+					<td>Prov. Sumatera Selatan</td>
+					<td>98,186</td>
+					<td>122,539</td>
+			</tr>
+			<tr>
+					<td>Prov. Aceh</td>
+					<td>68,740</td>
+					<td>110,628</td>
+			</tr>
+			<tr>
+					<td>Prov. D.K.I. Jakarta</td>
+					<td>114,869</td>
+					<td>109,819</td>
+			</tr>
+			<tr>
+					<td>Prov. Sumatera Barat</td>
+					<td>75,435</td>
+					<td>101,077</td>
+			</tr>
+			<tr>
+					<td>Prov. Banten</td>
+					<td>133,754</td>
+					<td>99,626</td>
+			</tr>
+			<tr>
+					<td>Prov. Lampung</td>
+					<td>97,259</td>
+					<td>91,887</td>
+			</tr>
+			<tr>
+					<td>Prov. Nusa Tenggara Timur</td>
+					<td>95,308</td>
+					<td>90,472</td>
+			</tr>
+			<tr>
+					<td>Prov. Riau</td>
+					<td>83,942</td>
+					<td>88,019</td>
+			</tr>
+	</tbody>
+</table>
+<p><strong>Insight:</strong> Jawa Barat konsisten menempati posisi teratas di hampir semua metrik (siswa, rombel, tenaga kependidikan), menegaskan posisinya sebagai provinsi dengan sistem pendidikan terbesar di Indonesia.</p>
+<hr>
+<h2 id="ringkasan-fungsi-dashboard">Ringkasan Fungsi Dashboard</h2>
+<p>Dashboard ini dirancang untuk membantu <strong>Kementerian Pendidikan, dinas pendidikan daerah, atau peneliti kebijakan pendidikan</strong> untuk:</p>
 <ol>
-<li>Fokus meningkatkan penjualan kategori Minuman.</li>
-<li>Optimalkan strategi di kota dengan penjualan rendah.</li>
-<li>Analisis penyebab lonjakan penjualan pada Maret untuk direplikasi.</li>
-<li>Tingkatkan kemampuan sales dengan performa rendah.</li>
-<li>Promosikan metode pembayaran non-tunai.</li>
+<li><strong>Memantau skala nasional</strong> pendidikan Indonesia (jumlah siswa, guru, sekolah, ruang kelas).</li>
+<li><strong>Membandingkan proporsi sekolah negeri vs swasta</strong> dalam menampung siswa.</li>
+<li><strong>Menganalisis tren putus sekolah dan mengulang kelas</strong> dari tahun ke tahun, termasuk dampak kebijakan seperti pandemi.</li>
+<li><strong>Mengidentifikasi wilayah dengan sarana kelas terbanyak</strong> untuk perencanaan infrastruktur.</li>
+<li><strong>Melihat distribusi siswa dan sumber daya pendidikan antar provinsi</strong> guna pemerataan kebijakan dan anggaran.</li>
 </ol>
+<blockquote>
+<p><strong>Catatan:</strong> Interpretasi di atas didasarkan pada elemen visual yang terlihat pada gambar. Angka dan tren pasti dapat berubah tergantung data sumber dan filter yang diterapkan.</p>
+</blockquote>
 ]]></content:encoded>
     </item>
     <item>
       <title>EV Market Data Visualization</title>
-      <link>https://agfmi.com/portfolio/ev-market-data-visualization/</link>
+      <link>http://localhost:1313/portfolio/ev-market-data-visualization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://agfmi.com/portfolio/ev-market-data-visualization/</guid>
+      <guid>http://localhost:1313/portfolio/ev-market-data-visualization/</guid>
       <description>Visualisasi data pasar kendaraan listrik (EV) untuk melihat tren pertumbuhan, pangsa pasar, dan potensi industri yang berkembang.</description>
       <content:encoded><![CDATA[<h1 id="analisis-key-performance-indicator-kpi">Analisis Key Performance Indicator (KPI)</h1>
 <h2 id="1-total-sales-unit">1. Total Sales Unit</h2>
@@ -867,9 +1179,9 @@ Kelas <strong>B memiliki performa akademik terbaik</strong>, sedangkan <strong>k
     </item>
     <item>
       <title>Ev Profiling Dashboard</title>
-      <link>https://agfmi.com/portfolio/ev-profiling-dashboard/</link>
+      <link>http://localhost:1313/portfolio/ev-profiling-dashboard/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://agfmi.com/portfolio/ev-profiling-dashboard/</guid>
+      <guid>http://localhost:1313/portfolio/ev-profiling-dashboard/</guid>
       <description>Berikut merupakan visualisasi data dari profiling mobil EV, simak penjelasannya</description>
       <content:encoded><![CDATA[<p>Dashboard ini merupakan <strong>dashboard interaktif profiling mobil listrik (Electric Vehicle/EV)</strong> yang menampilkan berbagai metrik performa, spesifikasi teknis, rating pelanggan, dan tren penjualan. Dashboard ini kemungkinan besar dibuat menggunakan tool BI seperti <strong>Power BI</strong> atau <strong>Tableau</strong>.</p>
 <hr>
@@ -1010,9 +1322,9 @@ Kelas <strong>B memiliki performa akademik terbaik</strong>, sedangkan <strong>k
     </item>
     <item>
       <title>Hospital Data Visualization</title>
-      <link>https://agfmi.com/portfolio/hospital-data-visualization/</link>
+      <link>http://localhost:1313/portfolio/hospital-data-visualization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://agfmi.com/portfolio/hospital-data-visualization/</guid>
+      <guid>http://localhost:1313/portfolio/hospital-data-visualization/</guid>
       <description>Berikut merupakan visualisasi data dari data Rumah Sakit menggunakan Looker Studio, simak penjelasannya</description>
       <content:encoded><![CDATA[<h1 id="-analisis-dashboard-rumah-sakit">🏥 Analisis Dashboard Rumah Sakit</h1>
 <h2 id="1-ringkasan-data">1. Ringkasan Data</h2>
@@ -1107,9 +1419,9 @@ Beban kerja dokter relatif tersebar, tetapi beberapa dokter menangani lebih bany
     </item>
     <item>
       <title>HR IBM Data Visualization</title>
-      <link>https://agfmi.com/portfolio/hr-data-visualization/</link>
+      <link>http://localhost:1313/portfolio/hr-data-visualization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://agfmi.com/portfolio/hr-data-visualization/</guid>
+      <guid>http://localhost:1313/portfolio/hr-data-visualization/</guid>
       <description>Berikut merupakan visualisasi data dari data IBM menggunakan Looker Studio, simak penjelasannya</description>
       <content:encoded><![CDATA[<h1 id="-analisis-sederhana-dashboard-hr-ibm">📊 Analisis Sederhana Dashboard HR IBM</h1>
 <h2 id="1-ringkasan-data-utama">1. Ringkasan Data Utama</h2>
@@ -1191,9 +1503,9 @@ Ada perbedaan gaji yang cukup besar antara posisi senior dan junior.</p>
     </item>
     <item>
       <title>Student Perfoamance Data Visualization</title>
-      <link>https://agfmi.com/portfolio/student-performance-data-visualization/</link>
+      <link>http://localhost:1313/portfolio/student-performance-data-visualization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://agfmi.com/portfolio/student-performance-data-visualization/</guid>
+      <guid>http://localhost:1313/portfolio/student-performance-data-visualization/</guid>
       <description>Berikut merupakan visualisasi data dari data Hasil Nilai Sekolah menggunakan Looker Studio, simak penjelasannya</description>
       <content:encoded><![CDATA[<h1 id="analisis-dashboard-student-performance">Analisis Dashboard Student Performance</h1>
 <h2 id="ringkasan-utama">Ringkasan Utama</h2>
@@ -1253,142 +1565,233 @@ Ada perbedaan gaji yang cukup besar antara posisi senior dan junior.</p>
     </item>
     <item>
       <title>Toserba Data Online Shop</title>
-      <link>https://agfmi.com/portfolio/dashboard-online-shop-sales/</link>
+      <link>http://localhost:1313/portfolio/dashboard-online-shop-sales/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://agfmi.com/portfolio/dashboard-online-shop-sales/</guid>
+      <guid>http://localhost:1313/portfolio/dashboard-online-shop-sales/</guid>
       <description>Berikut merupakan visualisasi data dari data Online Shop Sales, simak penjelasannya</description>
-      <content:encoded><![CDATA[<h1 id="analisis-dashboard-penjualan-toko-grosir">Analisis Dashboard Penjualan Toko Grosir</h1>
-<h2 id="ringkasan-utama">Ringkasan Utama</h2>
-<ul>
-<li><strong>Total Transaksi:</strong> 49</li>
-<li><strong>Total Penjualan:</strong> Rp 520.600.000</li>
-<li><strong>Tingkat Kepuasan:</strong> 78,86%</li>
-<li><strong>Total Kota:</strong> 11</li>
-<li><strong>Total Customer:</strong> 14</li>
-<li><strong>Jumlah Produk:</strong> 23</li>
-<li><strong>Target Penjualan:</strong> Rp 800.000.000</li>
-</ul>
-<blockquote>
-<p><strong>Catatan:</strong> Target penjualan tercapai sekitar 65,08% dari target.</p>
-</blockquote>
+      <content:encoded><![CDATA[<p>#&ldquo;DASHBOARD ONLINE SHOP&rdquo;</p>
+<p>Dashboard ini merupakan <strong>dashboard analisis penjualan toko online (e-commerce)</strong> yang menampilkan performa revenue, kategori produk, tren penjualan, metode pembayaran, dan dampak diskon terhadap penjualan. Dashboard ini kemungkinan dibuat menggunakan tool BI seperti <strong>Power BI</strong>, dengan tema warna teal (hijau kebiruan) dan navy sebagai identitas visual.</p>
 <hr>
-<h2 id="analisis-geografis">Analisis Geografis</h2>
-<ul>
-<li>Penjualan tersebar di 11 kota.</li>
-<li>Konsentrasi penjualan tertinggi berada di wilayah Asia Tenggara.</li>
-<li>Strategi pemasaran khusus diperlukan untuk kota dengan penjualan rendah.</li>
-</ul>
+<h2 id="1-header">1. Header</h2>
+<p><strong>Judul:</strong> &ldquo;DASHBOARD ONLINE SHOP&rdquo;</p>
+<p>Header berwarna teal sebagai identitas dashboard.</p>
 <hr>
-<h2 id="analisis-waktu">Analisis Waktu</h2>
-<ul>
-<li>Penjualan mengalami fluktuasi signifikan dari 15 Jan hingga 23 Jun.</li>
-<li>Puncak penjualan terbesar terjadi pertengahan Maret.</li>
-<li>Disarankan menganalisis faktor penyebab lonjakan untuk strategi replikasi.</li>
-</ul>
-<hr>
-<h2 id="analisis-produk">Analisis Produk</h2>
-<p><strong>Kategori Produk Terlaris:</strong></p>
-<ol>
-<li>Minuman (~Rp 230 juta)</li>
-<li>Selai (~Rp 40 juta)</li>
-<li>Buah (~Rp 25 juta)</li>
-<li>Susu (~Rp 25 juta)</li>
-<li>Sup (~Rp 20 juta)</li>
-</ol>
-<blockquote>
-<p><strong>Catatan:</strong> Minuman menyumbang hampir setengah total penjualan.</p>
-</blockquote>
-<hr>
-<h2 id="analisis-metode-pembayaran">Analisis Metode Pembayaran</h2>
-<ul>
-<li><strong>Kartu Kredit:</strong> 44,9%</li>
-<li><strong>Transfer:</strong> 40,8%</li>
-<li><strong>Tunai:</strong> 14,3%</li>
-</ul>
-<blockquote>
-<p>Metode pembayaran elektronik mendominasi, menandakan preferensi customer terhadap transaksi non-tunai.</p>
-</blockquote>
-<hr>
-<h2 id="analisis-penjualan-per-sales">Analisis Penjualan Per Sales</h2>
+<h2 id="2-kartu-ringkasan--kpi-cards-kiri-atas">2. Kartu Ringkasan / KPI Cards (Kiri Atas)</h2>
+<p>Empat kartu metrik menampilkan ringkasan utama:</p>
 <table>
 	<thead>
 			<tr>
-					<th>Rank</th>
-					<th>Sales</th>
-					<th>Penjualan (Rp)</th>
+					<th>Metrik</th>
+					<th>Nilai</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Revenue</td>
+					<td>5,109,776</td>
+			</tr>
+			<tr>
+					<td>Avg (Unit Price)</td>
+					<td>308.42</td>
+			</tr>
+			<tr>
+					<td>Avg (Customer Rating)</td>
+					<td>2.97</td>
+			</tr>
+			<tr>
+					<td>Total of Data</td>
+					<td>5,000</td>
+			</tr>
+	</tbody>
+</table>
+<p><strong>Insight:</strong> Rata-rata rating pelanggan berada di angka 2.97 dari skala umum 1-5, tergolong <strong>cukup rendah/menengah</strong> — ini bisa menjadi perhatian khusus terkait kepuasan pelanggan meski revenue yang dihasilkan cukup besar.</p>
+<hr>
+<h2 id="3-sales-trend-by-month--bar-per-kategori-kanan-atas">3. Sales Trend by Month — Bar per Kategori (Kanan Atas)</h2>
+<p><strong>Judul:</strong> &ldquo;Sales Trend by Month&rdquo; <em>(bar chart horizontal berdasarkan kategori produk)</em></p>
+<p>Menampilkan <strong>Row Count | Revenue</strong> per kategori produk:</p>
+<table>
+	<thead>
+			<tr>
+					<th>Kategori</th>
+					<th>Perkiraan Nilai</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Electronics</td>
+					<td>Tertinggi (~1.7M)</td>
+			</tr>
+			<tr>
+					<td>Clothing</td>
+					<td>~1.6M</td>
+			</tr>
+			<tr>
+					<td>Beauty</td>
+					<td>~1.0M</td>
+			</tr>
+			<tr>
+					<td>Home</td>
+					<td>~1.1M</td>
+			</tr>
+	</tbody>
+</table>
+<p><strong>Insight:</strong> Kategori <strong>Electronics</strong> dan <strong>Clothing</strong> menjadi kontributor revenue terbesar, sedangkan <strong>Beauty</strong> memberikan kontribusi terendah di antara keempat kategori.</p>
+<hr>
+<h2 id="4-sales-trend-by-month--line-chart-tengah">4. Sales Trend by Month — Line Chart (Tengah)</h2>
+<p><strong>Judul:</strong> &ldquo;Sales Trend by Month&rdquo;</p>
+<ul>
+<li>Sumbu X: Periode bulan (Jun 2022 – May 2035) — rentang waktu yang <strong>sangat panjang/tidak biasa</strong>, kemungkinan data dummy/simulasi atau ada anomali pada format tanggal di sumber data</li>
+<li>Sumbu Y: Revenue (3,850 – 4,100)</li>
+</ul>
+<p>Pola pergerakan:</p>
+<ul>
+<li>Stabil di kisaran 3,870–3,920 pada awal periode (Jun 2022 – Okt 2023)</li>
+<li><strong>Naik tajam</strong> ke puncak <strong>~4,110</strong> pada Mar 2024</li>
+<li>Menurun bertahap hingga mencapai titik terendah <strong>~3,850</strong> pada Okt 2033</li>
+<li><strong>Melonjak kembali</strong> ke ~4,080 pada Mei 2035</li>
+</ul>
+<p><strong>Insight:</strong> Fluktuasi revenue relatif kecil (dalam rentang ratusan), namun rentang tahun pada sumbu X (hingga 2035) tampak tidak wajar untuk data riil — perlu dicek kembali apakah ini merupakan data sampel/simulasi atau ada kesalahan format tanggal.</p>
+<hr>
+<h2 id="5-quantity-of-product-bar-chart-kanan-tengah">5. Quantity of Product (Bar Chart, Kanan Tengah)</h2>
+<p><strong>Judul:</strong> &ldquo;Quantity of Product&rdquo;</p>
+<p>Menampilkan jumlah kuantitas terjual per kategori produk:</p>
+<table>
+	<thead>
+			<tr>
+					<th>Kategori</th>
+					<th>Kuantitas (perkiraan)</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Electronics</td>
+					<td>~7,000</td>
+			</tr>
+			<tr>
+					<td>Clothing</td>
+					<td>~6,000</td>
+			</tr>
+			<tr>
+					<td>Home</td>
+					<td>~4,000</td>
+			</tr>
+			<tr>
+					<td>Beauty</td>
+					<td>~3,000</td>
+			</tr>
+	</tbody>
+</table>
+<p><strong>Insight:</strong> Electronics unggul baik dari sisi revenue maupun kuantitas terjual, menjadikannya kategori produk paling laris di toko online ini.</p>
+<hr>
+<h2 id="6-payment-method-pie-chart-kiri-bawah">6. Payment Method (Pie Chart, Kiri Bawah)</h2>
+<p><strong>Judul:</strong> &ldquo;Payment Method&rdquo;</p>
+<p>Menampilkan proporsi metode pembayaran yang digunakan pelanggan:</p>
+<table>
+	<thead>
+			<tr>
+					<th>Metode</th>
 					<th>Persentase</th>
 			</tr>
 	</thead>
 	<tbody>
 			<tr>
-					<td>1</td>
-					<td>Agus Setiawan</td>
-					<td>199.742.500</td>
-					<td>38,37%</td>
+					<td>Card</td>
+					<td>45.40%</td>
 			</tr>
 			<tr>
-					<td>2</td>
-					<td>Lukas Darmadji</td>
-					<td>65.610.000</td>
-					<td>12,6%</td>
+					<td>COD (Cash on Delivery)</td>
+					<td>35.48%</td>
 			</tr>
 			<tr>
-					<td>3</td>
-					<td>Dewi Ratna Sari</td>
-					<td>63.780.000</td>
-					<td>12,25%</td>
-			</tr>
-			<tr>
-					<td>4</td>
-					<td>Nayla Subandono</td>
-					<td>62.780.000</td>
-					<td>12,06%</td>
-			</tr>
-			<tr>
-					<td>5</td>
-					<td>Darmanto Adjie</td>
-					<td>57.875.000</td>
-					<td>11,12%</td>
-			</tr>
-			<tr>
-					<td>6</td>
-					<td>Inne Anneke</td>
-					<td>37.865.000</td>
-					<td>7,27%</td>
-			</tr>
-			<tr>
-					<td>7</td>
-					<td>Andreas Nichol</td>
-					<td>26.175.000</td>
-					<td>5,03%</td>
-			</tr>
-			<tr>
-					<td>8</td>
-					<td>Eko Prasetyo</td>
-					<td>6.800.000</td>
-					<td>1,31%</td>
+					<td>Wallet</td>
+					<td>19.12%</td>
 			</tr>
 	</tbody>
 </table>
-<blockquote>
-<p><strong>Catatan:</strong> Agus Setiawan menyumbang lebih dari sepertiga total penjualan. Perlu strategi pengembangan sales lain agar distribusi lebih merata.</p>
-</blockquote>
+<p><strong>Insight:</strong> Pembayaran dengan <strong>kartu (Card)</strong> menjadi metode paling populer, namun COD masih memiliki porsi cukup besar (lebih dari sepertiga transaksi), menandakan sebagian pelanggan masih mengandalkan pembayaran tunai saat barang diterima.</p>
 <hr>
-<h2 id="rekomendasi">Rekomendasi</h2>
+<h2 id="7-product-category-based-on-discount-bar-chart-tengah-bawah">7. Product Category Based on Discount (Bar Chart, Tengah Bawah)</h2>
+<p><strong>Judul:</strong> &ldquo;Product Category Based on Discount&rdquo;</p>
+<p>Menampilkan revenue per kategori produk yang <strong>menggunakan diskon</strong>:</p>
+<table>
+	<thead>
+			<tr>
+					<th>Kategori</th>
+					<th>Revenue dengan Diskon (perkiraan)</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Beauty</td>
+					<td>Sangat rendah (mendekati 0)</td>
+			</tr>
+			<tr>
+					<td>Clothing</td>
+					<td>~1.4M</td>
+			</tr>
+			<tr>
+					<td>Electronics</td>
+					<td>~1.7M (tertinggi)</td>
+			</tr>
+			<tr>
+					<td>Home</td>
+					<td>~900K</td>
+			</tr>
+	</tbody>
+</table>
+<p><strong>Insight:</strong> Diskon pada kategori <strong>Electronics</strong> dan <strong>Clothing</strong> memberikan kontribusi revenue signifikan, sementara diskon pada kategori <strong>Beauty</strong> hampir tidak menghasilkan revenue — mengindikasikan strategi diskon di kategori Beauty kurang efektif atau minim penerapan.</p>
+<hr>
+<h2 id="8-revenue-by-discount-bar-chart-horizontal-kanan-bawah">8. Revenue by Discount (Bar Chart Horizontal, Kanan Bawah)</h2>
+<p><strong>Judul:</strong> &ldquo;Revenue by Discount&rdquo;</p>
+<p>Menampilkan revenue dari transaksi berdiskon berdasarkan wilayah (<strong>Region</strong>):</p>
+<table>
+	<thead>
+			<tr>
+					<th>Wilayah</th>
+					<th>Revenue (perkiraan)</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>West</td>
+					<td>Tertinggi (~1.3M)</td>
+			</tr>
+			<tr>
+					<td>East</td>
+					<td>~1.15M</td>
+			</tr>
+			<tr>
+					<td>North</td>
+					<td>~1.25M</td>
+			</tr>
+			<tr>
+					<td>South</td>
+					<td>~1.2M</td>
+			</tr>
+	</tbody>
+</table>
+<p><strong>Insight:</strong> Revenue dari transaksi berdiskon relatif <strong>merata di semua wilayah</strong> dengan <strong>West</strong> sedikit unggul, menunjukkan strategi diskon diterapkan secara konsisten secara nasional tanpa kesenjangan besar antar wilayah.</p>
+<hr>
+<h2 id="ringkasan-fungsi-dashboard">Ringkasan Fungsi Dashboard</h2>
+<p>Dashboard ini dirancang untuk membantu tim manajemen/pemasaran toko online untuk:</p>
 <ol>
-<li>Fokus meningkatkan penjualan kategori Minuman.</li>
-<li>Optimalkan strategi di kota dengan penjualan rendah.</li>
-<li>Analisis penyebab lonjakan penjualan pada Maret untuk direplikasi.</li>
-<li>Tingkatkan kemampuan sales dengan performa rendah.</li>
-<li>Promosikan metode pembayaran non-tunai.</li>
+<li><strong>Memantau performa revenue</strong> secara keseluruhan dan rata-rata harga per unit.</li>
+<li><strong>Mengevaluasi kepuasan pelanggan</strong> melalui rating rata-rata.</li>
+<li><strong>Mengidentifikasi kategori produk terlaris</strong> (dari sisi revenue maupun kuantitas) untuk fokus strategi bisnis.</li>
+<li><strong>Menganalisis tren penjualan</strong> dari waktu ke waktu guna mendeteksi pola musiman.</li>
+<li><strong>Memahami preferensi metode pembayaran</strong> pelanggan.</li>
+<li><strong>Mengevaluasi efektivitas strategi diskon</strong> per kategori produk dan wilayah, guna optimasi promosi di masa mendatang.</li>
 </ol>
+<blockquote>
+<p><strong>Catatan:</strong> Interpretasi di atas didasarkan pada elemen visual yang terlihat pada gambar. Beberapa nilai numerik pada grafik diperkirakan (approx.) karena keterbatasan resolusi gambar. Angka dan tren pasti dapat berubah tergantung data sumber dan filter yang diterapkan.</p>
+</blockquote>
 ]]></content:encoded>
     </item>
     <item>
       <title>Toserba Data Visualization</title>
-      <link>https://agfmi.com/portfolio/toserba-data-visualization/</link>
+      <link>http://localhost:1313/portfolio/toserba-data-visualization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://agfmi.com/portfolio/toserba-data-visualization/</guid>
+      <guid>http://localhost:1313/portfolio/toserba-data-visualization/</guid>
       <description>Berikut merupakan visualisasi data dari data Hasil Nilai Sekolah menggunakan Looker Studio, simak penjelasannya</description>
       <content:encoded><![CDATA[<h1 id="analisis-dashboard-penjualan-toko-grosir">Analisis Dashboard Penjualan Toko Grosir</h1>
 <h2 id="ringkasan-utama">Ringkasan Utama</h2>

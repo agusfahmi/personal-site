@@ -1,4 +1,4 @@
-baseURL: "https://agfmi.com/"
+baseURL: "http://localhost:1313/"
 title: Agus Fahmi Aji Pramana
 pagination:
   pagerSize: 5
