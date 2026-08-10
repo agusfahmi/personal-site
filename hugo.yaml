@@ -1,4 +1,4 @@
-baseURL: "agfmi.com"
+baseURL: "https://agfmi.com/"
 title: Agus Fahmi Aji Pramana
 pagination:
   pagerSize: 5
