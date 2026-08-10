@@ -23,8 +23,10 @@
     {{ end }}
   </div>
 
+  {{- $paginator := .Paginate .Pages }}
+
   <div class="portfolio-grid">
-    {{ range .Pages }}
+    {{ range $paginator.Pages }}
     <div class="portfolio-item {{ range .Params.tags }} tag-{{ . | urlize }} {{ end }}">
       <a href="{{ .RelPermalink }}">
         {{- $isHidden := (site.Params.cover.hidden | default site.Params.cover.hiddenInList) }}
@@ -50,6 +52,20 @@
     </div>
     {{ end }}
   </div>
+
+  {{ if gt $paginator.TotalPages 1 }}
+  <footer class="portfolio-pagination">
+    <nav class="pagination" aria-label="Portfolio pagination">
+      {{ if $paginator.HasPrev }}
+      <a class="pagination-link prev" href="{{ $paginator.Prev.URL | absURL }}">← Sebelumnya</a>
+      {{ end }}
+      <span class="pagination-info">Halaman {{ $paginator.PageNumber }} dari {{ $paginator.TotalPages }}</span>
+      {{ if $paginator.HasNext }}
+      <a class="pagination-link next" href="{{ $paginator.Next.URL | absURL }}">Berikutnya →</a>
+      {{ end }}
+    </nav>
+  </footer>
+  {{ end }}
 </div>
 
 {{ end }}
